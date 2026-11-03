@@ -1,0 +1,13 @@
+Evidence First OSINT — license scope
+
+Copyright (c) 2026 Evidence First OSINT contributors.
+
+1. Original prose, lesson/lab/project text, original diagrams, synthetic CSV/JSON/TXT records, training images and training video: Creative Commons Attribution 4.0 International (CC BY 4.0). See LICENSE-CONTENT.
+2. Original executable code, scripts, tests, CSS, site configuration, GitHub workflows, and code blocks in documentation: MIT. See LICENSE-CODE.
+3. The synthetic records under docs/assets/case/ are teaching content, not executable code; they follow CC BY 4.0 regardless of file extension. SVG teaching diagrams and the project logo also follow CC BY 4.0.
+4. Third-party dependencies and quoted excerpts retain their own rights. Links do not grant redistribution rights to the linked content. See THIRD_PARTY_NOTICES.md.
+
+Suggested attribution for content:
+“Evidence First OSINT contributors — https://github.com/bioxhaust/evidence-first-osint — CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).” Indicate modifications and do not imply endorsement.
+
+The project name does not confer endorsement by other organizations. No trademark rights are granted by these licenses.

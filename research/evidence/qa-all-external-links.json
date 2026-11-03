@@ -1,0 +1,766 @@
+{
+  "checked_date": "2026-11-03",
+  "method": "Unauthenticated HTTP GET; timeout 15s; six workers; at most 4 MiB per response; bodies discarded",
+  "scope": "Unique HTTP(S) destinations rendered from all docs/**/*.md, fragments removed; own project checked separately",
+  "limitation": "HTTP success does not establish relevant content or working service features. 403/429 may reflect this environment.",
+  "checked_urls": 55,
+  "excluded": [
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/CHANGELOG.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/CODE_OF_CONDUCT.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/CONTRIBUTING.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/LICENSE",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/LICENSE-CODE",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/LICENSE-CONTENT",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/README.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/README.ru.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/ROADMAP.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/THIRD_PARTY_NOTICES.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/research/curriculum-review.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/research/evidence/qa-runtime.json",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/research/landscape.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/research/primary-sources.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/blob/main/research/technical-review.md",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/issues",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/issues/new/choose",
+      "reason": "Project publication checked separately"
+    },
+    {
+      "url": "https://github.com/bioxhaust/evidence-first-osint/tree/main/research/evidence",
+      "reason": "Project publication checked separately"
+    }
+  ],
+  "results": [
+    {
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "sources": [
+        "docs/lessons/08-geolocation.md"
+      ],
+      "status": 200,
+      "final_url": "https://bellingcat.gitbook.io/toolkit",
+      "bytes": 618550,
+      "body_truncated": false,
+      "title": "Home | Bellingcat's Online Investigation Toolkit"
+    },
+    {
+      "url": "https://browser.dataspace.copernicus.eu/",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 200,
+      "final_url": "https://browser.dataspace.copernicus.eu/",
+      "bytes": 3135,
+      "body_truncated": false,
+      "title": "Copernicus Browser"
+    },
+    {
+      "url": "https://c2pa.org/faqs/",
+      "sources": [
+        "docs/lessons/17-disinformation-ai.md"
+      ],
+      "status": 200,
+      "final_url": "https://c2pa.org/faqs/",
+      "bytes": 108522,
+      "body_truncated": false,
+      "title": "C2PA FAQ"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "sources": [
+        "docs/about/licenses.md"
+      ],
+      "status": 200,
+      "final_url": "https://creativecommons.org/licenses/by/4.0/",
+      "bytes": 31950,
+      "body_truncated": false,
+      "title": "Deed - Attribution 4.0 International - Creative Commons"
+    },
+    {
+      "url": "https://crt.sh/",
+      "sources": [
+        "docs/lessons/12-infrastructure.md"
+      ],
+      "status": 200,
+      "final_url": "https://crt.sh/",
+      "bytes": 5897,
+      "body_truncated": false,
+      "title": "crt.sh | Certificate Search"
+    },
+    {
+      "url": "https://crt.sh/?q=example.com",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 502,
+      "final_url": "https://crt.sh/?q=example.com",
+      "bytes": 150,
+      "body_truncated": false,
+      "title": "502 Bad Gateway"
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/fips/180-4/upd1/final",
+      "sources": [
+        "docs/lessons/05-evidence.md"
+      ],
+      "status": 200,
+      "final_url": "https://csrc.nist.gov/pubs/fips/180-4/upd1/final",
+      "bytes": 41003,
+      "body_truncated": false,
+      "title": "FIPS 180-4, Secure Hash Standard (SHS) | CSRC Lock"
+    },
+    {
+      "url": "https://developer-specs.company-information.service.gov.uk/guides/authorisation",
+      "sources": [
+        "docs/lessons/11-companies.md"
+      ],
+      "status": 200,
+      "final_url": "https://developer-specs.company-information.service.gov.uk/guides/authorisation",
+      "bytes": 17379,
+      "body_truncated": false,
+      "title": ": GOV.UK"
+    },
+    {
+      "url": "https://developer-specs.company-information.service.gov.uk/guides/rateLimiting",
+      "sources": [
+        "docs/lessons/11-companies.md"
+      ],
+      "status": 200,
+      "final_url": "https://developer-specs.company-information.service.gov.uk/guides/rateLimiting",
+      "bytes": 15673,
+      "body_truncated": false,
+      "title": ": GOV.UK"
+    },
+    {
+      "url": "https://developer.company-information.service.gov.uk/",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 200,
+      "final_url": "https://developer.company-information.service.gov.uk/",
+      "bytes": 18564,
+      "body_truncated": false,
+      "title": "Developer Hub Home GOV.UK"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+      "sources": [
+        "docs/resources/search.en.md",
+        "docs/resources/search.md"
+      ],
+      "status": 200,
+      "final_url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+      "bytes": 175332,
+      "body_truncated": false,
+      "title": "How To Use the Site Search Operator | Google Search Central | Documentation | Google for Developers Google Google"
+    },
+    {
+      "url": "https://developers.google.com/youtube/data/getting-started",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/13-social.md"
+      ],
+      "status": 200,
+      "final_url": "https://developers.google.com/youtube/data/getting-started",
+      "bytes": 132364,
+      "body_truncated": false,
+      "title": "YouTube Data API Overview | Google for Developers"
+    },
+    {
+      "url": "https://docs.github.com/en/rest/repos/repos",
+      "sources": [
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.github.com/en/rest/repos/repos",
+      "bytes": 1410241,
+      "body_truncated": false,
+      "title": "REST API endpoints for repositories - GitHub Docs"
+    },
+    {
+      "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+      "sources": [
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+      "bytes": 338522,
+      "body_truncated": false,
+      "title": "Rate limits for the REST API - GitHub Docs"
+    },
+    {
+      "url": "https://docs.python.org/3/library/csv.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/15-data.md",
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.python.org/3/library/csv.html",
+      "bytes": 99674,
+      "body_truncated": false,
+      "title": "csv — CSV file reading and writing — Python 3.15.2 documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/library/decimal.html",
+      "sources": [
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.python.org/3/library/decimal.html",
+      "bytes": 309651,
+      "body_truncated": false,
+      "title": "decimal — Decimal fixed-point and floating-point arithmetic — Python 3.15.2 documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/library/json.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.python.org/3/library/json.html",
+      "bytes": 116296,
+      "body_truncated": false,
+      "title": "json — JSON encoder and decoder — Python 3.15.2 documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/library/re.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/15-data.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.python.org/3/library/re.html",
+      "bytes": 257722,
+      "body_truncated": false,
+      "title": "re — Regular expression operations — Python 3.15.2 documentation"
+    },
+    {
+      "url": "https://docs.python.org/3/library/urllib.request.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://docs.python.org/3/library/urllib.request.html",
+      "bytes": 218816,
+      "body_truncated": false,
+      "title": "urllib.request — Extensible library for opening URLs — Python 3.15.2 documentation"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "sources": [
+        "docs/lessons/02-ethics.md"
+      ],
+      "status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "bytes": 0,
+      "body_truncated": false,
+      "title": null
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+      "bytes": 0,
+      "body_truncated": false,
+      "title": null
+    },
+    {
+      "url": "https://exiftool.org/",
+      "sources": [
+        "docs/resources/media-checklist.en.md",
+        "docs/resources/media-checklist.md"
+      ],
+      "status": 200,
+      "final_url": "https://exiftool.org/",
+      "bytes": 155419,
+      "body_truncated": false,
+      "title": "ExifTool by Phil Harvey"
+    },
+    {
+      "url": "https://exiftool.org/TagNames/EXIF.html",
+      "sources": [
+        "docs/lessons/06-images.md",
+        "docs/lessons/09-chronolocation.md"
+      ],
+      "status": 200,
+      "final_url": "https://exiftool.org/TagNames/EXIF.html",
+      "bytes": 133405,
+      "body_truncated": false,
+      "title": "EXIF Tags"
+    },
+    {
+      "url": "https://exiftool.org/faq.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/06-images.md"
+      ],
+      "status": 200,
+      "final_url": "https://exiftool.org/faq.html",
+      "bytes": 96125,
+      "body_truncated": false,
+      "title": "ExifTool FAQ"
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg-filters.html",
+      "sources": [
+        "docs/lessons/07-video.md"
+      ],
+      "status": 200,
+      "final_url": "https://ffmpeg.org/ffmpeg-filters.html",
+      "bytes": 1749816,
+      "body_truncated": false,
+      "title": "FFmpeg Filters Documentation"
+    },
+    {
+      "url": "https://ffmpeg.org/ffmpeg.html",
+      "sources": [
+        "docs/lessons/07-video.md",
+        "docs/resources/media-checklist.en.md",
+        "docs/resources/media-checklist.md"
+      ],
+      "status": 200,
+      "final_url": "https://ffmpeg.org/ffmpeg.html",
+      "bytes": 226126,
+      "body_truncated": false,
+      "title": "ffmpeg Documentation"
+    },
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "sources": [
+        "docs/lessons/11-companies.md",
+        "docs/lessons/14-entities.md"
+      ],
+      "status": 200,
+      "final_url": "https://find-and-update.company-information.service.gov.uk/",
+      "bytes": 32688,
+      "body_truncated": false,
+      "title": "Search the register - Find and update company information - GOV.UK GOV.UK"
+    },
+    {
+      "url": "https://help.archive.org/help/using-the-wayback-machine/",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/03-search.md",
+        "docs/lessons/09-chronolocation.md"
+      ],
+      "status": 200,
+      "final_url": "https://help.archive.org/help/using-the-wayback-machine/",
+      "bytes": 55197,
+      "body_truncated": false,
+      "title": "Using the Wayback Machine – Internet Archive Help Center"
+    },
+    {
+      "url": "https://humanrights.berkeley.edu/projects/developing-the-berkeley-protocol-on-digital-open-source-investigations/",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/01-question.md",
+        "docs/lessons/04-sources.md",
+        "docs/lessons/05-evidence.md",
+        "docs/lessons/11-companies.md",
+        "docs/lessons/13-social.md",
+        "docs/lessons/14-entities.md",
+        "docs/lessons/17-disinformation-ai.md",
+        "docs/lessons/18-reporting.md",
+        "docs/resources/quickstart.en.md",
+        "docs/resources/quickstart.md"
+      ],
+      "status": 200,
+      "final_url": "https://humanrights.berkeley.edu/projects/developing-the-berkeley-protocol-on-digital-open-source-investigations/",
+      "bytes": 80020,
+      "body_truncated": false,
+      "title": "Developing the Berkeley Protocol - Berkeley Human Rights Center"
+    },
+    {
+      "url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/",
+      "sources": [
+        "docs/resources/media-checklist.md"
+      ],
+      "status": 200,
+      "final_url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/",
+      "bytes": 373314,
+      "body_truncated": false,
+      "title": "Verification - Google News Initiative"
+    },
+    {
+      "url": "https://proj.org/en/stable/usage/projections.html",
+      "sources": [
+        "docs/lessons/08-geolocation.md"
+      ],
+      "status": 200,
+      "final_url": "https://proj.org/en/stable/usage/projections.html",
+      "bytes": 29178,
+      "body_truncated": false,
+      "title": "Cartographic projection — PROJ 9.9.0 documentation"
+    },
+    {
+      "url": "https://redditinc.com/policies/data-api-terms",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/13-social.md"
+      ],
+      "status": 200,
+      "final_url": "https://redditinc.com/policies/data-api-terms",
+      "bytes": 493229,
+      "body_truncated": false,
+      "title": "Data API Terms"
+    },
+    {
+      "url": "https://sentiwiki.copernicus.eu/web/s2-mission",
+      "sources": [
+        "docs/lessons/10-maps.md"
+      ],
+      "status": 200,
+      "final_url": "https://sentiwiki.copernicus.eu/web/s2-mission",
+      "bytes": 123805,
+      "body_truncated": false,
+      "title": "S2 Mission | SentiWiki"
+    },
+    {
+      "url": "https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/17-disinformation-ai.md",
+        "docs/lessons/18-reporting.md",
+        "docs/resources/media-checklist.en.md",
+        "docs/resources/media-checklist.md"
+      ],
+      "status": 200,
+      "final_url": "https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html",
+      "bytes": 51398,
+      "body_truncated": false,
+      "title": "C2PA and Content Credentials Explainer :: C2PA Specifications"
+    },
+    {
+      "url": "https://ssd.eff.org/",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/02-ethics.md"
+      ],
+      "status": 200,
+      "final_url": "https://ssd.eff.org/",
+      "bytes": 27107,
+      "body_truncated": false,
+      "title": "Surveillance Self-Defense"
+    },
+    {
+      "url": "https://ssd.eff.org/module/your-security-plan",
+      "sources": [
+        "docs/lessons/02-ethics.md"
+      ],
+      "status": 200,
+      "final_url": "https://ssd.eff.org/module/your-security-plan",
+      "bytes": 35434,
+      "body_truncated": false,
+      "title": "Your Security Plan | Surveillance Self-Defense"
+    },
+    {
+      "url": "https://standard.open-contracting.org/latest/en/",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 200,
+      "final_url": "https://standard.open-contracting.org/latest/en/",
+      "bytes": 19862,
+      "body_truncated": false,
+      "title": "Open Contracting Data Standard — OCDS v1.1.5 Open Contracting Data Standard"
+    },
+    {
+      "url": "https://support.google.com/websearch/answer/1325808",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/06-images.md"
+      ],
+      "status": 200,
+      "final_url": "https://support.google.com/websearch/answer/1325808",
+      "bytes": 1626376,
+      "body_truncated": false,
+      "title": "Search with an image on Google - Computer - Google Search Help"
+    },
+    {
+      "url": "https://support.google.com/websearch/answer/2466433",
+      "sources": [
+        "docs/resources/search.en.md",
+        "docs/resources/search.md"
+      ],
+      "status": 200,
+      "final_url": "https://support.google.com/websearch/answer/2466433",
+      "bytes": 1632007,
+      "body_truncated": false,
+      "title": "Refine Google searches - Google Search Help"
+    },
+    {
+      "url": "https://support.google.com/websearch/answer/2466433?hl=en",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 200,
+      "final_url": "https://support.google.com/websearch/answer/2466433?hl=en",
+      "bytes": 1631638,
+      "body_truncated": false,
+      "title": "Refine Google searches - Google Search Help"
+    },
+    {
+      "url": "https://support.google.com/websearch/answer/2466433?hl=ru",
+      "sources": [
+        "docs/lessons/03-search.md"
+      ],
+      "status": 200,
+      "final_url": "https://support.google.com/websearch/answer/2466433?hl=ru",
+      "bytes": 1694288,
+      "body_truncated": false,
+      "title": "Как уточнять запросы в Google Поиске - Cправка - Google Поиск"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/bing/advanced-search-options",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 200,
+      "final_url": "https://support.microsoft.com/en-us/bing/advanced-search-options",
+      "bytes": 103052,
+      "body_truncated": false,
+      "title": "Advanced search options | Microsoft Support Your Privacy Choices Opt-Out Icon Your Privacy Choices Opt-Out Icon"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/topic/advanced-search-options-b92e25f1-0085-4271-bdf9-14aaea720930",
+      "sources": [
+        "docs/resources/search.en.md",
+        "docs/resources/search.md"
+      ],
+      "status": 200,
+      "final_url": "https://support.microsoft.com/en-us/bing/advanced-search-options",
+      "bytes": 103037,
+      "body_truncated": false,
+      "title": "Advanced search options | Microsoft Support Your Privacy Choices Opt-Out Icon Your Privacy Choices Opt-Out Icon"
+    },
+    {
+      "url": "https://verificationhandbook.com/",
+      "sources": [
+        "docs/lessons/01-question.md",
+        "docs/lessons/04-sources.md",
+        "docs/lessons/07-video.md"
+      ],
+      "status": 200,
+      "final_url": "https://verificationhandbook.com/",
+      "bytes": 36233,
+      "body_truncated": false,
+      "title": "Verification Handbook: homepage"
+    },
+    {
+      "url": "https://web.archive.org/",
+      "sources": [
+        "docs/resources/search.en.md",
+        "docs/resources/search.md"
+      ],
+      "status": 200,
+      "final_url": "https://web.archive.org/",
+      "bytes": 145565,
+      "body_truncated": false,
+      "title": "Wayback Machine Hamburger icon Internet Archive logo Web icon Texts icon Video icon Audio icon Software icon Images icon Donate icon Ellipses icon Donate icon User icon Upload icon Search icon Search icon Donate icon"
+    },
+    {
+      "url": "https://wiki.openstreetmap.org/wiki/Accuracy",
+      "sources": [
+        "docs/lessons/08-geolocation.md",
+        "docs/lessons/10-maps.md"
+      ],
+      "status": 200,
+      "final_url": "https://wiki.openstreetmap.org/wiki/Accuracy",
+      "bytes": 54780,
+      "body_truncated": false,
+      "title": "Accuracy - OpenStreetMap Wiki"
+    },
+    {
+      "url": "https://wiki.openstreetmap.org/wiki/Aerial_imagery",
+      "sources": [
+        "docs/about/sources.md"
+      ],
+      "status": 200,
+      "final_url": "https://wiki.openstreetmap.org/wiki/Aerial_imagery",
+      "bytes": 71129,
+      "body_truncated": false,
+      "title": "Vertical Aerial Photographs - OpenStreetMap Wiki"
+    },
+    {
+      "url": "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/02-ethics.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en",
+      "bytes": 107741,
+      "body_truncated": false,
+      "title": "Respect individuals’ rights | Data protection guide for small business | European Data Protection Board"
+    },
+    {
+      "url": "https://www.icann.org/en/contracted-parties/registry-operators/resources/registration-data-access-protocol",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/12-infrastructure.md",
+        "docs/lessons/14-entities.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.icann.org/en/contracted-parties/registry-operators/resources/registration-data-access-protocol",
+      "bytes": 147824,
+      "body_truncated": false,
+      "title": "Registration Data Access Protocol (RDAP)"
+    },
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/10-maps.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.openstreetmap.org/copyright",
+      "bytes": 21314,
+      "body_truncated": false,
+      "title": "Copyright and License | OpenStreetMap"
+    },
+    {
+      "url": "https://www.python.org/downloads/",
+      "sources": [
+        "docs/lessons/16-python.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.python.org/downloads/",
+      "bytes": 224618,
+      "body_truncated": false,
+      "title": "Download Python | Python.org"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc3339",
+      "sources": [
+        "docs/lessons/09-chronolocation.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.rfc-editor.org/info/rfc3339/",
+      "bytes": 233981,
+      "body_truncated": false,
+      "title": "RFC 3339: Date and Time on the Internet: Timestamps | RFC Editor Expand sidebar"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9162.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/12-infrastructure.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.rfc-editor.org/rfc/rfc9162.html",
+      "bytes": 293964,
+      "body_truncated": false,
+      "title": "RFC 9162: Certificate Transparency Version 2.0"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9309.html",
+      "sources": [
+        "docs/about/sources.md",
+        "docs/lessons/12-infrastructure.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.rfc-editor.org/rfc/rfc9309.html",
+      "bytes": 82367,
+      "body_truncated": false,
+      "title": "RFC 9309: Robots Exclusion Protocol"
+    },
+    {
+      "url": "https://www.w3.org/TR/prov-overview/",
+      "sources": [
+        "docs/lessons/04-sources.md",
+        "docs/lessons/05-evidence.md"
+      ],
+      "status": 200,
+      "final_url": "https://www.w3.org/TR/prov-overview/",
+      "bytes": 34025,
+      "body_truncated": false,
+      "title": "PROV-Overview"
+    }
+  ],
+  "follow_up_checks": [
+    {
+      "url": "https://crt.sh/?q=example.com",
+      "sources": [],
+      "status": 200,
+      "final_url": "https://crt.sh/?q=example.com",
+      "bytes": 48197,
+      "body_truncated": false,
+      "title": "crt.sh | example.com"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+      "sources": [],
+      "status": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+      "bytes": 0,
+      "body_truncated": false,
+      "title": null
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+      "sources": [],
+      "status": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+      "bytes": 0,
+      "body_truncated": false,
+      "title": null
+    }
+  ]
+}

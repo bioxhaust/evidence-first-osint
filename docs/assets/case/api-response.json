@@ -1,0 +1,38 @@
+{
+  "synthetic": true,
+  "schema_version": 1,
+  "records": [
+    {
+      "payment_id": "PAY-01",
+      "contract_id": "C-17",
+      "amount": 3000000,
+      "currency": "TST",
+      "paid_at": "2025-04-25",
+      "status": "settled"
+    },
+    {
+      "payment_id": "PAY-02",
+      "contract_id": "C-17",
+      "amount": 2000000,
+      "currency": "TST",
+      "paid_at": "2025-05-10",
+      "status": "settled"
+    },
+    {
+      "payment_id": "PAY-03",
+      "contract_id": "C-17",
+      "amount": 7000000,
+      "currency": "TST",
+      "paid_at": "2025-05-20",
+      "status": "scheduled"
+    },
+    {
+      "payment_id": "PAY-04",
+      "contract_id": "C-18",
+      "amount": 250000,
+      "currency": "TST",
+      "paid_at": "2025-05-05",
+      "status": "settled"
+    }
+  ]
+}

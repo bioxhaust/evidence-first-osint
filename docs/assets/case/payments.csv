@@ -1,0 +1,5 @@
+payment_id,contract_id,amount,currency,paid_at,status,synthetic
+PAY-01,C-17,3000000,TST,2025-04-25,settled,true
+PAY-02,C-17,2000000,TST,2025-05-10,settled,true
+PAY-03,C-17,7000000,TST,2025-05-20,scheduled,true
+PAY-04,C-18,250000,TST,2025-05-05,settled,true

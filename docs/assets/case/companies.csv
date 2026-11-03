@@ -1,0 +1,4 @@
+registry_id,name,jurisdiction,status,address_code,synthetic
+SYN-101,Маяк Инжиниринг,TRAIN-A,active,OFFICE-7,true
+SYN-202,Маяк Медиа,TRAIN-A,active,OFFICE-7,true
+SYN-303,Mayak Engineering,TRAIN-B,active,OFFICE-9,true

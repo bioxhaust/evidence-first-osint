@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "method": "Pillow getexif on local generated files; values are editable, not proof of events.",
+  "images": {
+    "original.jpg": {
+      "width": 1200,
+      "height": 760,
+      "DateTimeOriginal": "2025:05:03 09:00:00",
+      "GPS_present": false,
+      "sha256": "21f2bc7263c85f6a71228eafa799f14acc9754bd3d201782f4e99565444fba9a",
+      "OffsetTimeOriginal": null,
+      "timezone_present": false
+    },
+    "repost.jpg": {
+      "width": 900,
+      "height": 540,
+      "DateTimeOriginal": null,
+      "GPS_present": false,
+      "sha256": "26f4fe917955bb80f2f4ff4f8f2fb39400eafdc281e6989b074db1a1ce769c25",
+      "OffsetTimeOriginal": null,
+      "timezone_present": false
+    }
+  }
+}

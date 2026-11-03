@@ -1,0 +1,26 @@
+name: Content correction / Исправление
+description: Report a factual, methodological, translation or link problem.
+title: "[Content]: "
+labels: []
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL / Страница
+      description: Link to the affected lesson or resource.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed correction / Ошибка и исправление
+      description: Separate the observed problem from your proposed interpretation. Do not include personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and access date / Источники и дата
+      description: Primary source URLs, relevant section and what you actually checked.
+    validations:
+      required: true

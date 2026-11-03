@@ -1,0 +1,4 @@
+frame_id,position_seconds,path,synthetic
+F01,0,frame-01.jpg,true
+F02,2,frame-02.jpg,true
+F03,4,frame-03.jpg,true

@@ -1,0 +1,240 @@
+[
+  {
+    "name": "Bellingcat",
+    "url": "https://bellingcat.gitbook.io/toolkit",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://bellingcat.gitbook.io/toolkit",
+    "sha256": "efce02d7ffe0ac4389e7e33fccf40aae6ff381252db8b892fea5ba07c77ae4bc",
+    "bytes": 618550,
+    "focused_excerpts": [
+      {
+        "needle": "does not",
+        "excerpt": "oolkit (or some of its categories) as a csv. Inclusion in the toolkit does not imply that Bellingcat endorses or recommends a specific tool for investigative use. Some listed tools come with significant caveats. Browse tools by category: Maps & Satel"
+      },
+      {
+        "needle": "descriptions",
+        "excerpt": " toolkit is still a work-in-progress and the number of available tool descriptions will grow over time. You can read more about the toolkit here . Our Toolkit Maintainers and Guardians Bellingcat’s Online Investigation Toolkit has a long tradition bu"
+      }
+    ]
+  },
+  {
+    "name": "OSINT Framework",
+    "url": "https://raw.githubusercontent.com/lockfale/OSINT-Framework/master/README.md",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lockfale/OSINT-Framework/master/README.md",
+    "sha256": "ac66b9ec57334f5d5eec692e358602815d76b6693e0f8d0bdb3ac6215c0cb166",
+    "bytes": 3792,
+    "focused_excerpts": [
+      {
+        "needle": "originally",
+        "excerpt": "to get at least a portion of the available information for no cost. I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be abl"
+      },
+      {
+        "needle": "free",
+        "excerpt": "rk.com ## Notes OSINT framework focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for $$$, but you should"
+      },
+      {
+        "needle": "cost",
+        "excerpt": "be able to get at least a portion of the available information for no cost. I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love t"
+      },
+      {
+        "needle": "status",
+        "excerpt": "---|-------------| | `description` | string | What the tool does | | `status` | string | `live`, `degraded`, `down`, or `deprecated` | | `pricing` | string | `free`, `freemium`, or `paid` | | `bestFor` | string | Primary use case in one line | | `inp"
+      }
+    ]
+  },
+  {
+    "name": "Awesome OSINT",
+    "url": "https://raw.githubusercontent.com/jivoi/awesome-osint/master/README.md",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/jivoi/awesome-osint/master/README.md",
+    "sha256": "15ce63e4f0dc1a6aebf72aec95f070d5b6684692f23bb06e2675ac526599ffb1",
+    "bytes": 150293,
+    "focused_excerpts": [
+      {
+        "needle": "curated",
+        "excerpt": "align=\"right\" width=\"100\">](https://github.com/jivoi/awesome-osint) A curated list of amazingly awesome open source intelligence tools and resources. [Open-source intelligence (OSINT)](https://en.wikipedia.org/wiki/Open-source_intelligence) is intell"
+      },
+      {
+        "needle": "free",
+        "excerpt": "UTING](./CONTRIBUTING.md) if you wish to add tools or resources. Feel free to help 🥰 us grow this list with great resources. ## [↑](#-table-of-contents) Credits This list was taken partially taken from [i-inteligence's](https://www.i-intelligence.eu)"
+      },
+      {
+        "needle": "awesome",
+        "excerpt": "# Awesome OSINT [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [<img src="
+      }
+    ]
+  },
+  {
+    "name": "Sofia Santos",
+    "url": "https://gralhix.com/list-of-osint-exercises/",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://gralhix.com/list-of-osint-exercises/",
+    "sha256": "aac8d011903db77cd60cbdf983d5dcff18843545f4f4948da6484b4a8a24fa74",
+    "bytes": 330856,
+    "focused_excerpts": [
+      {
+        "needle": "walkthrough",
+        "excerpt": "umptions. If stuck, walk away, rest your brain, and return later. Use walkthroughs as verification and learning tools. Take your time and enjoy! Difficulty Levels: Easy Medium Hard Novice: Expert: Novice: Expert: Novice: Expert: Novice: Expert: Novic"
+      },
+      {
+        "needle": "difficulty",
+        "excerpt": "e OSINT Exercises! Basic Information Each page contains 1 to 4 tasks. Difficulty varies by experience level. No answer boxes, just like in the real world. All pages have full walktrhoughs. This list was started in December 2022. Newer and harder task"
+      },
+      {
+        "needle": "assumptions",
+        "excerpt": "lty level that feels comfortable. Read carefully. I love playing with assumptions. If stuck, walk away, rest your brain, and return later. Use walkthroughs as verification and learning tools. Take your time and enjoy! Difficulty Levels: Easy Medium H"
+      }
+    ]
+  },
+  {
+    "name": "Trace Labs",
+    "url": "https://raw.githubusercontent.com/tracelabs/tlosint-live/master/README.md",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/tracelabs/tlosint-live/master/README.md",
+    "sha256": "91b6b176c08c185c069a7eeba675ddcb2932ec6d3cc9430094efd66dac6ab776",
+    "bytes": 4410,
+    "focused_excerpts": [
+      {
+        "needle": "Twint",
+        "excerpt": "Phonefy (OSRFramework) * PhoneInfoga **Social Media** * Instaloader * Twint * Searchfy (OSRFramework) * Tiktok Scraper * Twayback **Usernames** * Alias Generator (OSRFramework) * Sherlock * Usufy (OSRFramework) **Other tools * Photon * Sherlock * Sho"
+      },
+      {
+        "needle": "cd tl-osint",
+        "excerpt": "Security. ``` git clone https://github.com/tracelabs/tlosint-live.git cd tl-osint sudo ./build_tracelabsiso_recipe.sh ``` If the build process is successful, a .iso file will be created in the `/opt/live-build-config/images` directory. The .iso file "
+      },
+      {
+        "needle": "tested",
+        "excerpt": "e on your Debian host or Debian VM ### Setup This build has only been tested on a pre-existing Kali environment, as recommended by Offensive Security. ``` git clone https://github.com/tracelabs/tlosint-live.git cd tl-osint sudo ./build_tracelabsiso_r"
+      }
+    ]
+  },
+  {
+    "name": "Google News Initiative",
+    "url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/",
+    "sha256": "c941c538775003d2ec495cb8fbc42d7923d7c379e01434132a372d715cc52b89",
+    "bytes": 373314,
+    "focused_excerpts": [
+      {
+        "needle": "50 min",
+        "excerpt": "okmark_border Remove from your account Save to your account 8 lessons 50 minutes beginner Explore time-saving methods and digital tools to help verify the authenticity and accuracy of images, videos and reports found on social media and across the we"
+      },
+      {
+        "needle": "8 lessons",
+        "excerpt": "ookmark bookmark_border Remove from your account Save to your account 8 lessons 50 minutes beginner Explore time-saving methods and digital tools to help verify the authenticity and accuracy of images, videos and reports found on social media and acr"
+      },
+      {
+        "needle": "Beginner",
+        "excerpt": "er Remove from your account Save to your account 8 lessons 50 minutes beginner Explore time-saving methods and digital tools to help verify the authenticity and accuracy of images, videos and reports found on social media and across the web. Tools Us"
+      }
+    ]
+  },
+  {
+    "name": "Verification Handbook",
+    "url": "https://verificationhandbook.com/",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://verificationhandbook.com/",
+    "sha256": "8575999694eb0e23a363aa3f76f4b37703f7eef8c37d31a232be5a024fac5c30",
+    "bytes": 36233,
+    "focused_excerpts": [
+      {
+        "needle": "2013",
+        "excerpt": "mscott and Margaret River fires in 2011 and Tropical Cyclone Rusty in 2013 among many others. She has been a lead trainer in emergency coverage practices within the organisation. Sarah looks after staff in six radio stations in Western Australia stre"
+      },
+      {
+        "needle": "Google Plus",
+        "excerpt": " HANDBOOK: For Disinformation And Media Manipulation Twitter Facebook Google Plus Feedback Form Click here to download the PDF version Also available in Arabic (العربية) , Macedonian , Russian and Turkish ! Click here to download the PDF version A de"
+      },
+      {
+        "needle": "European Journalism Centre",
+        "excerpt": "ne north. Rina Tsubaki Rina Tsubaki leads Emergency Journalism at the European Journalism Centre in the Netherlands. Emergency Journalism brings together relevant updates and resources for media professionals reporting in and about volatile situation"
+      }
+    ]
+  },
+  {
+    "name": "EFF SSD",
+    "url": "https://ssd.eff.org/",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://ssd.eff.org/",
+    "sha256": "2c23e842f129b49ae0e5e5411c248a2c85e0ee0f957faa36291ca649b41be80c",
+    "bytes": 27107,
+    "focused_excerpts": [
+      {
+        "needle": "Privacy Considerations with AI Tools",
+        "excerpt": "Privacy Considerations with AI Tools"
+      },
+      {
+        "needle": "Security Scenarios",
+        "excerpt": "Security Scenarios Abortion Access Activist, Worker, or Patient Academic researcher? Activist or protester? Human rights defender? Interested in encryption? Journalism student? Journalist on the move?"
+      }
+    ]
+  },
+  {
+    "name": "OSINT Curious",
+    "url": "https://www.osintcurio.us/",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://www.osintcurio.us/",
+    "sha256": "cd3123c5f337f4e6e7632e100e1cc094441bb8e449351563997c83aed34a5ec8",
+    "bytes": 56597,
+    "focused_excerpts": [
+      {
+        "needle": "closed",
+        "excerpt": "BLUF: We have closed The OSINT Curious Project. Our website content and YouTube videos will remain online for the community to continue to use."
+      },
+      {
+        "needle": "2023",
+        "excerpt": "DEX-XL, organised by Dutch … Continue reading Our Last Post Sector035 2023-02-27 2023-03-18 Uncategorized Changes at OSINT Curious The world was different in 2018 when the founding members of The OSINT Curious Project saw a need to create a stronger "
+      }
+    ]
+  },
+  {
+    "name": "Cyber Detective",
+    "url": "https://raw.githubusercontent.com/cipher387/osint_stuff_tool_collection/main/README.md",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/cipher387/osint_stuff_tool_collection/main/README.md",
+    "sha256": "121cbd3690a8c9f4a5da9f1bc51c55a130b47b78ef624ae44fa97339b092f53b",
+    "bytes": 299303,
+    "focused_excerpts": [
+      {
+        "needle": "becoming obsolete",
+        "excerpt": "Many tools are constantly becoming obsolete, no longer supported or working at all. But I don't remove from the list so you can use their names and descriptions to find analogues."
+      }
+    ]
+  },
+  {
+    "name": "Twint repository API",
+    "url": "https://api.github.com/repos/twintproject/twint",
+    "checked_date": "2026-11-03",
+    "method": "Independent HTTP GET and focused page text inspection; no exercises or tools run",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/twintproject/twint",
+    "sha256": "30532511af76fd29254476b02bcb2add35e300675ba4064dbecc1a0b386e9771",
+    "bytes": 6616,
+    "observed_fields": {
+      "archived": true,
+      "pushed_at": "2023-02-23T13:58:09Z"
+    }
+  }
+]

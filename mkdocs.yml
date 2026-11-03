@@ -1,0 +1,121 @@
+site_name: Evidence First OSINT
+site_description: Бесплатный практический курс OSINT на русском — от вопроса до воспроизводимого отчёта.
+site_url: https://bioxhaust.github.io/evidence-first-osint/
+repo_url: https://github.com/bioxhaust/evidence-first-osint
+repo_name: bioxhaust/evidence-first-osint
+edit_uri: edit/main/docs/
+exclude_docs: |
+  !/templates/
+not_in_nav: |
+  /practice/labs/
+  /solutions/labs/
+  /solutions/projects/
+  /resources/*.en.md
+  /templates/*.en.md
+copyright: Original text & training assets CC BY 4.0 · Code MIT
+theme:
+  name: material
+  language: ru
+  font: false
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на тёмную тему
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на светлую тему
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search:
+      lang: [ru, en]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+extra_javascript:
+  - assets/javascripts/accessibility.js
+extra_css:
+  - assets/stylesheets/extra.css
+nav:
+  - Начать:
+      - index.md
+      - Первые 15 минут: resources/quickstart.md
+      - Челлендж: resources/challenge.md
+      - Как учиться: start.md
+      - English overview: en/index.md
+  - Курс:
+      - lessons/index.md
+      - '01. Вопрос и гипотезы': lessons/01-question.md
+      - '02. Этика и безопасность': lessons/02-ethics.md
+      - '03. Поиск и архивы': lessons/03-search.md
+      - '04. Источники и ошибки мышления': lessons/04-sources.md
+      - '05. Сохранение доказательств': lessons/05-evidence.md
+      - '06. Изображения': lessons/06-images.md
+      - '07. Видео': lessons/07-video.md
+      - '08. Геолокация': lessons/08-geolocation.md
+      - '09. Время события': lessons/09-chronolocation.md
+      - '10. Карты и спутниковые данные': lessons/10-maps.md
+      - '11. Компании и закупки': lessons/11-companies.md
+      - '12. Домены, DNS и сертификаты': lessons/12-infrastructure.md
+      - '13. Публичный контент платформ': lessons/13-social.md
+      - '14. Сущности и связи': lessons/14-entities.md
+      - '15. Очистка данных': lessons/15-data.md
+      - '16. Python и API (дополнительно)': lessons/16-python.md
+      - '17. Дезинформация и ИИ': lessons/17-disinformation-ai.md
+      - '18. Отчёт и уверенность': lessons/18-reporting.md
+  - Практика:
+      - practice/index.md
+      - Учебный корпус: assets/case/README.md
+      - 'Проект 1': practice/projects/01.md
+      - 'Проект 2': practice/projects/02.md
+      - 'Проект 3': practice/projects/03.md
+      - Итоговый кейс: practice/capstone.md
+  - Шпаргалки:
+      - resources/index.md
+      - Поисковые операторы: resources/search.md
+      - Дерево методов: resources/decision-tree.md
+      - Проверка фото и видео: resources/media-checklist.md
+      - Карта курса: resources/course-map.md
+      - Маршрут на 30 дней: resources/30-days.md
+      - Журнал: templates/journal.md
+      - Отчёт: templates/report.md
+      - Шкала уверенности: templates/confidence.md
+  - Решения:
+      - solutions/index.md
+      - Итоговый отчёт: solutions/capstone.md
+  - О проекте:
+      - about/index.md
+      - Источники и инструменты: about/sources.md
+      - Проверки качества: about/quality.md
+      - Лицензии: about/licenses.md
+      - Участие: about/contributing.md
+      - План развития: about/roadmap.md
+validation:
+  nav:
+    omitted_files: info
+  links:
+    not_found: warn
+    unrecognized_links: warn

@@ -1,0 +1,5 @@
+SYNTHETIC / УЧЕБНЫЙ МАТЕРИАЛ — вымышленные данные, CC BY 4.0
+ID: A01
+url: https://northbridge.example/status
+captured_at: 2025-05-16T18:00:00Z
+Испытания запланированы на 17 мая. Дата открытия не назначена.

@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "collected_at": "2025-05-18T12:00:00Z",
+  "domain": "northbridge.example",
+  "A": [
+    "192.0.2.10"
+  ],
+  "MX": [
+    "mail.northbridge.example"
+  ],
+  "nameservers": [
+    "ns1.example"
+  ],
+  "certificate": {
+    "SAN": [
+      "northbridge.example",
+      "www.northbridge.example"
+    ],
+    "not_before": "2025-04-01T00:00:00Z"
+  },
+  "registrar": "Example Registrar",
+  "registrant": "redacted",
+  "historical_A": {
+    "address": "198.51.100.20",
+    "observed_at": "2025-04-01T00:00:00Z"
+  },
+  "other_domain_on_same_ip": "harbor.example",
+  "caution": "Shared hosting does not establish shared ownership."
+}

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "bellingcat",
+    "requested_url": "https://toolkit.bellingcat.com/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "id": "osint-framework",
+    "requested_url": "https://raw.githubusercontent.com/lockfale/OSINT-Framework/master/README.md",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/lockfale/OSINT-Framework/master/README.md",
+    "bytes": 3792,
+    "sha256": "ac66b9ec57334f5d5eec692e358602815d76b6693e0f8d0bdb3ac6215c0cb166"
+  },
+  {
+    "id": "awesome-osint",
+    "requested_url": "https://raw.githubusercontent.com/jivoi/awesome-osint/master/README.md",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/jivoi/awesome-osint/master/README.md",
+    "bytes": 150293,
+    "sha256": "15ce63e4f0dc1a6aebf72aec95f070d5b6684692f23bb06e2675ac526599ffb1"
+  },
+  {
+    "id": "sofia-santos",
+    "requested_url": "https://gralhix.com/list-of-osint-exercises/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://gralhix.com/list-of-osint-exercises/",
+    "bytes": 330856,
+    "sha256": "aac8d011903db77cd60cbdf983d5dcff18843545f4f4948da6484b4a8a24fa74"
+  },
+  {
+    "id": "trace-labs",
+    "requested_url": "https://raw.githubusercontent.com/tracelabs/tlosint-live/main/README.md",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "sans",
+    "requested_url": "https://www.sans.org/blog/the-ultimate-list-of-sans-osint-resources",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "google-news",
+    "requested_url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://newsinitiative.withgoogle.com/resources/trainings/verification/",
+    "bytes": 373314,
+    "sha256": "cc12cd14adc7e76799206a85a07ae51e10bc33d9475721094f45c089231e8cd3"
+  },
+  {
+    "id": "verification-handbook",
+    "requested_url": "https://verificationhandbook.com/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://verificationhandbook.com/",
+    "bytes": 36233,
+    "sha256": "c93b3100494b42ba87594f87d195c2c7190cffe96983e33cd78d2796c0e57f7a"
+  },
+  {
+    "id": "berkeley-protocol",
+    "requested_url": "https://www.ohchr.org/en/publications/policy-and-methodological-publications/berkeley-protocol-digital-open-source",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "eff-ssd",
+    "requested_url": "https://ssd.eff.org/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://ssd.eff.org/",
+    "bytes": 27107,
+    "sha256": "2c23e842f129b49ae0e5e5411c248a2c85e0ee0f957faa36291ca649b41be80c"
+  },
+  {
+    "id": "bellingcat-gitbook",
+    "requested_url": "https://bellingcat.gitbook.io/toolkit",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://bellingcat.gitbook.io/toolkit",
+    "bytes": 618550,
+    "sha256": "efce02d7ffe0ac4389e7e33fccf40aae6ff381252db8b892fea5ba07c77ae4bc"
+  },
+  {
+    "id": "bellingcat-tools",
+    "requested_url": "https://tools.bellingcat.com/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "id": "trace-labs-master",
+    "requested_url": "https://raw.githubusercontent.com/tracelabs/tlosint-live/master/README.md",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/tracelabs/tlosint-live/master/README.md",
+    "bytes": 4410,
+    "sha256": "91b6b176c08c185c069a7eeba675ddcb2932ec6d3cc9430094efd66dac6ab776"
+  },
+  {
+    "id": "berkeley-law",
+    "requested_url": "https://humanrights.berkeley.edu/programs-projects/tech-human-rights-program/berkeley-protocol-on-digital-open-source-investigations/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "berkeley-pdf",
+    "requested_url": "https://www.ohchr.org/sites/default/files/2022-04/OHCHR_BerkeleyProtocol.pdf",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "bellingcat-guide",
+    "requested_url": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigation-toolkit/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "sans-osint",
+    "requested_url": "https://www.sans.org/blog/must-have-free-resources-for-open-source-intelligence-osint",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "osintcurious",
+    "requested_url": "https://www.osintcurio.us/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; page text inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://www.osintcurio.us/",
+    "bytes": 56597,
+    "sha256": "cd3123c5f337f4e6e7632e100e1cc094441bb8e449351563997c83aed34a5ec8"
+  },
+  {
+    "id": "cipher387",
+    "requested_url": "https://raw.githubusercontent.com/cipher387/osint_stuff_tool_collection/main/README.md",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET using Python urllib; README inspection, not tool operation",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/cipher387/osint_stuff_tool_collection/main/README.md",
+    "bytes": 299303,
+    "sha256": "121cbd3690a8c9f4a5da9f1bc51c55a130b47b78ef624ae44fa97339b092f53b"
+  },
+  {
+    "id": "twint-maintenance",
+    "requested_url": "https://api.github.com/repos/twintproject/twint",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET GitHub repository API; maintenance metadata only",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/twintproject/twint",
+    "bytes": 6616,
+    "sha256": "30532511af76fd29254476b02bcb2add35e300675ba4064dbecc1a0b386e9771",
+    "observed_fields": {
+      "full_name": "twintproject/twint",
+      "archived": true,
+      "disabled": false,
+      "pushed_at": "2023-02-23T13:58:09Z"
+    }
+  }
+]

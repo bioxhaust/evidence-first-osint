@@ -1,0 +1,24 @@
+name: Reproducibility problem / Воспроизводимость
+description: Report an exercise, script or site behavior that you cannot reproduce.
+title: "[Reproduce]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Release or commit / Версия
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected result / Шаги и ожидаемый результат
+      description: Use only synthetic data. Include the command, input filename and observed error without secrets.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / Среда
+      description: OS, browser or Python version, if relevant; omit identifying personal details.
+    validations:
+      required: true

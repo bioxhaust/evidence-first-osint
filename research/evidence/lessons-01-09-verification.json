@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-03",
+  "environment": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "macos": ""
+  },
+  "checks": [
+    {
+      "name": "shasum example",
+      "command": "shasum -a 256 docs/assets/case/bulletin-01.txt",
+      "result": "executed successfully; compared against hashlib SHA-256",
+      "sha256": "b35ede7f16a75306482635f3c5d517e3dc044c86eed6668d701f24f17816bf2b"
+    },
+    {
+      "name": "EXIF reading",
+      "command": "exiftool -G1 -a -s docs/assets/case/media/original.jpg",
+      "version": "13.50",
+      "result": "executed; DateTimeOriginal 2025:05:03 09:00:00; no GPS or timezone"
+    },
+    {
+      "name": "repost metadata",
+      "command": "exiftool -G1 -a -s docs/assets/case/media/repost.jpg",
+      "result": "executed; no EXIF image metadata"
+    },
+    {
+      "name": "video extraction",
+      "command": "ffmpeg -n -ss 00:00:02 -i docs/assets/case/media/training-clip.mp4 -frames:v 1 -update 1 OUTPUT.jpg",
+      "version": "8.1",
+      "result": "executed successfully; one JPEG written outside repository; source 6 seconds, video only"
+    },
+    {
+      "name": "archive interval",
+      "result": "2025-05-16 18:00Z to 2025-05-18 06:10Z = 36 hours 10 minutes"
+    }
+  ],
+  "limitations": [
+    "Windows Get-FileHash example not executed",
+    "Linux utilities not executed",
+    "Live reverse image search not exercised",
+    "HTTP source checks do not prove service functionality"
+  ]
+}

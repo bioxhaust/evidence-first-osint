@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "note": "Local reading corpus; not a search-engine simulation.",
+  "documents": [
+    {
+      "id": "S01",
+      "title": "Северная переправа — испытания",
+      "text": "Испытания запланированы на 17 мая.",
+      "date": "2025-05-16",
+      "domain": "northbridge.example"
+    },
+    {
+      "id": "S02",
+      "title": "North crossing pedestrian notice",
+      "text": "Pedestrian access begins May 18; motor traffic remains closed.",
+      "date": "2025-05-18",
+      "domain": "northbridge.example"
+    },
+    {
+      "id": "S03",
+      "title": "Маяк Инжиниринг — C-17",
+      "text": "Контракт на 12 000 000 TST, поставщик SYN-101.",
+      "date": "2025-04-20",
+      "domain": "registry.example"
+    },
+    {
+      "id": "S04",
+      "title": "Mayak Engineering",
+      "text": "Registry SYN-303 in TRAIN-B, no C-17 reference.",
+      "date": "2025-04-21",
+      "domain": "registry.example"
+    },
+    {
+      "id": "S05",
+      "title": "Маяк: перепечатка",
+      "text": "Ссылаемся только на CITY-DIGEST P01.",
+      "date": "2025-05-17",
+      "domain": "digest.example"
+    },
+    {
+      "id": "S06",
+      "title": "Северный мост другого города",
+      "text": "Другой объект: не Северная переправа.",
+      "date": "2024-05-17",
+      "domain": "elsewhere.example"
+    }
+  ]
+}

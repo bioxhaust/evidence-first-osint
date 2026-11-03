@@ -1,0 +1,182 @@
+{
+  "synthetic": true,
+  "author": "Evidence First OSINT contributors",
+  "generated_for": "v1.0.0",
+  "files": [
+    {
+      "path": "api-response.json",
+      "sha256": "4e241db4891f3d6d71498a61175cf55cfb3ae2ea191f4b901b005f0d8fdaa86f",
+      "bytes": 783,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "archive/page-after.txt",
+      "sha256": "14bbf00d356d353f33f532be04c74954960f05bd6ddcfba720183b171b3eccc9",
+      "bytes": 299,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "archive/page-before.txt",
+      "sha256": "f2e5ee459e419c840f4514f96426cc5e21468f3cbab2372d46b8d05d241e7623",
+      "bytes": 290,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "archive/photo-record.txt",
+      "sha256": "fab2d8bb29f01921f7af66f380f4091812ccf9f1ee22d2f22482f72bf0a97556",
+      "bytes": 427,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "bulletin-01.txt",
+      "sha256": "b35ede7f16a75306482635f3c5d517e3dc044c86eed6668d701f24f17816bf2b",
+      "bytes": 493,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "bulletin-02.txt",
+      "sha256": "10a86b2c1dbfc9db881b6e13979d84aa02e43dd2c2d409c780b2d17650096a12",
+      "bytes": 387,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "companies.csv",
+      "sha256": "52ced3ac557d60ee5f2934d4c12fa714975c5c73b3cddfd7da1ae6374dface15",
+      "bytes": 243,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "contracts.csv",
+      "sha256": "c8f6018657dd18e595b1ed822ce372ed12bab0fd59cc90e307bd9a967483003e",
+      "bytes": 275,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "domain-records.json",
+      "sha256": "315fc5da19be97c876e0003534ee873a21bdba6ce6d308af56a360655081d83c",
+      "bytes": 644,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "map.svg",
+      "sha256": "58685eeee75af843a92d81ff36356f16fedbcbf51d5e5e4612d398a6a101f4bf",
+      "bytes": 1617,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/frame-01.jpg",
+      "sha256": "e6ebdeafbcb97d1ddbad24c8a22d958ded72e8072c7b094468ff724ab6c74b05",
+      "bytes": 79942,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/frame-02.jpg",
+      "sha256": "3370742e636268daaff8a55a5b0915c5ba804e48ce76b86b5d57ef931a6039b1",
+      "bytes": 80036,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/frame-03.jpg",
+      "sha256": "dd8c48872880b16168b7e023238256f8326dfe227131b3bc1767661f729d30fe",
+      "bytes": 80792,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/frames.csv",
+      "sha256": "e4eda4ff39a6fbe89b32f38511176aeea723477e2b00daad8143c0dfc6c187c0",
+      "bytes": 117,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/metadata.json",
+      "sha256": "a208a77c7dd2ac6d9e280c654a834deb9d259b9cf0ebec96a82c49eaf4dcea01",
+      "bytes": 716,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/original.jpg",
+      "sha256": "21f2bc7263c85f6a71228eafa799f14acc9754bd3d201782f4e99565444fba9a",
+      "bytes": 80198,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/repost.jpg",
+      "sha256": "26f4fe917955bb80f2f4ff4f8f2fb39400eafdc281e6989b074db1a1ce769c25",
+      "bytes": 39800,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/scene.svg",
+      "sha256": "29aa0f734b8e3fb85bb25862e144a36721048335bcae682dd35edc100cf10dbe",
+      "bytes": 769,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "media/training-clip.mp4",
+      "sha256": "d376c5b1c22e9e2fa3d4a0ba34fbc6a0d57f853897414552bbfc436020d5fc2f",
+      "bytes": 44616,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "payments-dirty.csv",
+      "sha256": "6221cff6ba88f60b9f29f0d95660023936595ac08e25c77f16efcc8226b6dc2b",
+      "bytes": 366,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "payments.csv",
+      "sha256": "56fa8580ba449de84700f2ea9c2a9d26064b4399370a482d508c3399fdc18351",
+      "bytes": 262,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "posts.csv",
+      "sha256": "154ec5b11b9ec0c52f7467b86faa2d475bb61b4f42230bb88ce71dceda84ca41",
+      "bytes": 988,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "registry-notes.txt",
+      "sha256": "4f30399ecb1e8cac632bd1a0bbe51dce71e68504200b882b99924b5b840d7428",
+      "bytes": 501,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "search-corpus.json",
+      "sha256": "2acc6ed75e5ba1989c39749c5f3e324b41121c237cd16127b70950ac4463ae79",
+      "bytes": 1495,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "timeline.csv",
+      "sha256": "6a9653f872c37669fece09c2d113268a289f4eb722b7fbeba6a53f677963f356",
+      "bytes": 386,
+      "origin": "Original synthetic teaching asset",
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

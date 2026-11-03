@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "lessons": 18,
+    "practice_labs": 18,
+    "solutions_labs": 18,
+    "practice_projects": 3,
+    "solutions_projects": 3,
+    "markdown_links": 674,
+    "html_pages": 95,
+    "html_links": 8184,
+    "files_scanned_for_known_secret_patterns": 171,
+    "fixture_files": 25
+  },
+  "errors": [],
+  "result": "PASS"
+}

@@ -1,0 +1,8 @@
+SYNTHETIC / УЧЕБНЫЙ МАТЕРИАЛ — вымышленные данные, CC BY 4.0
+ID: A03
+Synthetic archive record; no real web capture.
+captured_at: 2025-05-03T10:00:00Z
+source_url: https://northbridge.example/photo
+local_file: media/original.jpg
+sha256: 21f2bc7263c85f6a71228eafa799f14acc9754bd3d201782f4e99565444fba9a
+This record is stipulated within the teaching corpus; exact camera exposure time is unknown.

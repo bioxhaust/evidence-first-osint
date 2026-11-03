@@ -1,0 +1,56 @@
+{
+  "checked_date": "2026-11-03",
+  "rights": "Short quotations for source identification and critical comparison; full source pages are not redistributed.",
+  "observations": [
+    {
+      "id": "bellingcat-gitbook",
+      "quote": "Inclusion in the toolkit does not imply that Bellingcat endorses or recommends a specific tool for investigative use.",
+      "scope": "Homepage; categories and limitations"
+    },
+    {
+      "id": "osint-framework",
+      "quote": "Some of the sites included might require registration or offer more data for $$$",
+      "scope": "README; intent, tool metadata, contribution guidance"
+    },
+    {
+      "id": "awesome-osint",
+      "quote": "A curated list of amazingly awesome open source intelligence tools and resources.",
+      "scope": "README; table of contents and category descriptions"
+    },
+    {
+      "id": "sofia-santos",
+      "quote": "All pages have full walktrhoughs.",
+      "scope": "Exercise index; original spelling preserved; walkthroughs not independently completed"
+    },
+    {
+      "id": "trace-labs-master",
+      "quote": "This build has only been tested on a pre-existing Kali environment",
+      "scope": "README; build commands and app list; no build execution"
+    },
+    {
+      "id": "google-news",
+      "quote": "8 lessons",
+      "scope": "Course overview also states 50 minutes and beginner; not an independent timing measurement"
+    },
+    {
+      "id": "verification-handbook",
+      "quote": "A definitive guide to verifying digital content for emergency coverage",
+      "scope": "Homepage; audience, formats, visible historical footer"
+    },
+    {
+      "id": "eff-ssd",
+      "quote": "Tips, Tools, and How-tos for Safer Online Communications",
+      "scope": "Homepage; categories, languages and security scenarios"
+    },
+    {
+      "id": "osintcurious",
+      "quote": "We have closed The OSINT Curious Project.",
+      "scope": "Pinned homepage announcement; website and videos remain online"
+    },
+    {
+      "id": "cipher387",
+      "quote": "But I don’t remove from the list so you can use their names and descriptions to find analogues.",
+      "scope": "README; author warns about obsolete tools; apostrophe normalized"
+    }
+  ]
+}

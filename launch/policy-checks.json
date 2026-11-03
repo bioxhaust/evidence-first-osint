@@ -1,0 +1,140 @@
+[
+  {
+    "id": "github-traffic",
+    "url": "https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository",
+    "bytes": 181648,
+    "sha256": "eeffc4d353e099e6d76d940b9300f767fa2f40d05835b02e55d2b5e0608578f1"
+  },
+  {
+    "id": "github-traffic-api",
+    "url": "https://docs.github.com/en/rest/metrics/traffic?apiVersion=2022-11-28",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://docs.github.com/en/rest/metrics/traffic?apiVersion=2022-11-28",
+    "bytes": 325465,
+    "sha256": "2f2fdd67538b9b572be4b81318bca15a56378b92db5d1c1128b5f123d4a9c8e4"
+  },
+  {
+    "id": "reddit-osint-rules",
+    "url": "https://www.reddit.com/r/OSINT/about/rules/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "id": "reddit-osint-rules-json",
+    "url": "https://www.reddit.com/r/OSINT/about/rules.json",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "id": "reddit-content",
+    "url": "https://redditinc.com/policies/content-policy",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://redditinc.com/policies/reddit-rules",
+    "bytes": 477650,
+    "sha256": "ed4f734a51d358b5c2d3eefb774077dee7595b3c13054efe17ea2eba4aa34bca"
+  },
+  {
+    "id": "reddit-spam",
+    "url": "https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "hn-show",
+    "url": "https://news.ycombinator.com/showhn.html",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://news.ycombinator.com/showhn.html",
+    "bytes": 2682,
+    "sha256": "5354d8ed9b3fd61d50b1141c023aaaf16f30391e3cc09c49461da54e344956c4"
+  },
+  {
+    "id": "hn-guidelines",
+    "url": "https://news.ycombinator.com/newsguidelines.html",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://news.ycombinator.com/newsguidelines.html",
+    "bytes": 5864,
+    "sha256": "47dbe61e3db0e10ba11597196caf714a4e0172fc9f46e245a3181a3d9871a7fa"
+  },
+  {
+    "id": "dev-conduct",
+    "url": "https://dev.to/code-of-conduct",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://dev.to/code-of-conduct",
+    "bytes": 41380,
+    "sha256": "81559e31e2e9535a5c35189985d93297fcff9bd5b36d5325ad779b19dce9852f"
+  },
+  {
+    "id": "dev-terms",
+    "url": "https://dev.to/terms",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://dev.to/terms",
+    "bytes": 49372,
+    "sha256": "f637127f5433dbcbb62f74c95183b0dc9585e95645d71ff9b5fcfdcb8b8499c8"
+  },
+  {
+    "id": "dev-guidelines",
+    "url": "https://dev.to/guidelines",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "habr-rules",
+    "url": "https://habr.com/ru/docs/help/rules/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://habr.com/ru/docs/help/rules/",
+    "bytes": 106461,
+    "sha256": "c32f87d10365475bbb50314372bfa14dbffebc9956c0f35d977c59739ccb10e8"
+  },
+  {
+    "id": "habr-posts",
+    "url": "https://habr.com/ru/docs/help/posts/",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://habr.com/ru/docs/help/posts/",
+    "bytes": 50362,
+    "sha256": "67fc1d31d1369e1563bd83d91d6a952142f73ba27dec2fc8a3998ffdaa754e80"
+  },
+  {
+    "id": "telegram-spam",
+    "url": "https://telegram.org/faq_spam",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://telegram.org/faq_spam",
+    "bytes": 11867,
+    "sha256": "8507c890a894336176fe04b3375ec1b9722e361f31d0a60d119cd7b53bc9b38d"
+  },
+  {
+    "id": "linkedin-policies",
+    "url": "https://www.linkedin.com/legal/professional-community-policies",
+    "checked_date": "2026-11-03",
+    "method": "HTTP GET and relevant policy text inspection; no submissions made",
+    "status": 200,
+    "final_url": "https://www.linkedin.com/legal/professional-community-policies",
+    "bytes": 64759,
+    "sha256": "838b7cc441b942ea2f8e2e5d8871dd06ac2f8ebd4a118e516710169656fa2d4a"
+  }
+]

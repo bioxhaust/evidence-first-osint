@@ -1,0 +1,5 @@
+event_id,original_time,utc_time,kind,source_ref,synthetic
+T01,2025-05-03T10:00:00Z,2025-05-03T10:00:00Z,capture,archive/photo-record.txt,true
+T02,2025-05-17T08:00:00Z,2025-05-17T08:00:00Z,publication,bulletin-01.txt,true
+T03,2025-05-17T12:10:00+03:00,2025-05-17T09:10:00Z,publication,posts.csv#P01,true
+T04,2025-05-18T09:00:00+03:00,2025-05-18T06:00:00Z,event,bulletin-02.txt,true

@@ -1,0 +1,3 @@
+contract_id,supplier_id,description,contract_value,currency,signed_at,synthetic
+C-17,SYN-101,Испытания и подготовка переправы,12000000,TST,2025-04-20,true
+C-18,SYN-202,Информационные материалы,250000,TST,2025-05-02,true

@@ -1,0 +1,99 @@
+{
+  "checked_date": "2026-11-03",
+  "environment": {
+    "os": "Darwin",
+    "os_version": "26.0.1",
+    "architecture": "arm64",
+    "python": "3.12.11"
+  },
+  "checks": [
+    {
+      "check": "jpeg_metadata",
+      "file": "docs/assets/case/media/original.jpg",
+      "actual": {
+        "width": 1200,
+        "height": 760,
+        "DateTimeOriginal": "2025:05:03 09:00:00",
+        "OffsetTimeOriginal": null,
+        "timezone_present": false,
+        "GPS_present": false,
+        "sha256": "21f2bc7263c85f6a71228eafa799f14acc9754bd3d201782f4e99565444fba9a"
+      },
+      "matches_declared": true
+    },
+    {
+      "check": "jpeg_metadata",
+      "file": "docs/assets/case/media/repost.jpg",
+      "actual": {
+        "width": 900,
+        "height": 540,
+        "DateTimeOriginal": null,
+        "OffsetTimeOriginal": null,
+        "timezone_present": false,
+        "GPS_present": false,
+        "sha256": "26f4fe917955bb80f2f4ff4f8f2fb39400eafdc281e6989b074db1a1ce769c25"
+      },
+      "matches_declared": true
+    },
+    {
+      "check": "ffprobe_video",
+      "actual": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1200,
+            "height": 760,
+            "avg_frame_rate": "12/1",
+            "nb_frames": "72"
+          }
+        ],
+        "format": {
+          "duration": "6.000000"
+        }
+      },
+      "six_seconds": true
+    },
+    {
+      "check": "lesson_python_block",
+      "lesson": "docs/lessons/16-python.md",
+      "block": 1,
+      "network": false,
+      "returncode": 0,
+      "stdout": "{\n  \"payment_ids\": [\n    \"PAY-01\",\n    \"PAY-02\"\n  ],\n  \"currency\": \"TST\",\n  \"total_settled_c17\": \"5000000\"\n}",
+      "stderr": ""
+    },
+    {
+      "check": "lesson_python_block",
+      "lesson": "docs/lessons/16-python.md",
+      "block": 2,
+      "network": true,
+      "returncode": 0,
+      "stdout": "python/cpython https://github.com/python/cpython",
+      "stderr": ""
+    },
+    {
+      "check": "timeline_timezone_equivalence",
+      "rows": 4,
+      "consistent": true,
+      "p01_time_kind": "publication"
+    },
+    {
+      "check": "generator_in_temporary_directory",
+      "file_count": 25,
+      "all_manifest_hashes_match": true,
+      "semantic_metadata_matches_shipped": true,
+      "same_jpeg_bytes_on_this_host": true
+    },
+    {
+      "check": "visual_fixture_inspection",
+      "file": "docs/assets/case/media/repost.jpg",
+      "observations": [
+        "Visible SYNTHETIC / REPOST CROP label",
+        "Square tower left, three chimney factory right, striped barrier foreground",
+        "Image is schematic illustration, not a real-world photograph"
+      ]
+    }
+  ]
+}

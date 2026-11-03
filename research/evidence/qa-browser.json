@@ -1,0 +1,43 @@
+{
+  "checked_date": "2026-11-03",
+  "environment": "Codex in-app Chromium browser, macOS; emulated viewport sizes, not physical mobile devices",
+  "viewports": [
+    [
+      1440,
+      950
+    ],
+    [
+      375,
+      812
+    ],
+    [
+      812,
+      375
+    ]
+  ],
+  "checks": {
+    "sampled_horizontal_overflow": false,
+    "ru_search_query": "платежи",
+    "ru_search_results": 17,
+    "en_search_query": "confidence",
+    "en_search_results": 7,
+    "lesson_01_next_opens_02": true,
+    "challenge_first_details_opens": true,
+    "menu_keyboard_enter": true,
+    "menu_keyboard_escape": true,
+    "light_dark_visual_review": true,
+    "js_syntax_node_check": true
+  },
+  "repairs": [
+    "mobile heading wraps without isolated final character",
+    "accessible menu and search buttons",
+    "templates explicitly included in MkDocs",
+    "dark theme action contrast"
+  ],
+  "limitations": [
+    "No screen reader audit",
+    "No physical phone",
+    "Not an exhaustive browser/device matrix",
+    "Screenshots reviewed during browser session"
+  ]
+}

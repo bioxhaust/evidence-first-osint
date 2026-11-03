@@ -1,0 +1,106 @@
+[
+  {
+    "name": "analytic-standards",
+    "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf",
+    "error": "HTTP Error 403: Forbidden",
+    "date": "2026-11-03"
+  },
+  {
+    "name": "gdpr",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "status": 202,
+    "bytes": 0,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "eff-plan",
+    "url": "https://ssd.eff.org/module/your-security-plan",
+    "status": 200,
+    "bytes": 35434,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "google-operators",
+    "url": "https://support.google.com/websearch/answer/2466433?hl=ru",
+    "status": 200,
+    "bytes": 1696017,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "wayback",
+    "url": "https://help.archive.org/help/using-the-wayback-machine/",
+    "status": 200,
+    "bytes": 55197,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "prov",
+    "url": "https://www.w3.org/TR/prov-overview/",
+    "status": 200,
+    "bytes": 34025,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "nist",
+    "url": "https://csrc.nist.gov/pubs/fips/180-4/upd1/final",
+    "status": 200,
+    "bytes": 41003,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "exif",
+    "url": "https://exiftool.org/TagNames/EXIF.html",
+    "status": 200,
+    "bytes": 133405,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "exif-faq",
+    "url": "https://exiftool.org/faq.html",
+    "status": 200,
+    "bytes": 96125,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "reverse-image",
+    "url": "https://support.google.com/websearch/answer/1325808",
+    "status": 200,
+    "bytes": 1627898,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "ffmpeg",
+    "url": "https://ffmpeg.org/ffmpeg.html",
+    "status": 200,
+    "bytes": 226126,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "ffmpeg-filters",
+    "url": "https://ffmpeg.org/ffmpeg-filters.html",
+    "status": 200,
+    "bytes": 1749816,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "proj",
+    "url": "https://proj.org/en/stable/usage/projections.html",
+    "status": 200,
+    "bytes": 29178,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "rfc3339",
+    "url": "https://www.rfc-editor.org/rfc/rfc3339",
+    "status": 200,
+    "bytes": 234059,
+    "date": "2026-11-03"
+  },
+  {
+    "name": "osm-accuracy",
+    "url": "https://wiki.openstreetmap.org/wiki/Accuracy",
+    "status": 200,
+    "bytes": 54780,
+    "date": "2026-11-03"
+  }
+]

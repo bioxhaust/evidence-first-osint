@@ -1,0 +1,52 @@
+:root {
+  --md-primary-fg-color: #173e4d;
+  --md-accent-fg-color: #076a64;
+  --ef-paper: #f8f6ef;
+  --ef-ink: #183c48;
+  --ef-muted: #4a6068;
+  --ef-rule: #b7c9ca;
+}
+[data-md-color-scheme="default"] { --md-default-bg-color: #fdfcf8; --md-typeset-a-color: #00675f; }
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #14272e;
+  --md-primary-fg-color: #173e4d;
+  --md-accent-fg-color: #82d8c9;
+  --md-typeset-a-color: #82d8c9;
+  --ef-paper: #1b343d;
+  --ef-ink: #ecf5f3;
+  --ef-muted: #c1d0d4;
+  --ef-rule: #58737a;
+}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+.md-typeset { font-size: .85rem; line-height: 1.7; }
+.md-typeset h1, .md-typeset h2 { letter-spacing: -.025em; font-weight: 700; color: var(--ef-ink); }
+.md-typeset h1 { line-height: 1.18; text-wrap: balance; }
+.md-typeset a { overflow-wrap: anywhere; }
+.md-typeset img { height: auto; border-radius: 8px; }
+.md-typeset .hero { padding: 2.2rem; background: var(--ef-paper); border: 1px solid var(--ef-rule); border-top: 6px solid var(--md-accent-fg-color); border-radius: 4px; margin-bottom: 2rem; }
+.md-typeset .hero h1 { font-size: clamp(2rem, 4vw, 3rem); margin: .4rem 0 1rem; max-width: 17ch; }
+.md-typeset .eyebrow { text-transform: uppercase; font-size: .7rem; letter-spacing: .13em; font-weight: 750; color: var(--ef-muted); }
+.md-typeset .hero .lead { font-size: 1.03rem; max-width: 58ch; }
+.md-typeset .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.md-typeset .course-card { border: 1px solid var(--ef-rule); border-radius: 4px; padding: 1rem 1.2rem; background: var(--ef-paper); }
+.md-typeset .course-card h2 { font-size: 1rem; margin: 0 0 .5rem; }
+.md-typeset .course-card p { margin: .45rem 0; }
+.md-typeset .md-button { min-height: 44px; padding: .6em 1.1em; border-radius: 4px; }
+.md-typeset .md-button--primary { background: var(--md-primary-fg-color); border-color: var(--md-primary-fg-color); color: #fff; }
+.md-typeset summary { min-height: 44px; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--md-accent-fg-color); outline-offset: 4px; }
+.md-typeset blockquote { color: var(--ef-muted); border-color: var(--md-accent-fg-color); }
+@media (max-width: 600px) { .md-typeset .hero { padding: 1.2rem; } .md-typeset { font-size: .85rem; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
+@media print { .md-header, .md-tabs, .md-sidebar, .md-footer { display: none; } .md-content { margin: 0; } }
+
+/* Keep the long Russian headline and separate tap targets readable on phones. */
+@media (max-width: 600px) {
+  .md-typeset .hero h1 { font-size: 1.5rem; }
+  .md-typeset .hero .md-button { margin: .25rem .2rem .25rem 0; }
+  .md-typeset .hero h1 .headerlink { display: none; }
+}
+
+label[role="button"]:focus-visible { outline: 3px solid var(--md-accent-fg-color); outline-offset: 3px; }
+[data-md-color-scheme="slate"] .md-typeset .md-button { color: #82d8c9; border-color: #82d8c9; }
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary { color: #14272e; background: #82d8c9; }

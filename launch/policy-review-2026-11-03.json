@@ -1,0 +1,109 @@
+[
+  {
+    "url": "https://news.ycombinator.com/showhn.html",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://news.ycombinator.com/showhn.html",
+    "bytes": 2682,
+    "sha256": "5354d8ed9b3fd61d50b1141c023aaaf16f30391e3cc09c49461da54e344956c4",
+    "review_snippets": [
+      " something you've made that other people can play with. HN users can try it out, give you feedback, and ask questions in the thread. On topic: things people can run on their computers or hold in their hands. For hardware, you can post a video or detailed article. For books, a sample chapter is ok. Off topic: blog pos",
+      " tips about how to present your work. A Show HN needn't be complicated or look slick. The community is comfortable with work that's at an early stage. Please make it easy for users to try your thing out, ideally without barriers such as signups or emails. You'll get more feedback that way. If your work isn't ready for"
+    ]
+  },
+  {
+    "url": "https://news.ycombinator.com/newsguidelines.html",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://news.ycombinator.com/newsguidelines.html",
+    "bytes": 5864,
+    "sha256": "47dbe61e3db0e10ba11597196caf714a4e0172fc9f46e245a3181a3d9871a7fa",
+    "review_snippets": [
+      "e worried about abuse, email hn@ycombinator.com and we'll look at the data. If a story is spam or off-topic, flag it. Don't feed egregious comments by replying; flag them instead. If you flag, please don't also comment that you did. Please don't complain about tangential annoyances—e.g. article or website formats",
+      " on something found on another site, submit the latter. Please don't use HN primarily for promotion. It's ok to post your own stuff part of the time, but the primary use of the site should be for curiosity. Please don't put generated text in HN posts. Write your text yourself—HN is for sharing between humans. For t",
+      "post. Deletion is for things that shouldn't have been submitted in the first place. Don't solicit upvotes, comments, or submissions. Users should vote and comment when they run across something they personally find interesting—not for promotion. In Comments Be kind. Don't be snarky. Converse curiously; don't cross-e",
+      " between humans. Please don't fulminate. Please don't sneer, including at the rest of the community. Please respond to the strongest plausible interpretation of what someone says, not a weaker one that's easier to criticize. Assume good faith. Eschew flamebait. Avoid generic tangents. Omit internet tropes. Please don'"
+    ]
+  },
+  {
+    "url": "https://dev.to/code-of-conduct",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://dev.to/code-of-conduct",
+    "bytes": 41382,
+    "sha256": "1103cc52f03af03e889d12fee4bb3654ea173accda30549ce3dd4497e3e156bd",
+    "review_snippets": [
+      "anage your software career Home DEV Challenges DEV++ Videos DEV Education Tracks DEV Help Advertise on DEV Organization Accounts DEV Showcase About Contact Free Postgres Database DEV Shop MLH Code of Conduct Privacy Policy Terms of Use Built on Forem — the open source software that powers DEV and other inclusive comm",
+      "t Contact Free Postgres Database DEV Shop MLH Code of Conduct Privacy Policy Terms of Use Built on Forem — the open source software that powers DEV and other inclusive communities. Made with love and Ruby on Rails . DEV Community © 2016 - 2026. We're a place where coders share, stay up-to-date and grow their caree",
+      " Code of Conduct - DEV Community Skip to content Navigation menu Search Powered by Algolia Search Log in Create account DEV Community Close Code of Conduct Last updated July 31, 2023 All participants of DEV Community are expected to abide by our Code o"
+    ]
+  },
+  {
+    "url": "https://habr.com/ru/docs/help/rules/",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://habr.com/ru/docs/help/rules/",
+    "bytes": 106461,
+    "sha256": "4b61b70ddd85ce2acdbbb99a345582c76b6b7d258fd4982235558cb00435d587",
+    "review_snippets": [
+      "омфортнее для всех. Вот список того, что не нужно делать на Хабре: 1. Несанкционированная реклама и самопиар Не используйте Хабр как площадку для продвижения своих (и чужих) проектов, сервисов, продуктов, услуг, мероприятий и персональных брендов. Если цель публикации или комментария — привлечь внимание к чему‑либо",
+      "для всех. Вот список того, что не нужно делать на Хабре: 1. Несанкционированная реклама и самопиар Не используйте Хабр как площадку для продвижения своих (и чужих) проектов, сервисов, продуктов, услуг, мероприятий и персональных брендов. Если цель публикации или комментария — привлечь внимание к чему‑либо, продать, н",
+      "олько публикаций и комментариев, но и юзернеймов, аватаров, информации в профиле и личных сообщений. Не используйте логотипы и названия организаций, проектов, сервисов, продуктов, услуг и мероприятий, не размещайте ссылки на ресурсы (каналы, блоги, лендинги, документы), цель которых — продажи, привлечение клиентов"
+    ]
+  },
+  {
+    "url": "https://telegram.org/faq_spam",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://telegram.org/faq_spam",
+    "bytes": 11867,
+    "sha256": "782b1b4f71b1dbd42bde7a42da6c128662adefd4c2c1b0b0af409237e773cfab",
+    "review_snippets": [
+      " Spam FAQ English Bahasa Indonesia Bahasa Melayu Deutsch Español Français Italiano Nederlands O‘zbek Polski Português (Brasil) Türkçe Беларуская Русский Українська Қазақша العربية فارسی 한국어 Follow on X Home FAQ Apps API Safet",
+      " you are sure people won’t mind getting them. As a general rule, people do mind getting unsolicited advertisements, links, invite links to groups or channels, random photos and, above all, anything related to commerce or online popularity . If you send them something like this, you will be blocked — and everybody el",
+      "ure people won’t mind getting them. As a general rule, people do mind getting unsolicited advertisements, links, invite links to groups or channels, random photos and, above all, anything related to commerce or online popularity . If you send them something like this, you will be blocked — and everybody else will be ",
+      " mind getting them. As a general rule, people do mind getting unsolicited advertisements, links, invite links to groups or channels, random photos and, above all, anything related to commerce or online popularity . If you send them something like this, you will be blocked — and everybody else will be happy. Modera"
+    ]
+  },
+  {
+    "url": "https://www.linkedin.com/legal/professional-community-policies",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://www.linkedin.com/legal/professional-community-policies",
+    "bytes": 64759,
+    "sha256": "b10c8af132ad6bf3ca3247d14ca53116d0208cdb179d80d89f4cb209a6ce678f",
+    "review_snippets": [
+      "r violent and graphic content policies and our nudity and adult content policies . Do not spam members or the platform. We don't allow untargeted, irrelevant, obviously unwanted, unauthorized, inappropriate commercial or promotional, or gratuitously repetitive messages or similar content. Do not use our invitatio",
+      "Learn more about our harassing and abusive content policies . Do not threaten, incite, or promote violence: We don’t allow threatening or inciting violence of any kind. We don’t allow individuals or groups that engage in or promote violence, property damage, or organized criminal activity. You may not use LinkedIn ",
+      "ontent that depicts the sexual exploitation of children. Do not share, post, transmit, or solicit child exploitation material through or using our platform. Do not use LinkedIn in any way to facilitate, encourage, or engage in the abuse or exploitation of children. When we become aware of apparent child exploitation",
+      "nspicuous notice of the personal benefit you receive and have otherwise complied with our Advertising Policies . We don't allow political advertisements, endorsements, or support posted in exchange for money or personal benefit. Learn more about our false or misleading content policy . Do not create a fake profile or"
+    ]
+  },
+  {
+    "url": "https://www.reddit.com/r/OSINT/about/rules.json",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "error": "HTTP Error 403: Blocked"
+  },
+  {
+    "url": "https://redditinc.com/policies/reddit-rules",
+    "checked_date": "2026-11-03",
+    "method": "unauthenticated HTTP GET; relevant text reviewed; no submissions",
+    "status": 200,
+    "final_url": "https://redditinc.com/policies/reddit-rules",
+    "bytes": 477650,
+    "sha256": "ed4f734a51d358b5c2d3eefb774077dee7595b3c13054efe17ea2eba4aa34bca",
+    "review_snippets": [
+      ". Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (including content manipulation) that interfere with Reddit communities. Rule 3 Respect the privacy of others. Instigating harassment, for example by revealing someone’s personal or con",
+      ", bullying , and threats of violence . Communities and users that incite violence or that promote hate based on identity or vulnerability will be banned. Rule 2 Abide by community rules. Participate authentically in communities where you have a personal interest, and do not spam or engage in disruptive behaviors (i",
+      "ually-explicit, or offensive. Rule 7 Keep it legal. Don't post illegal content, and don't solicit or facilitate illegal or prohibited transactions . Rule 8 Don’t break the site or do anything that interferes with normal use of Reddit. Enforcement We have a variety of ways of enforcing our rules, including, but not l",
+      "ode of Conduct Information for EU users Information for UK users Information for AU users Advertising Platform Terms & Conditions Brand Guidelines Press & Broadcast Guidelines Earn Terms September 24, 2024 May 15, 2024 Sep 25, 2023 Earn Policy September 24, 2024 May 15, 2024 Sep 25, 2023 Transparency Guidelines for L"
+    ]
+  }
+]
