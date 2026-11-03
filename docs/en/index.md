@@ -1,34 +1,42 @@
 # Evidence First OSINT
 
-A free, practical course for beginning researchers, journalists, analysts and security practitioners. Learn to ask a precise question, preserve evidence, test alternatives and deliver a reproducible report.
+Find the right public profile, run a GitHub tool, and check whether its result is supported. This free practical course starts with public account links and your own footprint, then moves to visual verification, records, relationships and reporting.
 
-**Language:** the 18 lessons, 18 labs, three checkpoint projects and capstone are in **Russian**. This overview, the course map and core reference sheets/templates are available in English. This is not a complete English translation.
-
-[Start a 15-minute investigation](../resources/quickstart.en.md){ .md-button .md-button--primary }
+[Start the trainer — Russian](../trainer/index.md){ .md-button .md-button--primary }
 [Русский](../index.md){ .md-button }
 
-## What makes the course useful
+**Language:** the 20 lessons, 20 labs, trainer and solutions are in Russian. This overview, the map, a 15-minute quickstart and core reference sheets/templates are in English. The full course is not translated.
 
-- **Evidence before tools.** Each finding needs provenance, reasoning, confidence and a named limitation. “Insufficient data” is a valid outcome.
-- **A reproducible local case.** Fictional posts, registry records, payments, a schematic map and visibly labelled synthetic media stay available with the course. Required practice needs no paid subscription, account or API.
-- **Inspect your reasoning.** Worked examples, separate solutions and rubrics assess the path from records to a finding, not just a final number.
+## Your first two tasks
 
-The fictional North Crossing case contains a copied claim, lookalike company names, a planned payment and a recycled image. You decide what each item actually establishes. The course never requires investigating a private individual or bypassing access controls.
+In the [profile lesson](../lessons/19-public-profiles.md), a known synthetic hub links to two accounts. You distinguish these declared links from a matching username, a duplicate, a sign-in page and a timeout. You then plan a review of your own public descriptions, links and visibility settings.
 
-## Take a useful resource now
+In the [tool lab](../practice/labs/20.md), you install **Sherlock 0.16.2** and run it against four synthetic localhost endpoints. One HTTP 200 is a generic page and causes a false match; a delayed endpoint produces a timeout. You compare the real program's output with known page behaviour.
 
-[Course map](../resources/course-map.en.md) · [Search operators](../resources/search.en.md) · [Choose a method](../resources/decision-tree.en.md) · [Photo/video checklist](../resources/media-checklist.en.md)
+The lab requires Python and terminal commands, but no programming. Internet is needed for package installation; targets remain local. A saved run supports analysis, but reading it does not substitute for your own technical run. Full platform support is limited to the environments recorded in the [quality notes](../about/quality.md).
 
-[Journal template](../templates/journal.en.md) · [Report template](../templates/report.en.md) · [Confidence guide](../templates/confidence.en.md)
+## Choose a route
 
-## Time and tools
+- **Short trainer:** 20 units and 60 exercises with evidence, hints and explained feedback; allow **2–3 hours**.
+- **Full course:** 20 modules/labs, of which 19 are required; three checkpoint projects and one capstone. Nominal required work is **27 h 45 min**, or **28–36 hours** with revisions.
+- **Both:** approximately **30–39 hours**. These are estimates, not measured completion times. Optional module 16 on Python programming/APIs adds about 75 minutes.
 
-Allow **26–34 hours** for the required route, including 17 lessons and their labs, three 90-minute projects, a four-hour capstone and revision. The eighteenth module, Python and APIs, is optional and adds approximately 75 minutes. Browser and notes suffice for core exercises; a free spreadsheet editor is convenient. You can download the repository ZIP for the local assets. No Python setup is needed to read the course.
+Start with stable lesson IDs **19 → 20**, then follow **01–18**. The [map](../resources/course-map.en.md) lists the actual learning order. Short exercises do not replace full lab deliverables.
 
-The [map](../resources/course-map.en.md) links every Russian lesson. [Practice](../practice/index.md) and [solutions](../solutions/index.md) are separate. External services are additional learning resources; access and interfaces may change. The project records what was actually checked on its [quality page](../about/quality.md), in Russian.
+The trainer saves progress in the current browser. GitHub sign-in and cloud sync remain disabled pending completion of provider setup. Their implementation and local tests are available, but live login and cross-device sync are not verified. See [quality notes](../about/quality.md).
 
-## Reuse and contribute
+## English resources you can use now
 
-Original prose and training assets: **CC BY 4.0**. Original code: **MIT**. Read the [licensing scope](../about/licenses.md) before reusing mixed content. Proposed corrections should name the page, evidence and a reproducible replacement; see [contribution guidance](../about/contributing.md).
+[15-minute payment investigation](../resources/quickstart.en.md) · [Course map](../resources/course-map.en.md) · [Search operators](../resources/search.en.md) · [Method tree](../resources/decision-tree.en.md) · [Photo/video checklist](../resources/media-checklist.en.md)
+
+[Journal](../templates/journal.en.md) · [Report template](../templates/report.en.md) · [Confidence guide](../templates/confidence.en.md)
+
+The fictional North Crossing capstone adds copied claims, lookalike companies, a planned payment and recycled media. You trace each conclusion to its evidence and leave unsupported ownership or timing claims unresolved.
+
+## Materials and scope
+
+Download the repository ZIP for the [profile fixtures](../assets/profiles/README.md) and [North Crossing corpus](../assets/case/README.md). Required practice needs no paid subscriptions or API keys. Live extensions are limited to your own or explicitly agreed accounts; private addresses, leaked data and authentication bypass are outside the exercises.
+
+Original prose and training assets: **CC BY 4.0**. Original code: **MIT**. Upstream tools retain their own licenses. Read [licensing scope](../about/licenses.md), [contribution guidance](../about/contributing.md), and the [separate solutions](../solutions/index.md).
 
 [Repository](https://github.com/bioxhaust/evidence-first-osint) · [English README](https://github.com/bioxhaust/evidence-first-osint/blob/main/README.md) · [Russian README](https://github.com/bioxhaust/evidence-first-osint/blob/main/README.ru.md)

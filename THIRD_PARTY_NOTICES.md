@@ -6,6 +6,15 @@ Course text, synthetic company/payment/post records, the map and scene diagrams,
 
 The case generator uses system fonts only when rendering labels. Font binaries are not distributed. Rebuilding on another system may change pixels and hashes. The website uses local system fonts and does not fetch web fonts.
 
+The public-profile fixtures and 60 trainer exercises are also original CC BY 4.0 material. `docs/assets/trainer/lessons.js` contains course content; the remaining original trainer JavaScript, CSS, local tool wrappers and database migration are MIT code. The interface does not include Duolingo assets or branding.
+
+## Practice tools and hosted services
+
+- [Sherlock 0.16.2](https://github.com/sherlock-project/sherlock/blob/master/LICENSE): MIT. Installed separately from the official package; upstream source and dependencies are not bundled. The saved run was produced on original synthetic localhost pages.
+- [Maigret](https://github.com/soxoj/maigret): MIT. Linked as additional reading; not bundled or executed in this release.
+- [ExifTool](https://exiftool.org/): distributed under the same terms as Perl (Artistic License or GNU GPL); used as a local inspection tool and not bundled.
+- [Supabase](https://supabase.com/): optional hosted authentication and progress storage, subject to its own service terms. The repository includes an original REST adapter and migration, no Supabase SDK. Public sign-in remains disabled pending completion and live verification of the provider setup.
+
 ## External research references
 
 The repository contains links, original commentary and short attributed quotations identifying comparison resources in [research/landscape.md](research/landscape.md) and [research/evidence/observations.json](research/evidence/observations.json). Those excerpts retain their original copyright; the content license does not relicense them. Full external pages, books, screenshots, map tiles, photographs and registry exports are not bundled.

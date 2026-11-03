@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "execution_date": "2026-11-03",
+  "tool": "sherlock-project",
+  "version": "0.16.2",
+  "python": "3.14.6",
+  "platform": "macOS arm64",
+  "command": "<isolated-venv>/bin/python tools/run_sherlock_local.py",
+  "returncode": 0,
+  "stdout_excerpt": [
+    "A problem occurred while checking for an update: Teaching guard blocked a non-local request before network access",
+    "[*] Checking username route_lab on:",
+    "[+] SYNTHETIC Present: http://127.0.0.1:54369/present/route_lab",
+    "[+] SYNTHETIC Soft404: http://127.0.0.1:54369/soft404/route_lab",
+    "[-] SYNTHETIC Missing: Not Found!",
+    "[-] SYNTHETIC Slow: Timeout Error ",
+    "[*] Search completed with 2 results",
+    "LOCAL_GUARD local_requests=4 blocked_external_attempts=1"
+  ],
+  "excerpt_note": "Relevant CLI lines; upstream promotional footer omitted. This is an actual localhost run, separate from fictional TrainingScanner JSON."
+}

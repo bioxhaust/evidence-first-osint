@@ -1,0 +1,83 @@
+{
+  "checked_date": "2026-11-03",
+  "postgres_version": "postgres (PostgreSQL) 16.15 (Homebrew)",
+  "environment": "Disposable local cluster, no TCP; simulated Supabase auth.uid() and roles. Hosted Auth/OAuth not tested.",
+  "checks": [
+    {
+      "check": "migration_applies",
+      "pass": true
+    },
+    {
+      "check": "anonymous_read_denied",
+      "pass": true,
+      "expected_success": false,
+      "exit_code": 3
+    },
+    {
+      "check": "anonymous_rpc_denied",
+      "pass": true,
+      "expected_success": false,
+      "exit_code": 3
+    },
+    {
+      "check": "user_a_create",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    },
+    {
+      "check": "user_b_cannot_read_a",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    },
+    {
+      "check": "user_b_cannot_update_a",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    },
+    {
+      "check": "user_b_cannot_insert_for_a",
+      "pass": true,
+      "expected_success": false,
+      "exit_code": 3
+    },
+    {
+      "check": "stale_revision_rejected",
+      "pass": true,
+      "expected_success": false,
+      "exit_code": 3
+    },
+    {
+      "check": "current_revision_updates",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    },
+    {
+      "check": "unknown_state_field_rejected",
+      "pass": true,
+      "expected_success": false,
+      "exit_code": 3
+    },
+    {
+      "check": "invalid_calendar_day_rejected",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    },
+    {
+      "check": "oversized_json_rejected",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    },
+    {
+      "check": "own_record_still_revision_2",
+      "pass": true,
+      "expected_success": true,
+      "exit_code": 0
+    }
+  ]
+}

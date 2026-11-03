@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "subject_id": "LEARNER-A",
+  "scope": "SYNTHETIC / УЧЕБНЫЙ МАТЕРИАЛ. No real accounts or people. Do not request .example URLs.",
+  "anchor": {
+    "source_id": "E-HUB",
+    "url": "https://home.example/learner-a",
+    "captured_at": "2026-10-01T12:00:00Z",
+    "ownership_basis": "stipulated_by_exercise",
+    "text": "SYNTHETIC: LEARNER-A lists these two accounts as its own public project profiles. This is not a legal identity claim.",
+    "self_links": [
+      "https://notes.example/@route_lab",
+      "https://code.example/route-lab"
+    ]
+  },
+  "profiles": [
+    {
+      "profile_id": "PR01",
+      "url": "https://notes.example/@route_lab",
+      "username": "route_lab",
+      "title": "Route Lab learning notes",
+      "text": "SYNTHETIC: LEARNER-A public notes. Old bio says updates every day; this is no longer current.",
+      "source_id": "E-P01",
+      "captured_at": "2026-10-01T12:05:00Z",
+      "self_links": [
+        "https://home.example/learner-a"
+      ],
+      "own_footprint_action": "Review outdated bio and public links in the owned account settings."
+    },
+    {
+      "profile_id": "PR02",
+      "url": "https://code.example/route-lab",
+      "username": "route-lab",
+      "title": "Route Lab public code",
+      "text": "SYNTHETIC: LEARNER-A publishes demonstration code, linked from its own project hub.",
+      "source_id": "E-P02",
+      "captured_at": "2026-10-01T12:07:00Z",
+      "self_links": [
+        "https://home.example/learner-a"
+      ],
+      "own_footprint_action": "Keep the public profile, check visibility and links after edits."
+    },
+    {
+      "profile_id": "PR03",
+      "url": "https://photos.example/route_lab",
+      "username": "route_lab",
+      "title": "Route Lab B archive",
+      "text": "SYNTHETIC: Different description about a training group B; no link to LEARNER-A. Similar handle alone does not decide ownership.",
+      "source_id": "E-P03",
+      "captured_at": "2026-10-01T12:10:00Z",
+      "self_links": [],
+      "own_footprint_action": "Do not claim ownership or ask to remove this unrelated candidate."
+    },
+    {
+      "profile_id": "PR04",
+      "url": "https://forum.example/route_lab",
+      "username": "route_lab",
+      "title": null,
+      "text": null,
+      "source_id": "E-SCAN",
+      "captured_at": "2026-10-01T12:12:00Z",
+      "self_links": [],
+      "own_footprint_action": "Record timeout; leave ownership and existence unknown."
+    },
+    {
+      "profile_id": "PR05",
+      "url": "https://video.example/@route_lab",
+      "username": "route_lab",
+      "title": "Sign in to continue",
+      "text": "SYNTHETIC generic sign-in response; no verified profile-specific absence marker.",
+      "source_id": "E-P05",
+      "captured_at": "2026-10-01T12:15:00Z",
+      "self_links": [],
+      "own_footprint_action": "Do not treat scanner not_found as proof of absence."
+    }
+  ]
+}

@@ -56,10 +56,15 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
 extra_javascript:
+  - path: assets/trainer/app.js
+    type: module
   - assets/javascripts/accessibility.js
 extra_css:
+  - assets/trainer/trainer.css
   - assets/stylesheets/extra.css
 nav:
+  - Тренажёр:
+      - trainer/index.md
   - Начать:
       - index.md
       - Первые 15 минут: resources/quickstart.md
@@ -68,6 +73,8 @@ nav:
       - English overview: en/index.md
   - Курс:
       - lessons/index.md
+      - 'Старт. Публичные профили': lessons/19-public-profiles.md
+      - 'Старт. Инструменты с GitHub': lessons/20-github-tools.md
       - '01. Вопрос и гипотезы': lessons/01-question.md
       - '02. Этика и безопасность': lessons/02-ethics.md
       - '03. Поиск и архивы': lessons/03-search.md
@@ -88,6 +95,7 @@ nav:
       - '18. Отчёт и уверенность': lessons/18-reporting.md
   - Практика:
       - practice/index.md
+      - Профильный корпус: assets/profiles/README.md
       - Учебный корпус: assets/case/README.md
       - 'Проект 1': practice/projects/01.md
       - 'Проект 2': practice/projects/02.md

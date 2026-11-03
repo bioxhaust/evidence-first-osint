@@ -1,10 +1,21 @@
-# Course map
+# Course map: start with a finding
 
-[Русский](course-map.md) · [English overview](../en/index.md)
+[Русский](course-map.md) · [Interactive trainer](../trainer/index.md) · [English overview](../en/index.md)
 
-**From a question to a reproducible report.** There are 18 complete modules: 17 required and one optional Python module. **Lessons, labs and solutions are in Russian.** This map and the core reference materials are available in English; the full course is not translated.
+**20 complete modules and 20 labs.** Start with the two practical topics below. Their stable IDs, 19/20, preserve existing URLs; they do not mean you must study eighteen lessons first. Only module 16, Python programming/APIs, is optional. There are 19 required modules and labs.
 
-Required lessons, including their labs: **17 h 15 min**. Three 90-minute projects add 4 h 30 min; the capstone adds 4 hours. Planned minimum: **25 h 45 min**. Allow **26–34 hours** including revisions. Optional Python adds 75 minutes. These are editorial estimates, not measured completion data.
+Required lessons with labs take **19 h 15 min** nominally. Three 90-minute projects and a four-hour capstone bring the total to **27 h 45 min**; allow **28–36 hours** with revisions. Optional module 16 adds 75 minutes.
+
+The [trainer](../trainer/index.md) contains a separate 20 short units and 60 exercises, approximately **2–3 hours**. Course plus trainer: **30–39 hours**. These are editorial estimates, not measured learner outcomes. Short exercises do not replace labs or projects.
+
+**Language:** lessons, labs, trainer and solutions are in Russian. This map, overview and core reference sheets/templates have English versions.
+
+## Start: profiles and tools
+
+- **[19. Public profiles and your own footprint](../lessons/19-public-profiles.md)** · 60 min, Russian. Verify declared account links, retain uncertain candidates and plan changes to your own public settings.
+- **[20. GitHub tools](../lessons/20-github-tools.md)** · 60 min, Russian. Run real Sherlock against four local synthetic pages and explain a useful match, a false HTTP 200, an absence marker and a timeout.
+
+The required tool lab needs a Python runtime, terminal commands and internet for package installation. You do not need to write code. Targets stay on localhost. Reading the saved run does not complete the technical execution part. Continue with 01 afterwards.
 
 ## 1. Design the investigation
 

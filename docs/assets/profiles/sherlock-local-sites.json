@@ -1,0 +1,27 @@
+{
+  "SYNTHETIC Present": {
+    "urlMain": "http://127.0.0.1:54369/",
+    "url": "http://127.0.0.1:54369/present/{}",
+    "username_claimed": "route_lab",
+    "errorType": "status_code"
+  },
+  "SYNTHETIC Soft404": {
+    "urlMain": "http://127.0.0.1:54369/",
+    "url": "http://127.0.0.1:54369/soft404/{}",
+    "username_claimed": "route_lab",
+    "errorType": "status_code"
+  },
+  "SYNTHETIC Missing": {
+    "urlMain": "http://127.0.0.1:54369/",
+    "url": "http://127.0.0.1:54369/missing/{}",
+    "username_claimed": "route_lab",
+    "errorType": "message",
+    "errorMsg": "PROFILE NOT FOUND"
+  },
+  "SYNTHETIC Slow": {
+    "urlMain": "http://127.0.0.1:54369/",
+    "url": "http://127.0.0.1:54369/slow/{}",
+    "username_claimed": "route_lab",
+    "errorType": "status_code"
+  }
+}

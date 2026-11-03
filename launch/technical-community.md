@@ -10,7 +10,7 @@ A payment total is not a contract value: an evidence-first data-cleaning exercis
 
 A dataset can produce a correct sum and still support the wrong conclusion. In a synthetic teaching case, a post claims that all 12 million TST under contract C-17 has been paid. Four rows are enough to see why schema, status and time matter.
 
-I maintain Evidence First OSINT, a free Russian-language course built around local, labelled synthetic evidence. This article is based on one of its exercises and was drafted with AI assistance. The rows below are fictional; TST is a training currency.
+I maintain Evidence First OSINT, a free Russian-language course built around local, labelled synthetic evidence. It starts with public-profile links and a real Sherlock localhost lab; this article uses a later data-cleaning exercise from the same course. This article is based on one of its exercises and was drafted with AI assistance. The rows below are fictional; TST is a training currency.
 
 ```csv
 payment_id,contract_id,amount,currency,paid_at,status
@@ -69,6 +69,8 @@ It would be too strong to write: “The company only received 5 million in total
 
 The full exercise introduces duplicate rows, inconsistent number formatting and an unknown amount. Those need an audit trail and quarantine before summing; this compact example intentionally starts with the clean fixture.
 
-You can try the [English 15-minute exercise](https://bioxhaust.github.io/evidence-first-osint/resources/quickstart.en/) or inspect the [course and local fixtures](https://github.com/bioxhaust/evidence-first-osint). The full lessons are Russian; the English quickstart, map and reference templates stand alone. Original prose and training assets are CC BY 4.0; original code is MIT.
+You can try the [English 15-minute exercise](https://bioxhaust.github.io/evidence-first-osint/resources/quickstart.en/) or inspect the [course and local fixtures](https://github.com/bioxhaust/evidence-first-osint). The course has 20 modules/labs and a separate 60-exercise trainer. Full lessons, labs and trainer are Russian; the English quickstart, map and reference templates stand alone. The required Sherlock lab needs a Python runtime and terminal commands; programming is a separate optional module. Original prose and training assets are CC BY 4.0; original code is MIT.
 
 If you review it, useful feedback would identify an assumption that the data does not justify, or a step another reader cannot reproduce.
+
+Practical entry point: [profile trainer](https://bioxhaust.github.io/evidence-first-osint/trainer/) and [real Sherlock localhost lab](https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/).

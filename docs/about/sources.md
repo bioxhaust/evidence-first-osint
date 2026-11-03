@@ -4,6 +4,14 @@
 
 **HTTP 200 — проверка ответа сервера, не всех функций сервиса.** Чтение документации не означает испытание авторизованного API или доступность сервиса во всех странах. Внешние программы и интерфейсы, кроме явно названных запусков на [странице качества](quality.md), не испытывались. [Подробные заметки](https://github.com/bioxhaust/evidence-first-osint/blob/main/research/primary-sources.md) и [журналы запросов](https://github.com/bioxhaust/evidence-first-osint/tree/main/research/evidence) сохраняют неудачные проверки.
 
+## Публичные профили и инструменты с GitHub
+
+[Sherlock](https://github.com/sherlock-project/sherlock) ищет кандидатов по имени пользователя. В [обязательной лабораторной](../practice/labs/20.md) реально проверен Sherlock **0.16.2** на четырёх собственных локальных страницах: полезный результат, ложное срабатывание, отсутствие по маркеру и тайм-аут. Это проверка конкретной версии на учебном стенде, а не гарантии покрытия живых платформ. Встроенный флаг `--local` сам по себе не отключает сетевые запросы; для задания используется отдельный launcher с локальной базой.
+
+[Maigret](https://github.com/soxoj/maigret) рассмотрен как дополнительный инструмент по официальной документации; запуск не выполнялся. Совпавший ник в обоих инструментах остаётся кандидатом до проверки содержимого и заявленных связей. [Датированный разбор версий, лицензий и ограничений](https://github.com/bioxhaust/evidence-first-osint/blob/main/research/profile-tools-review.md).
+
+Два маршрута: [сопоставление учебных профилей](../lessons/19-public-profiles.md) и аудит собственных либо согласованных аккаунтов. [Локальный корпус](../assets/profiles/README.md) позволяет пройти обязательную практику без регистрации на чужих платформах. Вымышленный TrainingScanner и настоящий запуск Sherlock маркированы отдельно.
+
 ## Метод и права
 
 - [Berkeley Protocol, страница проекта HRC](https://humanrights.berkeley.edu/projects/developing-the-berkeley-protocol-on-digital-open-source-investigations/) — идентификация, сбор, сохранение, проверка и анализ. Страница проекта прочитана; это не полный аудит протокола или гарантия судебной допустимости.
@@ -35,7 +43,7 @@
 
 ## Данные и ИИ
 
-[Python csv](https://docs.python.org/3/library/csv.html), [re](https://docs.python.org/3/library/re.html), [json](https://docs.python.org/3/library/json.html), [urllib.request](https://docs.python.org/3/library/urllib.request.html) — основа дополнительного маршрута. Основной ручной путь обходится текстовым или табличным редактором. Локальные программы курса проверены отдельно.
+[Python csv](https://docs.python.org/3/library/csv.html), [re](https://docs.python.org/3/library/re.html), [json](https://docs.python.org/3/library/json.html), [urllib.request](https://docs.python.org/3/library/urllib.request.html) — основа дополнительного маршрута программирования. Для анализа таблиц достаточно текстового или табличного редактора; обязательная лабораторная Sherlock требует среды Python и терминала. Локальные программы курса проверены отдельно.
 
 [C2PA explainer](https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html) различает происхождение/целостность и истинность содержания. Отсутствие Content Credentials не доказывает генерацию ИИ. Ответ модели, детектор и красивая ссылка нуждаются в проверке оригинального источника. Для практики ИИ используется уже подготовленный вымышленный ответ; аккаунт модели не нужен.
 

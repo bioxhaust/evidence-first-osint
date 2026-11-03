@@ -1,0 +1,1411 @@
+{
+  "schema": "evidence-first.trainer-link-qa.v1",
+  "checked_at": "2026-11-03T03:43:07.925Z",
+  "environment": {
+    "node": "v26.7.0",
+    "platform": "darwin",
+    "architecture": "arm64"
+  },
+  "site_base": "https://bioxhaust.github.io/evidence-first-osint/",
+  "trainer_url": "https://bioxhaust.github.io/evidence-first-osint/trainer/",
+  "totals": {
+    "units": 20,
+    "exercises": 60,
+    "references": 100,
+    "unique_targets": 66,
+    "passed": 100,
+    "failed": 0,
+    "copied_assets_verified": 26,
+    "markdown_pages_fresh": 42
+  },
+  "link_checks": [
+    {
+      "unit": "profiles",
+      "kind": "lesson",
+      "ref": "../lessons/19-public-profiles/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/19-public-profiles/",
+      "built_target": "site/lessons/19-public-profiles/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "profiles",
+      "kind": "lab",
+      "ref": "../practice/labs/19/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/19/",
+      "built_target": "site/practice/labs/19/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "profiles",
+      "exercise": "profiles-1",
+      "kind": "source",
+      "ref": "../assets/profiles/profiles.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/profiles.json",
+      "built_target": "site/assets/profiles/profiles.json",
+      "status": "pass"
+    },
+    {
+      "unit": "profiles",
+      "exercise": "profiles-2",
+      "kind": "source",
+      "ref": "../assets/profiles/profiles.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/profiles.json",
+      "built_target": "site/assets/profiles/profiles.json",
+      "status": "pass"
+    },
+    {
+      "unit": "profiles",
+      "exercise": "profiles-3",
+      "kind": "source",
+      "ref": "../assets/profiles/scanner-results.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/scanner-results.json",
+      "built_target": "site/assets/profiles/scanner-results.json",
+      "status": "pass"
+    },
+    {
+      "unit": "github-tools",
+      "kind": "lesson",
+      "ref": "../lessons/20-github-tools/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/20-github-tools/",
+      "built_target": "site/lessons/20-github-tools/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "github-tools",
+      "kind": "lab",
+      "ref": "../practice/labs/20/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/",
+      "built_target": "site/practice/labs/20/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "github-tools",
+      "exercise": "github-tools-1",
+      "kind": "source",
+      "ref": "../lessons/20-github-tools/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/20-github-tools/",
+      "built_target": "site/lessons/20-github-tools/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "github-tools",
+      "exercise": "github-tools-2",
+      "kind": "source",
+      "ref": "../assets/profiles/sherlock-run.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-run.json",
+      "built_target": "site/assets/profiles/sherlock-run.json",
+      "status": "pass"
+    },
+    {
+      "unit": "github-tools",
+      "exercise": "github-tools-3",
+      "kind": "source",
+      "ref": "../assets/profiles/sherlock-local-sites.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-local-sites.json",
+      "built_target": "site/assets/profiles/sherlock-local-sites.json",
+      "status": "pass"
+    },
+    {
+      "unit": "question",
+      "kind": "lesson",
+      "ref": "../lessons/01-question/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/01-question/",
+      "built_target": "site/lessons/01-question/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "question",
+      "kind": "lab",
+      "ref": "../practice/labs/01/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/01/",
+      "built_target": "site/practice/labs/01/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "question",
+      "exercise": "question-1",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "question",
+      "exercise": "question-2",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "question",
+      "exercise": "question-3",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "ethics",
+      "kind": "lesson",
+      "ref": "../lessons/02-ethics/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/02-ethics/",
+      "built_target": "site/lessons/02-ethics/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "ethics",
+      "kind": "lab",
+      "ref": "../practice/labs/02/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/02/",
+      "built_target": "site/practice/labs/02/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "ethics",
+      "exercise": "ethics-1",
+      "kind": "source",
+      "ref": "../assets/profiles/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/",
+      "built_target": "site/assets/profiles/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "ethics",
+      "exercise": "ethics-2",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "ethics",
+      "exercise": "ethics-3",
+      "kind": "source",
+      "ref": "../assets/case/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/",
+      "built_target": "site/assets/case/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "search",
+      "kind": "lesson",
+      "ref": "../lessons/03-search/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/03-search/",
+      "built_target": "site/lessons/03-search/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "search",
+      "kind": "lab",
+      "ref": "../practice/labs/03/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/03/",
+      "built_target": "site/practice/labs/03/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "search",
+      "exercise": "search-1",
+      "kind": "source",
+      "ref": "../assets/case/search-corpus.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/search-corpus.json",
+      "built_target": "site/assets/case/search-corpus.json",
+      "status": "pass"
+    },
+    {
+      "unit": "search",
+      "exercise": "search-2",
+      "kind": "source",
+      "ref": "../assets/case/search-corpus.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/search-corpus.json",
+      "built_target": "site/assets/case/search-corpus.json",
+      "status": "pass"
+    },
+    {
+      "unit": "search",
+      "exercise": "search-3",
+      "kind": "source",
+      "ref": "../assets/case/archive/page-after.txt",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/archive/page-after.txt",
+      "built_target": "site/assets/case/archive/page-after.txt",
+      "status": "pass"
+    },
+    {
+      "unit": "sources",
+      "kind": "lesson",
+      "ref": "../lessons/04-sources/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/04-sources/",
+      "built_target": "site/lessons/04-sources/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "sources",
+      "kind": "lab",
+      "ref": "../practice/labs/04/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/04/",
+      "built_target": "site/practice/labs/04/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "sources",
+      "exercise": "sources-1",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "sources",
+      "exercise": "sources-2",
+      "kind": "source",
+      "ref": "../assets/case/bulletin-02.txt",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/bulletin-02.txt",
+      "built_target": "site/assets/case/bulletin-02.txt",
+      "status": "pass"
+    },
+    {
+      "unit": "sources",
+      "exercise": "sources-3",
+      "kind": "source",
+      "ref": "../assets/case/bulletin-01.txt",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/bulletin-01.txt",
+      "built_target": "site/assets/case/bulletin-01.txt",
+      "status": "pass"
+    },
+    {
+      "unit": "evidence",
+      "kind": "lesson",
+      "ref": "../lessons/05-evidence/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/05-evidence/",
+      "built_target": "site/lessons/05-evidence/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "evidence",
+      "kind": "lab",
+      "ref": "../practice/labs/05/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/05/",
+      "built_target": "site/practice/labs/05/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "evidence",
+      "exercise": "evidence-1",
+      "kind": "source",
+      "ref": "../assets/case/manifest.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/manifest.json",
+      "built_target": "site/assets/case/manifest.json",
+      "status": "pass"
+    },
+    {
+      "unit": "evidence",
+      "exercise": "evidence-2",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "evidence",
+      "exercise": "evidence-3",
+      "kind": "source",
+      "ref": "../assets/case/payments-dirty.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments-dirty.csv",
+      "built_target": "site/assets/case/payments-dirty.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "images",
+      "kind": "lesson",
+      "ref": "../lessons/06-images/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/06-images/",
+      "built_target": "site/lessons/06-images/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "images",
+      "kind": "lab",
+      "ref": "../practice/labs/06/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/06/",
+      "built_target": "site/practice/labs/06/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "images",
+      "exercise": "images-1",
+      "kind": "source",
+      "ref": "../assets/case/archive/photo-record.txt",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/archive/photo-record.txt",
+      "built_target": "site/assets/case/archive/photo-record.txt",
+      "status": "pass"
+    },
+    {
+      "unit": "images",
+      "exercise": "images-2",
+      "kind": "source",
+      "ref": "../assets/case/media/metadata.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/metadata.json",
+      "built_target": "site/assets/case/media/metadata.json",
+      "status": "pass"
+    },
+    {
+      "unit": "images",
+      "exercise": "images-3",
+      "kind": "source",
+      "ref": "../assets/case/media/metadata.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/metadata.json",
+      "built_target": "site/assets/case/media/metadata.json",
+      "status": "pass"
+    },
+    {
+      "unit": "video",
+      "kind": "lesson",
+      "ref": "../lessons/07-video/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/07-video/",
+      "built_target": "site/lessons/07-video/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "video",
+      "kind": "lab",
+      "ref": "../practice/labs/07/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/07/",
+      "built_target": "site/practice/labs/07/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "video",
+      "exercise": "video-1",
+      "kind": "source",
+      "ref": "../assets/case/media/frames.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/frames.csv",
+      "built_target": "site/assets/case/media/frames.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "video",
+      "exercise": "video-2",
+      "kind": "source",
+      "ref": "../assets/case/media/frames.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/frames.csv",
+      "built_target": "site/assets/case/media/frames.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "video",
+      "exercise": "video-3",
+      "kind": "source",
+      "ref": "../assets/case/media/training-clip.mp4",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/training-clip.mp4",
+      "built_target": "site/assets/case/media/training-clip.mp4",
+      "status": "pass"
+    },
+    {
+      "unit": "geolocation",
+      "kind": "lesson",
+      "ref": "../lessons/08-geolocation/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/08-geolocation/",
+      "built_target": "site/lessons/08-geolocation/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "geolocation",
+      "kind": "lab",
+      "ref": "../practice/labs/08/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/08/",
+      "built_target": "site/practice/labs/08/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "geolocation",
+      "exercise": "geolocation-1",
+      "kind": "source",
+      "ref": "../assets/case/map.svg",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/map.svg",
+      "built_target": "site/assets/case/map.svg",
+      "status": "pass"
+    },
+    {
+      "unit": "geolocation",
+      "exercise": "geolocation-2",
+      "kind": "source",
+      "ref": "../assets/case/map.svg",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/map.svg",
+      "built_target": "site/assets/case/map.svg",
+      "status": "pass"
+    },
+    {
+      "unit": "geolocation",
+      "exercise": "geolocation-3",
+      "kind": "source",
+      "ref": "../assets/case/media/scene.svg",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/scene.svg",
+      "built_target": "site/assets/case/media/scene.svg",
+      "status": "pass"
+    },
+    {
+      "unit": "chronolocation",
+      "kind": "lesson",
+      "ref": "../lessons/09-chronolocation/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/09-chronolocation/",
+      "built_target": "site/lessons/09-chronolocation/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "chronolocation",
+      "kind": "lab",
+      "ref": "../practice/labs/09/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/09/",
+      "built_target": "site/practice/labs/09/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "chronolocation",
+      "exercise": "chronolocation-1",
+      "kind": "source",
+      "ref": "../assets/case/timeline.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/timeline.csv",
+      "built_target": "site/assets/case/timeline.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "chronolocation",
+      "exercise": "chronolocation-2",
+      "kind": "source",
+      "ref": "../assets/case/timeline.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/timeline.csv",
+      "built_target": "site/assets/case/timeline.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "chronolocation",
+      "exercise": "chronolocation-3",
+      "kind": "source",
+      "ref": "../assets/case/media/metadata.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/metadata.json",
+      "built_target": "site/assets/case/media/metadata.json",
+      "status": "pass"
+    },
+    {
+      "unit": "maps",
+      "kind": "lesson",
+      "ref": "../lessons/10-maps/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/10-maps/",
+      "built_target": "site/lessons/10-maps/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "maps",
+      "kind": "lab",
+      "ref": "../practice/labs/10/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/10/",
+      "built_target": "site/practice/labs/10/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "maps",
+      "exercise": "maps-1",
+      "kind": "source",
+      "ref": "../assets/case/map.svg",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/map.svg",
+      "built_target": "site/assets/case/map.svg",
+      "status": "pass"
+    },
+    {
+      "unit": "maps",
+      "exercise": "maps-2",
+      "kind": "source",
+      "ref": "../assets/case/map.svg",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/map.svg",
+      "built_target": "site/assets/case/map.svg",
+      "status": "pass"
+    },
+    {
+      "unit": "maps",
+      "exercise": "maps-3",
+      "kind": "source",
+      "ref": "../assets/case/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/",
+      "built_target": "site/assets/case/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "companies",
+      "kind": "lesson",
+      "ref": "../lessons/11-companies/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/11-companies/",
+      "built_target": "site/lessons/11-companies/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "companies",
+      "kind": "lab",
+      "ref": "../practice/labs/11/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/11/",
+      "built_target": "site/practice/labs/11/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "companies",
+      "exercise": "companies-1",
+      "kind": "source",
+      "ref": "../assets/case/contracts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/contracts.csv",
+      "built_target": "site/assets/case/contracts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "companies",
+      "exercise": "companies-2",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "companies",
+      "exercise": "companies-3",
+      "kind": "source",
+      "ref": "../assets/case/registry-notes.txt",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/registry-notes.txt",
+      "built_target": "site/assets/case/registry-notes.txt",
+      "status": "pass"
+    },
+    {
+      "unit": "infrastructure",
+      "kind": "lesson",
+      "ref": "../lessons/12-infrastructure/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/12-infrastructure/",
+      "built_target": "site/lessons/12-infrastructure/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "infrastructure",
+      "kind": "lab",
+      "ref": "../practice/labs/12/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/12/",
+      "built_target": "site/practice/labs/12/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "infrastructure",
+      "exercise": "infrastructure-1",
+      "kind": "source",
+      "ref": "../assets/case/domain-records.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/domain-records.json",
+      "built_target": "site/assets/case/domain-records.json",
+      "status": "pass"
+    },
+    {
+      "unit": "infrastructure",
+      "exercise": "infrastructure-2",
+      "kind": "source",
+      "ref": "../assets/case/domain-records.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/domain-records.json",
+      "built_target": "site/assets/case/domain-records.json",
+      "status": "pass"
+    },
+    {
+      "unit": "infrastructure",
+      "exercise": "infrastructure-3",
+      "kind": "source",
+      "ref": "../assets/case/domain-records.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/domain-records.json",
+      "built_target": "site/assets/case/domain-records.json",
+      "status": "pass"
+    },
+    {
+      "unit": "social",
+      "kind": "lesson",
+      "ref": "../lessons/13-social/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/13-social/",
+      "built_target": "site/lessons/13-social/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "social",
+      "kind": "lab",
+      "ref": "../practice/labs/13/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/13/",
+      "built_target": "site/practice/labs/13/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "social",
+      "exercise": "social-1",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "social",
+      "exercise": "social-2",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "social",
+      "exercise": "social-3",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "entities",
+      "kind": "lesson",
+      "ref": "../lessons/14-entities/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/14-entities/",
+      "built_target": "site/lessons/14-entities/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "entities",
+      "kind": "lab",
+      "ref": "../practice/labs/14/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/14/",
+      "built_target": "site/practice/labs/14/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "entities",
+      "exercise": "entities-1",
+      "kind": "source",
+      "ref": "../assets/case/companies.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/companies.csv",
+      "built_target": "site/assets/case/companies.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "entities",
+      "exercise": "entities-2",
+      "kind": "source",
+      "ref": "../assets/case/companies.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/companies.csv",
+      "built_target": "site/assets/case/companies.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "entities",
+      "exercise": "entities-3",
+      "kind": "source",
+      "ref": "../assets/case/companies.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/companies.csv",
+      "built_target": "site/assets/case/companies.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "data",
+      "kind": "lesson",
+      "ref": "../lessons/15-data/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/15-data/",
+      "built_target": "site/lessons/15-data/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "data",
+      "kind": "lab",
+      "ref": "../practice/labs/15/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/15/",
+      "built_target": "site/practice/labs/15/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "data",
+      "exercise": "data-1",
+      "kind": "source",
+      "ref": "../assets/case/payments-dirty.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments-dirty.csv",
+      "built_target": "site/assets/case/payments-dirty.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "data",
+      "exercise": "data-2",
+      "kind": "source",
+      "ref": "../assets/case/payments-dirty.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments-dirty.csv",
+      "built_target": "site/assets/case/payments-dirty.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "data",
+      "exercise": "data-3",
+      "kind": "source",
+      "ref": "../assets/case/payments-dirty.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments-dirty.csv",
+      "built_target": "site/assets/case/payments-dirty.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "python",
+      "kind": "lesson",
+      "ref": "../lessons/16-python/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/16-python/",
+      "built_target": "site/lessons/16-python/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "python",
+      "kind": "lab",
+      "ref": "../practice/labs/16/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/16/",
+      "built_target": "site/practice/labs/16/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "python",
+      "exercise": "python-1",
+      "kind": "source",
+      "ref": "../assets/case/api-response.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/api-response.json",
+      "built_target": "site/assets/case/api-response.json",
+      "status": "pass"
+    },
+    {
+      "unit": "python",
+      "exercise": "python-2",
+      "kind": "source",
+      "ref": "../assets/case/api-response.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/api-response.json",
+      "built_target": "site/assets/case/api-response.json",
+      "status": "pass"
+    },
+    {
+      "unit": "python",
+      "exercise": "python-3",
+      "kind": "source",
+      "ref": "../assets/case/api-response.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/api-response.json",
+      "built_target": "site/assets/case/api-response.json",
+      "status": "pass"
+    },
+    {
+      "unit": "disinformation-ai",
+      "kind": "lesson",
+      "ref": "../lessons/17-disinformation-ai/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/17-disinformation-ai/",
+      "built_target": "site/lessons/17-disinformation-ai/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "disinformation-ai",
+      "kind": "lab",
+      "ref": "../practice/labs/17/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/17/",
+      "built_target": "site/practice/labs/17/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "disinformation-ai",
+      "exercise": "disinformation-ai-1",
+      "kind": "source",
+      "ref": "../assets/case/companies.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/companies.csv",
+      "built_target": "site/assets/case/companies.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "disinformation-ai",
+      "exercise": "disinformation-ai-2",
+      "kind": "source",
+      "ref": "../assets/case/posts.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "disinformation-ai",
+      "exercise": "disinformation-ai-3",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "reporting",
+      "kind": "lesson",
+      "ref": "../lessons/18-reporting/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/18-reporting/",
+      "built_target": "site/lessons/18-reporting/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "reporting",
+      "kind": "lab",
+      "ref": "../practice/labs/18/",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/18/",
+      "built_target": "site/practice/labs/18/index.html",
+      "status": "pass"
+    },
+    {
+      "unit": "reporting",
+      "exercise": "reporting-1",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    },
+    {
+      "unit": "reporting",
+      "exercise": "reporting-2",
+      "kind": "source",
+      "ref": "../assets/case/media/metadata.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/media/metadata.json",
+      "built_target": "site/assets/case/media/metadata.json",
+      "status": "pass"
+    },
+    {
+      "unit": "reporting",
+      "exercise": "reporting-3",
+      "kind": "source",
+      "ref": "../assets/case/payments.csv",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "status": "pass"
+    }
+  ],
+  "new_content_inclusion": [
+    {
+      "source": "docs/lessons/19-public-profiles.md",
+      "built_target": "site/lessons/19-public-profiles/index.html",
+      "title": "Публичные профили и собственный цифровой след",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/20-github-tools.md",
+      "built_target": "site/lessons/20-github-tools/index.html",
+      "title": "GitHub-инструменты: настоящий запуск и проверка результата",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/19.md",
+      "built_target": "site/practice/labs/19/index.html",
+      "title": "Лабораторная: найти свои профили и не присоединить чужой",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/20.md",
+      "built_target": "site/practice/labs/20/index.html",
+      "title": "Лабораторная: Sherlock на страницах с известным ответом",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/solutions/labs/19.md",
+      "built_target": "site/solutions/labs/19/index.html",
+      "title": "Разбор: публичные профили и свой след",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/solutions/labs/20.md",
+      "built_target": "site/solutions/labs/20/index.html",
+      "title": "Разбор: настоящий Sherlock и ложное срабатывание",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/README.md",
+      "built_target": "site/assets/profiles/index.html",
+      "title": "Учебный набор: публичные профили и свой цифровой след",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/about/licenses.md",
+      "built_target": "site/about/licenses/index.html",
+      "title": "Лицензии и происхождение",
+      "built_after_source": true,
+      "status": "pass"
+    }
+  ],
+  "copied_asset_checks": [
+    {
+      "source": "docs/assets/trainer/lessons.js",
+      "built_target": "site/assets/trainer/lessons.js",
+      "sha256": "91c024ea03c2a3104d620423687503cf617d6e8d5390eafd8f2cabae9335b111",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/profiles.json",
+      "built_target": "site/assets/profiles/profiles.json",
+      "sha256": "a2119e6b25310f88600a146c484b6b903921ae32dae886d436ee99995bd3c232",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/result-example.json",
+      "built_target": "site/assets/profiles/result-example.json",
+      "sha256": "333b4a492e0a23bf18fd6eb64abadf4c58ea55d39d82c908f3d39d471b065b6f",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/scanner-results.json",
+      "built_target": "site/assets/profiles/scanner-results.json",
+      "sha256": "2ee9c5de3f5679ba603ea18a46750881e2efa54e47dc723d796d09f80cfd9f13",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/sherlock-local-sites.json",
+      "built_target": "site/assets/profiles/sherlock-local-sites.json",
+      "sha256": "da47af3b9346e1e468214562de1a48fdbf71510dd2a44cbdd2eb9e7183a5288f",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/sherlock-run.json",
+      "built_target": "site/assets/profiles/sherlock-run.json",
+      "sha256": "c48bcc96a92079c1786337e357de46f8d0e6e75011122bbffa0f5dad31b4c4b1",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/posts.csv",
+      "built_target": "site/assets/case/posts.csv",
+      "sha256": "154ec5b11b9ec0c52f7467b86faa2d475bb61b4f42230bb88ce71dceda84ca41",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/payments.csv",
+      "built_target": "site/assets/case/payments.csv",
+      "sha256": "56fa8580ba449de84700f2ea9c2a9d26064b4399370a482d508c3399fdc18351",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/search-corpus.json",
+      "built_target": "site/assets/case/search-corpus.json",
+      "sha256": "2acc6ed75e5ba1989c39749c5f3e324b41121c237cd16127b70950ac4463ae79",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/archive/page-after.txt",
+      "built_target": "site/assets/case/archive/page-after.txt",
+      "sha256": "14bbf00d356d353f33f532be04c74954960f05bd6ddcfba720183b171b3eccc9",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/bulletin-02.txt",
+      "built_target": "site/assets/case/bulletin-02.txt",
+      "sha256": "10a86b2c1dbfc9db881b6e13979d84aa02e43dd2c2d409c780b2d17650096a12",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/bulletin-01.txt",
+      "built_target": "site/assets/case/bulletin-01.txt",
+      "sha256": "b35ede7f16a75306482635f3c5d517e3dc044c86eed6668d701f24f17816bf2b",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/manifest.json",
+      "built_target": "site/assets/case/manifest.json",
+      "sha256": "96fb5c4815c5abd3a871be6de34d5a7076c8ab14d3cfd8599de60b6ffb26a684",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/payments-dirty.csv",
+      "built_target": "site/assets/case/payments-dirty.csv",
+      "sha256": "6221cff6ba88f60b9f29f0d95660023936595ac08e25c77f16efcc8226b6dc2b",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/archive/photo-record.txt",
+      "built_target": "site/assets/case/archive/photo-record.txt",
+      "sha256": "fab2d8bb29f01921f7af66f380f4091812ccf9f1ee22d2f22482f72bf0a97556",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/media/metadata.json",
+      "built_target": "site/assets/case/media/metadata.json",
+      "sha256": "a208a77c7dd2ac6d9e280c654a834deb9d259b9cf0ebec96a82c49eaf4dcea01",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/media/frames.csv",
+      "built_target": "site/assets/case/media/frames.csv",
+      "sha256": "e4eda4ff39a6fbe89b32f38511176aeea723477e2b00daad8143c0dfc6c187c0",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/media/training-clip.mp4",
+      "built_target": "site/assets/case/media/training-clip.mp4",
+      "sha256": "d376c5b1c22e9e2fa3d4a0ba34fbc6a0d57f853897414552bbfc436020d5fc2f",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/map.svg",
+      "built_target": "site/assets/case/map.svg",
+      "sha256": "58685eeee75af843a92d81ff36356f16fedbcbf51d5e5e4612d398a6a101f4bf",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/media/scene.svg",
+      "built_target": "site/assets/case/media/scene.svg",
+      "sha256": "29aa0f734b8e3fb85bb25862e144a36721048335bcae682dd35edc100cf10dbe",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/timeline.csv",
+      "built_target": "site/assets/case/timeline.csv",
+      "sha256": "6a9653f872c37669fece09c2d113268a289f4eb722b7fbeba6a53f677963f356",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/contracts.csv",
+      "built_target": "site/assets/case/contracts.csv",
+      "sha256": "c8f6018657dd18e595b1ed822ce372ed12bab0fd59cc90e307bd9a967483003e",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/registry-notes.txt",
+      "built_target": "site/assets/case/registry-notes.txt",
+      "sha256": "4f30399ecb1e8cac632bd1a0bbe51dce71e68504200b882b99924b5b840d7428",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/domain-records.json",
+      "built_target": "site/assets/case/domain-records.json",
+      "sha256": "315fc5da19be97c876e0003534ee873a21bdba6ce6d308af56a360655081d83c",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/companies.csv",
+      "built_target": "site/assets/case/companies.csv",
+      "sha256": "52ced3ac557d60ee5f2934d4c12fa714975c5c73b3cddfd7da1ae6374dface15",
+      "byte_identical": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/api-response.json",
+      "built_target": "site/assets/case/api-response.json",
+      "sha256": "4e241db4891f3d6d71498a61175cf55cfb3ae2ea191f4b901b005f0d8fdaa86f",
+      "byte_identical": true,
+      "status": "pass"
+    }
+  ],
+  "example_urls_in_plain_text": [
+    "https://home.example/learner-a",
+    "https://notes.example/@route_lab",
+    "https://code.example/route-lab",
+    "https://photos.example/route_lab"
+  ],
+  "limitations": [
+    "Filesystem and URL-resolution checks do not prove live HTTP reachability or browser navigation.",
+    "Plain-text .example URLs and loopback training addresses are teaching evidence, not live links to investigate.",
+    "External upstream freshness is supported by dated source research; this pass did not re-query upstream APIs."
+  ],
+  "markdown_freshness_checks": [
+    {
+      "source": "docs/lessons/19-public-profiles.md",
+      "built_target": "site/lessons/19-public-profiles/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/19.md",
+      "built_target": "site/practice/labs/19/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/20-github-tools.md",
+      "built_target": "site/lessons/20-github-tools/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/20.md",
+      "built_target": "site/practice/labs/20/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/01-question.md",
+      "built_target": "site/lessons/01-question/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/01.md",
+      "built_target": "site/practice/labs/01/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/02-ethics.md",
+      "built_target": "site/lessons/02-ethics/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/02.md",
+      "built_target": "site/practice/labs/02/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/profiles/README.md",
+      "built_target": "site/assets/profiles/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/assets/case/README.md",
+      "built_target": "site/assets/case/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/03-search.md",
+      "built_target": "site/lessons/03-search/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/03.md",
+      "built_target": "site/practice/labs/03/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/04-sources.md",
+      "built_target": "site/lessons/04-sources/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/04.md",
+      "built_target": "site/practice/labs/04/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/05-evidence.md",
+      "built_target": "site/lessons/05-evidence/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/05.md",
+      "built_target": "site/practice/labs/05/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/06-images.md",
+      "built_target": "site/lessons/06-images/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/06.md",
+      "built_target": "site/practice/labs/06/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/07-video.md",
+      "built_target": "site/lessons/07-video/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/07.md",
+      "built_target": "site/practice/labs/07/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/08-geolocation.md",
+      "built_target": "site/lessons/08-geolocation/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/08.md",
+      "built_target": "site/practice/labs/08/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/09-chronolocation.md",
+      "built_target": "site/lessons/09-chronolocation/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/09.md",
+      "built_target": "site/practice/labs/09/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/10-maps.md",
+      "built_target": "site/lessons/10-maps/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/10.md",
+      "built_target": "site/practice/labs/10/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/11-companies.md",
+      "built_target": "site/lessons/11-companies/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/11.md",
+      "built_target": "site/practice/labs/11/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/12-infrastructure.md",
+      "built_target": "site/lessons/12-infrastructure/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/12.md",
+      "built_target": "site/practice/labs/12/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/13-social.md",
+      "built_target": "site/lessons/13-social/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/13.md",
+      "built_target": "site/practice/labs/13/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/14-entities.md",
+      "built_target": "site/lessons/14-entities/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/14.md",
+      "built_target": "site/practice/labs/14/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/15-data.md",
+      "built_target": "site/lessons/15-data/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/15.md",
+      "built_target": "site/practice/labs/15/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/16-python.md",
+      "built_target": "site/lessons/16-python/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/16.md",
+      "built_target": "site/practice/labs/16/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/17-disinformation-ai.md",
+      "built_target": "site/lessons/17-disinformation-ai/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/17.md",
+      "built_target": "site/practice/labs/17/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/lessons/18-reporting.md",
+      "built_target": "site/lessons/18-reporting/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    },
+    {
+      "source": "docs/practice/labs/18.md",
+      "built_target": "site/practice/labs/18/index.html",
+      "built_after_source": true,
+      "status": "pass"
+    }
+  ],
+  "license_checks": {
+    "scope_file": "LICENSE",
+    "code_license": "LICENSE-CODE",
+    "content_license": "LICENSE-CONTENT",
+    "third_party_notices": "THIRD_PARTY_NOTICES.md",
+    "built_public_license_page": "site/about/licenses/index.html",
+    "bank_prose_license": "CC BY 4.0",
+    "bank_code_license": "MIT",
+    "profile_fixture_license": "CC BY 4.0",
+    "sherlock_distribution": "not bundled; installed separately under upstream MIT license",
+    "status": "pass"
+  },
+  "source_freshness": {
+    "new_lessons_checked_date": "2026-11-03",
+    "tool_research": "research/profile-tools-review.md",
+    "upstream_rechecked_in_this_pass": false,
+    "sherlock_run_date": "2026-11-03",
+    "sherlock_version": "0.16.2",
+    "sherlock_runtime_python": "3.14.6",
+    "note": "Dated research and actual saved local execution agree with the lesson bank. Version freshness is stated as of the source-research date, not as a continuing guarantee."
+  }
+}

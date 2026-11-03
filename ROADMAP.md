@@ -1,21 +1,25 @@
 # Roadmap
 
-Version 1.0 contains the complete Russian learning route, practice and separate solutions. This roadmap describes proposed improvements; it is not a claim that unfinished v1.0 material is complete or a promise of delivery dates.
+The current course starts with public profiles and a real GitHub-tool lab, then covers the investigation workflow. It contains 20 modules/labs, with only the Python programming/API module optional, plus three projects and a capstone. A separate trainer contains 20 units and 60 exercises.
 
-## First 30 days after launch
+This page describes proposed improvements. Actual deployment and verification status, including GitHub sign-in and progress sync, is recorded in [quality notes](docs/about/quality.md).
 
-- Collect reproducibility reports and confusing passages using the issue templates.
-- Fix broken source links and document access limitations without pretending that a replacement was fully tested.
-- Ask volunteer learners for feedback on task duration; keep current times labelled estimates until measurements exist.
-- Improve English standalone materials based on specific corrections.
+## First month after the practical update
+
+- Collect reproducibility reports for the Sherlock localhost lab: environment, exact command, observed result and limitation.
+- Fix confusing profile-matching decisions and false-positive explanations using concrete reports.
+- Measure lesson and trainer duration with consenting learners before replacing current editorial estimates.
+- Verify the deployed login/sync flow on documented environments and keep unresolved limitations visible.
+- Improve English standalone resources while preserving the explicit Russian-only status of full lessons and trainer.
 
 ## Next priorities
 
-1. Add a second original case with a different evidence pattern to test transfer of skills.
-2. Pilot the course with consenting learners and revise the timing and rubrics from anonymized feedback.
-3. Translate full lessons into English in reviewed batches with a visible translation status.
-4. Add accessible text descriptions for any future complex media and extend browser testing.
+1. Add another local tool exercise with known positive, negative and failed requests, including documented upstream version changes.
+2. Test transfer with a second original case rather than repeating the same answer pattern.
+3. Extend device, keyboard and assistive-technology checks; improve progress recovery after interrupted sessions.
+4. Translate complete lessons in reviewed batches with a visible status and matching exercises.
+5. Invite structured learner feedback on whether the course supports an independent report, without claiming professional certification.
 
-## Deliberately outside scope
+## Scope of future practice
 
-Paid-only dependencies in the core route; person-finding challenges; automated profiling of private people; leaking tools; guaranteed career outcomes; star farming. New tools are accepted for a clear learning purpose, not to increase a catalog count.
+Public-profile research stays focused on synthetic material, the learner's own footprint or explicitly agreed targets. A new tool needs a concrete learning result and known limits. Private-address discovery, unauthorized profiling, leaked-data markets, authentication bypass, paid-only core dependencies and artificial star growth are outside the project.

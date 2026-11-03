@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-03",
+  "environment": "Codex in-app browser on macOS",
+  "target": "local build /evidence-first-osint/trainer/",
+  "measured_widths_px": [
+    375,
+    550,
+    812,
+    1280,
+    1440
+  ],
+  "horizontal_overflow_observed": false,
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "verified": [
+    "wrong profile answer explains evidence and queues review",
+    "corrected answer gives 10 XP and remains queued for review",
+    "three completed questions give 30 XP and unlock GitHub tools",
+    "reload and second tab preserve completion",
+    "fresh review starts blank after fixed regression",
+    "correct review clears mistake and keeps 30 XP",
+    "progress JSON download and reimport confirmed by UI",
+    "pending OAuth displays status without a broken login button",
+    "long command answers readable at width 375"
+  ],
+  "not_tested": [
+    "physical phones",
+    "screen readers",
+    "live OAuth",
+    "cross-device cloud sync",
+    "all 60 exercises through browser"
+  ],
+  "result": "PASS"
+}

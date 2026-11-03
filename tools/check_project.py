@@ -52,8 +52,8 @@ def check_structure(root):
     lessons = sorted((docs / 'lessons').glob('[0-9][0-9]-*.md'))
     counts['lessons'] = len(lessons)
     ids = [p.name[:2] for p in lessons]
-    if ids != [f'{i:02}' for i in range(1, 19)]:
-        errors.append('Expected one lesson for each identifier 01–18')
+    if ids != [f'{i:02}' for i in range(1, 21)]:
+        errors.append('Expected one lesson for each identifier 01–20')
     for path in lessons:
         source = path.read_text(encoding='utf-8')
         headings = set(re.findall(r'^## (.+)$', source, re.M))
@@ -62,7 +62,7 @@ def check_structure(root):
                 errors.append(f'{path.relative_to(root)}: missing lesson section {heading}')
         if len(prose_only(source).split()) < 350:
             errors.append(f'{path.relative_to(root)}: unusually short lesson; editorial review needed')
-    for category, total in [('labs', 18), ('projects', 3)]:
+    for category, total in [('labs', 20), ('projects', 3)]:
         for section in ('practice', 'solutions'):
             paths = list((docs / section / category).glob('[0-9][0-9].md'))
             counts[f'{section}_{category}'] = len(paths)

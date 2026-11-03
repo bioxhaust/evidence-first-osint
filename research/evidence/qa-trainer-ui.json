@@ -1,0 +1,100 @@
+{
+  "schema": "evidence-first.trainer-ui-qa.v1",
+  "executed_at": "2026-11-03T03:50:20Z",
+  "environment": {
+    "os": "macOS",
+    "os_version": "26.0.1",
+    "os_build": "25A362",
+    "architecture": "arm64",
+    "node": "26.7.0",
+    "jsdom": "30.1.3"
+  },
+  "node_tests": {
+    "command": "node --test tests/cloud.test.mjs tests/trainer-progress.test.mjs",
+    "persistent": true,
+    "exit_code": 0,
+    "total": 25,
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "files": [
+      {
+        "path": "tests/cloud.test.mjs",
+        "passed": 14
+      },
+      {
+        "path": "tests/trainer-progress.test.mjs",
+        "passed": 11
+      }
+    ],
+    "checks": [
+      "blank and secret-key configs never send requests",
+      "state validator excludes free text, invalid dates, counters and oversized payloads",
+      "login exposes no tokens, preserves local progress, and requires pull before write",
+      "pull and compare-and-swap push send the remembered revision",
+      "conflicting device write remains visible and can be retried after pull",
+      "parallel pulls share one refresh-token exchange",
+      "logout clears local credentials even when remote revocation fails",
+      "late pull response cannot install a revision after signout",
+      "email signup requires confirmation when server returns no session",
+      "restored session is verified before progress is read",
+      "invalid restored session is removed without deleting exercise data",
+      "GitHub PKCE uses SHA-256, persists verifier only in sessionStorage, then exchanges callback",
+      "unsolicited OAuth code or implicit tokens cannot establish a session",
+      "failed PKCE exchange clears one-use verifier and leaves local progress intact",
+      "a wrong answer does not award points; a corrected mistake stays in review until retrained",
+      "merge preserves offline completions and resolves review by time without doubling attempts",
+      "grading requires the exact evidence set and rejects ambiguous numeric strings",
+      "imports filter unknown IDs and prototype keys instead of allowing arbitrary progress",
+      "unlock and streak reflect completed practice, including yesterday and missed days",
+      "optional Python never blocks AI or reporting and is skipped by Continue without awarding completion",
+      "a stale second tab merges the latest local snapshot before writing",
+      "storage events recover simultaneous tab writes and settle without a write loop",
+      "account changes restore the correct namespace and invalidate late operations even for the same account",
+      "drafts survive progress merges, stay outside exports, and clear on account changes",
+      "a blocked storage write preserves in-memory practice and reports the failure"
+    ]
+  },
+  "dom_checks": {
+    "method": "Temporary JSDOM harness evaluated app.js with actual progress modules and lesson data; the cloud adapter was substituted with controlled promises and synthetic account events.",
+    "persistent": false,
+    "included_in_npm_test": false,
+    "repository_dependencies_added": false,
+    "exit_code": 0,
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "jsdom_errors": 0,
+    "checks": [
+      "delayed account verification and remote merge retain checkbox drafts and repaint XP",
+      "numeric draft and text selection survive cloud repaint",
+      "offline restored account is labelled unverified and failed logout immediately restores guest namespace",
+      "cancelled OAuth produces a visible account notice",
+      "late account-A sync cannot alter guest or account-B after logout",
+      "Python is optional in both Continue and the exercise skip action",
+      "storage event merges another tab completion without deleting the selected answer",
+      "fresh review and completed-unit replay clear old answers while unfinished navigation retains drafts"
+    ],
+    "regression_followup": {
+      "trigger": "Answer profiles-1 incorrectly, then correctly; finish the unit and open Review.",
+      "before_fix_selected_options": [
+        "1",
+        "2"
+      ],
+      "expected_new_attempt_selected_options": [],
+      "after_fix_selected_options": [],
+      "completed_unit_replay_also_starts_blank": true,
+      "in_progress_drafts_still_survive_repaint_and_navigation": true,
+      "xp_after_first_unit_and_correct_review": 30,
+      "header_without_cloud": "Профиль",
+      "review_button_label": "Заданий для повторения: 1"
+    }
+  },
+  "limitations": [
+    "DOM checks used JSDOM, not a real browser or a visual rendering engine.",
+    "Cloud responses and auth events were simulated; these checks do not establish live OAuth, Supabase availability, RLS, or actual cross-device synchronization.",
+    "Mobile layout, assistive technologies, and live browser storage behavior need separate browser verification.",
+    "The temporary DOM harness is not included in the repository; only its observed results are persisted here. A maintained browser regression suite remains future work."
+  ]
+}

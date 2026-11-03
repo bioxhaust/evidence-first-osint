@@ -1,39 +1,45 @@
 # LinkedIn — собственная лента автора
 
-[Professional Community Policies](https://www.linkedin.com/legal/professional-community-policies), просмотрены 2026-11-03: запрещены нерелевантные, нежелательные и повторяющиеся рекламные сообщения. Используйте один пост в собственной ленте; для группы дополнительно нужны её правила. Не добавляйте массовые отметки людей и не рассылайте текст через приглашения.
+[Professional Community Policies](https://www.linkedin.com/legal/professional-community-policies) прочитаны 2026-11-03. Используйте один релевантный пост в своей ленте, без массовых отметок и рассылки приглашениями. У групп дополнительные правила.
 
 ## Русский
 
-Хороший исследовательский отчёт должен позволять коллеге повторить вывод — и увидеть, где заканчиваются данные.
+Совпавший username ещё не связывает два аккаунта, а зелёный плюс инструмента ещё не доказывает существование профиля.
 
-Представляю Evidence First OSINT, бесплатный открытый курс для начинающих исследователей, журналистов, аналитиков и специалистов по информационной безопасности. Он ведёт от постановки вопроса через проверку источников, визуальных материалов, компаний и данных к отчёту с оценкой уверенности.
+В бесплатном курсе Evidence First OSINT обучение начинается с таких прикладных решений. Сначала — самоссылки публичных профилей и план проверки собственного цифрового следа. Затем — настоящий Sherlock на четырёх синтетических localhost-страницах, включая ложный HTTP 200 и тайм-аут.
 
-Внутри: 18 модулей, 18 лабораторных, три промежуточных проекта и итоговый синтетический кейс. Обязательная практика не требует платных API. Python — дополнительный маршрут. Уроки на русском; обзор, карта и основные шпаргалки и шаблоны имеют английские версии.
+Тренажёр позволяет попробовать 60 коротких заданий со свидетельствами, подсказками и объяснениями:
+https://bioxhaust.github.io/evidence-first-osint/trainer/
 
-Один материал можно взять сразу: шаблон отчёта с полями «основание», «альтернативное объяснение» и «что изменит вывод»:
-https://bioxhaust.github.io/evidence-first-osint/templates/report/
+Полная лабораторная инструмента:
+https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/
 
-Или пройти небольшое исследование за 15 минут:
-https://bioxhaust.github.io/evidence-first-osint/resources/quickstart/
+В курсе 20 модулей и 20 лабораторных, три промежуточных проекта и итоговый отчёт. Путь продолжается через проверку медиа, компаний, данных и уверенности в выводах. Только программирование на Python/API дополнительно; для обязательного запуска инструмента нужен Python и терминал, но писать программу не требуется.
 
-Репозиторий: https://github.com/bioxhaust/evidence-first-osint
+Уроки, тренажёр и практика на русском; обзор, карта, ключевые шпаргалки и шаблоны есть на английском. Полный путь рассчитан примерно на 28–36 часов, короткий тренажёр — на 2–3 часа.
 
-Будут полезны предметные замечания к методике и воспроизводимости. Проект открыт для исправлений и перевода.
+Проект, который я представляю:
+https://github.com/bioxhaust/evidence-first-osint
+
+Полезны замечания к конкретным шагам, воспроизводимости команд и качеству доказательств.
 
 ## English
 
-An investigation report should let a colleague reproduce a finding and see exactly where the evidence runs out.
+A matching username does not establish an account link, and a tool’s green result does not necessarily establish a profile.
 
-I’m sharing Evidence First OSINT, a free open course for beginning researchers, journalists, analysts and security practitioners. It covers question design, source assessment, visual verification, public records, data cleaning and reporting with explicit confidence and limitations.
+Evidence First OSINT begins with these practical decisions: public self-links and your own footprint, followed by real Sherlock running against four synthetic localhost endpoints. The exercise includes a false HTTP 200 match and a timeout.
 
-There are 18 modules, 18 labs, three checkpoint projects and a synthetic capstone. Required exercises need no paid APIs; Python is optional. Lessons and exercises are in Russian. The overview, map and core reference sheets/templates have English versions.
+Try the trainer, with 60 short exercises, evidence, hints and explanations:
+https://bioxhaust.github.io/evidence-first-osint/trainer/
 
-One resource you can use independently is the report template, which makes room for an alternative explanation and evidence that would change the finding:
-https://bioxhaust.github.io/evidence-first-osint/templates/report.en/
+Full tool lab:
+https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/
 
-Try the English 15-minute investigation:
-https://bioxhaust.github.io/evidence-first-osint/resources/quickstart.en/
+The course contains 20 modules/labs, three checkpoint projects and a capstone. It continues through visual verification, records, relationships and reporting. Only Python programming/APIs are optional; the required tool lab needs a Python runtime and terminal commands, but no programming.
 
-Project: https://github.com/bioxhaust/evidence-first-osint
+Lessons, labs and trainer are Russian. The English overview, map and key references/templates are available separately. Estimated time: 28–36 hours for the required course; 2–3 hours for the short trainer.
 
-Specific feedback on clarity, reproducibility and evidence quality would help improve the course.
+Project I maintain:
+https://github.com/bioxhaust/evidence-first-osint
+
+Specific feedback on reproducibility or overconfident conclusions would help improve the material.

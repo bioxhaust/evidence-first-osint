@@ -1,0 +1,160 @@
+{
+  "synthetic": true,
+  "network_requests": 0,
+  "summary": {
+    "input_rows": 6,
+    "unique_profiles": 5,
+    "corroborated": 2,
+    "candidate": 1,
+    "unknown": 2
+  },
+  "candidates": [
+    {
+      "profile_id": "PR01",
+      "url": "https://notes.example/@route_lab",
+      "classification": "corroborated",
+      "reason": "The stipulated hub links to this profile; only a declared relationship is supported.",
+      "result_ids": [
+        "R01",
+        "R02"
+      ],
+      "profile_source": "E-P01",
+      "anchor_source": "E-HUB"
+    },
+    {
+      "profile_id": "PR02",
+      "url": "https://code.example/route-lab",
+      "classification": "corroborated",
+      "reason": "The stipulated hub links to this profile; only a declared relationship is supported.",
+      "result_ids": [
+        "R03"
+      ],
+      "profile_source": "E-P02",
+      "anchor_source": "E-HUB"
+    },
+    {
+      "profile_id": "PR03",
+      "url": "https://photos.example/route_lab",
+      "classification": "candidate",
+      "reason": "A matching username is a lead; no stipulated self-link supports merging.",
+      "result_ids": [
+        "R04"
+      ],
+      "profile_source": "E-P03",
+      "anchor_source": null
+    },
+    {
+      "profile_id": "PR04",
+      "url": "https://forum.example/route_lab",
+      "classification": "unknown",
+      "reason": "Error or unverified not_found does not establish absence.",
+      "result_ids": [
+        "R05"
+      ],
+      "profile_source": "E-SCAN",
+      "anchor_source": null
+    },
+    {
+      "profile_id": "PR05",
+      "url": "https://video.example/@route_lab",
+      "classification": "unknown",
+      "reason": "Error or unverified not_found does not establish absence.",
+      "result_ids": [
+        "R06"
+      ],
+      "profile_source": "E-P05",
+      "anchor_source": null
+    }
+  ],
+  "ledger": [
+    {
+      "row": 1,
+      "result_id": "R01",
+      "canonical_url": "https://notes.example/@route_lab",
+      "decision": "new_url",
+      "raw": {
+        "result_id": "R01",
+        "profile_id": "PR01",
+        "username": "route_lab",
+        "url": "https://notes.example/@route_lab",
+        "status": "found",
+        "detail": "Profile-like page returned; manual corroboration still required."
+      }
+    },
+    {
+      "row": 2,
+      "result_id": "R02",
+      "canonical_url": "https://notes.example/@route_lab",
+      "decision": "duplicate_url",
+      "raw": {
+        "result_id": "R02",
+        "profile_id": "PR01",
+        "username": "route_lab",
+        "url": "https://NOTES.example/@route_lab#about",
+        "status": "found",
+        "detail": "Duplicate page with case-normalized hostname and fragment."
+      }
+    },
+    {
+      "row": 3,
+      "result_id": "R03",
+      "canonical_url": "https://code.example/route-lab",
+      "decision": "new_url",
+      "raw": {
+        "result_id": "R03",
+        "profile_id": "PR02",
+        "username": "route-lab",
+        "url": "https://code.example/route-lab",
+        "status": "found",
+        "detail": "Profile-like page returned."
+      }
+    },
+    {
+      "row": 4,
+      "result_id": "R04",
+      "canonical_url": "https://photos.example/route_lab",
+      "decision": "new_url",
+      "raw": {
+        "result_id": "R04",
+        "profile_id": "PR03",
+        "username": "route_lab",
+        "url": "https://photos.example/route_lab",
+        "status": "found",
+        "detail": "A username exists; identity relation is not checked."
+      }
+    },
+    {
+      "row": 5,
+      "result_id": "R05",
+      "canonical_url": "https://forum.example/route_lab",
+      "decision": "new_url",
+      "raw": {
+        "result_id": "R05",
+        "profile_id": "PR04",
+        "username": "route_lab",
+        "url": "https://forum.example/route_lab",
+        "status": "error",
+        "detail": "timeout; no page content collected."
+      }
+    },
+    {
+      "row": 6,
+      "result_id": "R06",
+      "canonical_url": "https://video.example/@route_lab",
+      "decision": "new_url",
+      "raw": {
+        "result_id": "R06",
+        "profile_id": "PR05",
+        "username": "route_lab",
+        "url": "https://video.example/@route_lab",
+        "status": "not_found",
+        "detail": "Unverified absence heuristic; returned a generic sign-in page."
+      }
+    }
+  ],
+  "limitation": "Classification is only for the stipulated synthetic corpus. It does not prove legal identity, current ownership or real-world absence.",
+  "input_sha256": {
+    "scanner_results": "2ee9c5de3f5679ba603ea18a46750881e2efa54e47dc723d796d09f80cfd9f13",
+    "profiles": "a2119e6b25310f88600a146c484b6b903921ae32dae886d436ee99995bd3c232"
+  }
+}

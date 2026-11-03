@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "tool": "TrainingScanner (fictional; not Sherlock/Maigret output)",
+  "run_id": "TRAIN-RUN-01",
+  "observed_at": "2026-10-01T12:20:00Z",
+  "results": [
+    {
+      "result_id": "R01",
+      "profile_id": "PR01",
+      "username": "route_lab",
+      "url": "https://notes.example/@route_lab",
+      "status": "found",
+      "detail": "Profile-like page returned; manual corroboration still required."
+    },
+    {
+      "result_id": "R02",
+      "profile_id": "PR01",
+      "username": "route_lab",
+      "url": "https://NOTES.example/@route_lab#about",
+      "status": "found",
+      "detail": "Duplicate page with case-normalized hostname and fragment."
+    },
+    {
+      "result_id": "R03",
+      "profile_id": "PR02",
+      "username": "route-lab",
+      "url": "https://code.example/route-lab",
+      "status": "found",
+      "detail": "Profile-like page returned."
+    },
+    {
+      "result_id": "R04",
+      "profile_id": "PR03",
+      "username": "route_lab",
+      "url": "https://photos.example/route_lab",
+      "status": "found",
+      "detail": "A username exists; identity relation is not checked."
+    },
+    {
+      "result_id": "R05",
+      "profile_id": "PR04",
+      "username": "route_lab",
+      "url": "https://forum.example/route_lab",
+      "status": "error",
+      "detail": "timeout; no page content collected."
+    },
+    {
+      "result_id": "R06",
+      "profile_id": "PR05",
+      "username": "route_lab",
+      "url": "https://video.example/@route_lab",
+      "status": "not_found",
+      "detail": "Unverified absence heuristic; returned a generic sign-in page."
+    }
+  ]
+}
