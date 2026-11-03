@@ -18,4 +18,4 @@ First release of the course and trainer with local browser progress. GitHub OAut
 
 The required tool lab needs a Python runtime and terminal commands, but no programming. Reading a saved tool run does not replace completing its execution. Tests, environments, external-source checks and remaining limitations belong in the current quality report rather than inherited check counts.
 
-Validation recorded for this implementation: 19 Python tests, 25 persistent Node tests, 13 checks of the migration in a local PostgreSQL cluster, and 7 additional temporary JSDOM scenarios. Cloud replies/auth events were simulated in JavaScript; PostgreSQL used simulated Supabase roles/auth.uid(). These checks do not establish live hosted authentication.
+Validation recorded for this implementation: 19 Python tests, 25 persistent Node tests, 13 checks of the migration in a local PostgreSQL cluster, and 8 additional temporary JSDOM scenarios. Cloud replies/auth events were simulated in JavaScript; PostgreSQL used simulated Supabase roles/auth.uid(). These checks do not establish live hosted authentication.

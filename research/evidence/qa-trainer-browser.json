@@ -32,5 +32,10 @@
     "cross-device cloud sync",
     "all 60 exercises through browser"
   ],
-  "result": "PASS"
+  "result": "PASS",
+  "public_smoke": {
+    "url": "https://bioxhaust.github.io/evidence-first-osint/trainer/",
+    "first_exercise": "correct feedback and 10 XP confirmed",
+    "commit": "4baf705dc69dae1224345d7d47923c74cb5d6a62"
+  }
 }

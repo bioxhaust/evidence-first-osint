@@ -1,0 +1,2352 @@
+{
+  "checked_date": "2026-11-03",
+  "observed_at_utc": "2026-11-03T04:07:04.772154+00:00",
+  "commit": "4baf705dc69dae1224345d7d47923c74cb5d6a62",
+  "actions_run": 41575884217,
+  "method": "Anonymous urllib GET with no authorization or cookies; four workers; 20s timeout; one retry for transient HTTP/network errors; response bodies discarded.",
+  "html_check": "HTTP 200 and title equal to matching local site build; trainer mount and module script also checked.",
+  "asset_check": "SHA-256 of all seven trainer JS/CSS files and five profile JSON files compared to deployed-commit local site build.",
+  "limitations": [
+    "Static publication check only; this does not test browser interactions.",
+    "Supabase OAuth and cross-device sync were deferred and are not verified here.",
+    "Release creation and release version are outside this check."
+  ],
+  "summary": {
+    "html": {
+      "checked": 103,
+      "passed": 103
+    },
+    "asset": {
+      "checked": 12,
+      "passed": 12
+    },
+    "repository": {
+      "checked": 1,
+      "passed": 1
+    },
+    "all_passed": true
+  },
+  "results": [
+    {
+      "kind": "html",
+      "path": "404.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/404.html",
+      "expected_title": "Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/404.html",
+      "bytes": 39023,
+      "truncated": false,
+      "title": "Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/404.html",
+          "bytes": 39023
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "about/contributing/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/about/contributing/",
+      "expected_title": "Участие - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/contributing/",
+      "bytes": 41927,
+      "truncated": false,
+      "title": "Участие - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/contributing/",
+          "bytes": 41927
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "about/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/about/",
+      "expected_title": "О проекте - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/",
+      "bytes": 43610,
+      "truncated": false,
+      "title": "О проекте - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/",
+          "bytes": 43610
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "about/licenses/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/about/licenses/",
+      "expected_title": "Лицензии - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/licenses/",
+      "bytes": 46706,
+      "truncated": false,
+      "title": "Лицензии - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/licenses/",
+          "bytes": 46706
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "about/quality/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/about/quality/",
+      "expected_title": "Проверки качества - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/quality/",
+      "bytes": 60328,
+      "truncated": false,
+      "title": "Проверки качества - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/quality/",
+          "bytes": 60328
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "about/roadmap/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/about/roadmap/",
+      "expected_title": "План развития - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/roadmap/",
+      "bytes": 40435,
+      "truncated": false,
+      "title": "План развития - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/roadmap/",
+          "bytes": 40435
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "about/sources/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/about/sources/",
+      "expected_title": "Источники и инструменты - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/sources/",
+      "bytes": 57380,
+      "truncated": false,
+      "title": "Источники и инструменты - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/about/sources/",
+          "bytes": 57380
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "assets/case/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/",
+      "expected_title": "Учебный корпус - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/",
+      "bytes": 49065,
+      "truncated": false,
+      "title": "Учебный корпус - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/case/",
+          "bytes": 49065
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "assets/profiles/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/",
+      "expected_title": "Профильный корпус - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/",
+      "bytes": 47882,
+      "truncated": false,
+      "title": "Профильный корпус - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/",
+          "bytes": 47882
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/en/",
+      "expected_title": "English overview - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/en/",
+      "bytes": 47305,
+      "truncated": false,
+      "title": "English overview - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/en/",
+          "bytes": 47305
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/",
+      "expected_title": "Сначала доказательства - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/",
+      "bytes": 48151,
+      "truncated": false,
+      "title": "Сначала доказательства - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/",
+          "bytes": 48151
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/01-question/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/01-question/",
+      "expected_title": "01. Вопрос и гипотезы - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/01-question/",
+      "bytes": 56774,
+      "truncated": false,
+      "title": "01. Вопрос и гипотезы - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/01-question/",
+          "bytes": 56774
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/02-ethics/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/02-ethics/",
+      "expected_title": "02. Этика и безопасность - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/02-ethics/",
+      "bytes": 58032,
+      "truncated": false,
+      "title": "02. Этика и безопасность - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/02-ethics/",
+          "bytes": 58032
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/03-search/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/03-search/",
+      "expected_title": "03. Поиск и архивы - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/03-search/",
+      "bytes": 56431,
+      "truncated": false,
+      "title": "03. Поиск и архивы - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/03-search/",
+          "bytes": 56431
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/04-sources/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/04-sources/",
+      "expected_title": "04. Источники и ошибки мышления - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/04-sources/",
+      "bytes": 57020,
+      "truncated": false,
+      "title": "04. Источники и ошибки мышления - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/04-sources/",
+          "bytes": 57020
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/05-evidence/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/05-evidence/",
+      "expected_title": "05. Сохранение доказательств - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/05-evidence/",
+      "bytes": 56881,
+      "truncated": false,
+      "title": "05. Сохранение доказательств - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/05-evidence/",
+          "bytes": 56881
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/06-images/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/06-images/",
+      "expected_title": "06. Изображения - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/06-images/",
+      "bytes": 56502,
+      "truncated": false,
+      "title": "06. Изображения - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/06-images/",
+          "bytes": 56502
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/07-video/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/07-video/",
+      "expected_title": "07. Видео - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/07-video/",
+      "bytes": 56524,
+      "truncated": false,
+      "title": "07. Видео - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/07-video/",
+          "bytes": 56524
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/08-geolocation/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/08-geolocation/",
+      "expected_title": "08. Геолокация - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/08-geolocation/",
+      "bytes": 56137,
+      "truncated": false,
+      "title": "08. Геолокация - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/08-geolocation/",
+          "bytes": 56137
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/09-chronolocation/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/09-chronolocation/",
+      "expected_title": "09. Время события - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/09-chronolocation/",
+      "bytes": 55879,
+      "truncated": false,
+      "title": "09. Время события - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/09-chronolocation/",
+          "bytes": 55879
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/10-maps/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/10-maps/",
+      "expected_title": "10. Карты и спутниковые данные - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/10-maps/",
+      "bytes": 59076,
+      "truncated": false,
+      "title": "10. Карты и спутниковые данные - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/10-maps/",
+          "bytes": 59076
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/11-companies/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/11-companies/",
+      "expected_title": "11. Компании и закупки - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/11-companies/",
+      "bytes": 56736,
+      "truncated": false,
+      "title": "11. Компании и закупки - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/11-companies/",
+          "bytes": 56736
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/12-infrastructure/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/12-infrastructure/",
+      "expected_title": "12. Домены, DNS и сертификаты - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/12-infrastructure/",
+      "bytes": 57163,
+      "truncated": false,
+      "title": "12. Домены, DNS и сертификаты - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/12-infrastructure/",
+          "bytes": 57163
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/13-social/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/13-social/",
+      "expected_title": "13. Публичный контент платформ - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/13-social/",
+      "bytes": 56853,
+      "truncated": false,
+      "title": "13. Публичный контент платформ - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/13-social/",
+          "bytes": 56853
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/14-entities/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/14-entities/",
+      "expected_title": "14. Сущности и связи - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/14-entities/",
+      "bytes": 56983,
+      "truncated": false,
+      "title": "14. Сущности и связи - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/14-entities/",
+          "bytes": 56983
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/15-data/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/15-data/",
+      "expected_title": "15. Очистка данных - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/15-data/",
+      "bytes": 56599,
+      "truncated": false,
+      "title": "15. Очистка данных - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/15-data/",
+          "bytes": 56599
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/16-python/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/16-python/",
+      "expected_title": "16. Python и API (дополнительно) - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/16-python/",
+      "bytes": 67865,
+      "truncated": false,
+      "title": "16. Python и API (дополнительно) - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/16-python/",
+          "bytes": 67865
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/17-disinformation-ai/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/17-disinformation-ai/",
+      "expected_title": "17. Дезинформация и ИИ - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/17-disinformation-ai/",
+      "bytes": 58731,
+      "truncated": false,
+      "title": "17. Дезинформация и ИИ - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/17-disinformation-ai/",
+          "bytes": 58731
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/18-reporting/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/18-reporting/",
+      "expected_title": "18. Отчёт и уверенность - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/18-reporting/",
+      "bytes": 58376,
+      "truncated": false,
+      "title": "18. Отчёт и уверенность - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/18-reporting/",
+          "bytes": 58376
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/19-public-profiles/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/19-public-profiles/",
+      "expected_title": "Старт. Публичные профили - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/19-public-profiles/",
+      "bytes": 57884,
+      "truncated": false,
+      "title": "Старт. Публичные профили - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/19-public-profiles/",
+          "bytes": 57884
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/20-github-tools/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/20-github-tools/",
+      "expected_title": "Старт. Инструменты с GitHub - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/20-github-tools/",
+      "bytes": 59529,
+      "truncated": false,
+      "title": "Старт. Инструменты с GitHub - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/20-github-tools/",
+          "bytes": 59529
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "lessons/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/lessons/",
+      "expected_title": "Программа: начните с находки - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/",
+      "bytes": 44545,
+      "truncated": false,
+      "title": "Программа: начните с находки - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/lessons/",
+          "bytes": 44545
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/capstone/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/capstone/",
+      "expected_title": "Итоговый кейс - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/capstone/",
+      "bytes": 51545,
+      "truncated": false,
+      "title": "Итоговый кейс - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/capstone/",
+          "bytes": 51545
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/",
+      "expected_title": "Практика: сначала найдите и проверьте - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/",
+      "bytes": 48470,
+      "truncated": false,
+      "title": "Практика: сначала найдите и проверьте - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/",
+          "bytes": 48470
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/01/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/01/",
+      "expected_title": "Лабораторная 01. Из утверждения — в проверяемый вопрос - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/01/",
+      "bytes": 43627,
+      "truncated": false,
+      "title": "Лабораторная 01. Из утверждения — в проверяемый вопрос - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/01/",
+          "bytes": 43627
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/02/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/02/",
+      "expected_title": "Лабораторная 02. Границы исследования и минимизация - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/02/",
+      "bytes": 44159,
+      "truncated": false,
+      "title": "Лабораторная 02. Границы исследования и минимизация - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/02/",
+          "bytes": 44159
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/03/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/03/",
+      "expected_title": "Лабораторная 03. Поисковый журнал без зависимости от выдачи - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/03/",
+      "bytes": 43783,
+      "truncated": false,
+      "title": "Лабораторная 03. Поисковый журнал без зависимости от выдачи - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/03/",
+          "bytes": 43783
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/04/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/04/",
+      "expected_title": "Лабораторная 04. Пять сообщений — сколько источников? - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/04/",
+      "bytes": 42894,
+      "truncated": false,
+      "title": "Лабораторная 04. Пять сообщений — сколько источников? - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/04/",
+          "bytes": 42894
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/05/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/05/",
+      "expected_title": "Лабораторная 05. Пакет доказательств, который можно проверить - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/05/",
+      "bytes": 44819,
+      "truncated": false,
+      "title": "Лабораторная 05. Пакет доказательств, который можно проверить - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/05/",
+          "bytes": 44819
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/06/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/06/",
+      "expected_title": "Лабораторная 06. Изображение старше подписи - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/06/",
+      "bytes": 43540,
+      "truncated": false,
+      "title": "Лабораторная 06. Изображение старше подписи - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/06/",
+          "bytes": 43540
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/07/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/07/",
+      "expected_title": "Лабораторная 07. Кадры не равны непрерывной записи - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/07/",
+      "bytes": 43682,
+      "truncated": false,
+      "title": "Лабораторная 07. Кадры не равны непрерывной записи - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/07/",
+          "bytes": 43682
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/08/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/08/",
+      "expected_title": "Лабораторная 08. Два похожих моста - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/08/",
+      "bytes": 43371,
+      "truncated": false,
+      "title": "Лабораторная 08. Два похожих моста - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/08/",
+          "bytes": 43371
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/09/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/09/",
+      "expected_title": "Лабораторная 09. Четыре вида времени - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/09/",
+      "bytes": 43055,
+      "truncated": false,
+      "title": "Лабораторная 09. Четыре вида времени - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/09/",
+          "bytes": 43055
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/10/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/10/",
+      "expected_title": "Лабораторная 10. Что позволяет разрешение карты - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/10/",
+      "bytes": 43415,
+      "truncated": false,
+      "title": "Лабораторная 10. Что позволяет разрешение карты - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/10/",
+          "bytes": 43415
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/11/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/11/",
+      "expected_title": "Лабораторная 11. Стоимость контракта и выплата - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/11/",
+      "bytes": 42905,
+      "truncated": false,
+      "title": "Лабораторная 11. Стоимость контракта и выплата - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/11/",
+          "bytes": 42905
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/12/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/12/",
+      "expected_title": "Лабораторная 12. Инфраструктура без атрибуции владельца - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/12/",
+      "bytes": 43362,
+      "truncated": false,
+      "title": "Лабораторная 12. Инфраструктура без атрибуции владельца - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/12/",
+          "bytes": 43362
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/13/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/13/",
+      "expected_title": "Лабораторная 13. Публичный пост как объект проверки - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/13/",
+      "bytes": 43027,
+      "truncated": false,
+      "title": "Лабораторная 13. Публичный пост как объект проверки - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/13/",
+          "bytes": 43027
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/14/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/14/",
+      "expected_title": "Лабораторная 14. Граф без ложных слияний - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/14/",
+      "bytes": 43037,
+      "truncated": false,
+      "title": "Лабораторная 14. Граф без ложных слияний - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/14/",
+          "bytes": 43037
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/15/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/15/",
+      "expected_title": "Лабораторная 15. Очистить данные, сохранить решения - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/15/",
+      "bytes": 43155,
+      "truncated": false,
+      "title": "Лабораторная 15. Очистить данные, сохранить решения - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/15/",
+          "bytes": 43155
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/16/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/16/",
+      "expected_title": "Лабораторная 16. Необязательный маршрут Python - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/16/",
+      "bytes": 43926,
+      "truncated": false,
+      "title": "Лабораторная 16. Необязательный маршрут Python - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/16/",
+          "bytes": 43926
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/17/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/17/",
+      "expected_title": "Лабораторная 17. Проверить уверенный ответ ИИ - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/17/",
+      "bytes": 44006,
+      "truncated": false,
+      "title": "Лабораторная 17. Проверить уверенный ответ ИИ - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/17/",
+          "bytes": 44006
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/18/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/18/",
+      "expected_title": "Лабораторная 18. Вывод, который выдержит редактуру - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/18/",
+      "bytes": 43177,
+      "truncated": false,
+      "title": "Лабораторная 18. Вывод, который выдержит редактуру - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/18/",
+          "bytes": 43177
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/19/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/19/",
+      "expected_title": "Лабораторная: найти свои профили и не присоединить чужой - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/19/",
+      "bytes": 44911,
+      "truncated": false,
+      "title": "Лабораторная: найти свои профили и не присоединить чужой - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/19/",
+          "bytes": 44911
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/labs/20/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/",
+      "expected_title": "Лабораторная: Sherlock на страницах с известным ответом - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/",
+      "bytes": 47424,
+      "truncated": false,
+      "title": "Лабораторная: Sherlock на страницах с известным ответом - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/labs/20/",
+          "bytes": 47424
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/projects/01/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/01/",
+      "expected_title": "Проект 1 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/01/",
+      "bytes": 46918,
+      "truncated": false,
+      "title": "Проект 1 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/01/",
+          "bytes": 46918
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/projects/02/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/02/",
+      "expected_title": "Проект 2 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/02/",
+      "bytes": 46758,
+      "truncated": false,
+      "title": "Проект 2 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/02/",
+          "bytes": 46758
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "practice/projects/03/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/03/",
+      "expected_title": "Проект 3 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/03/",
+      "bytes": 46206,
+      "truncated": false,
+      "title": "Проект 3 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/practice/projects/03/",
+          "bytes": 46206
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/30-days/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/30-days/",
+      "expected_title": "Маршрут на 30 дней - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/30-days/",
+      "bytes": 65135,
+      "truncated": false,
+      "title": "Маршрут на 30 дней - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/30-days/",
+          "bytes": 65135
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/challenge/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/challenge/",
+      "expected_title": "Челлендж - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/challenge/",
+      "bytes": 47839,
+      "truncated": false,
+      "title": "Челлендж - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/challenge/",
+          "bytes": 47839
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/course-map/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/course-map/",
+      "expected_title": "Карта курса - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/course-map/",
+      "bytes": 52384,
+      "truncated": false,
+      "title": "Карта курса - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/course-map/",
+          "bytes": 52384
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/course-map.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/course-map.en/",
+      "expected_title": "Course map: start with a finding - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/course-map.en/",
+      "bytes": 46701,
+      "truncated": false,
+      "title": "Course map: start with a finding - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/course-map.en/",
+          "bytes": 46701
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/decision-tree/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/decision-tree/",
+      "expected_title": "Дерево методов - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/decision-tree/",
+      "bytes": 44123,
+      "truncated": false,
+      "title": "Дерево методов - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/decision-tree/",
+          "bytes": 44123
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/decision-tree.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/decision-tree.en/",
+      "expected_title": "Choose a method from the question - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/decision-tree.en/",
+      "bytes": 40260,
+      "truncated": false,
+      "title": "Choose a method from the question - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/decision-tree.en/",
+          "bytes": 40260
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/",
+      "expected_title": "Полезные материалы - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/",
+      "bytes": 44011,
+      "truncated": false,
+      "title": "Полезные материалы - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/",
+          "bytes": 44011
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/media-checklist/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/media-checklist/",
+      "expected_title": "Проверка фото и видео - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/media-checklist/",
+      "bytes": 47368,
+      "truncated": false,
+      "title": "Проверка фото и видео - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/media-checklist/",
+          "bytes": 47368
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/media-checklist.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/media-checklist.en/",
+      "expected_title": "Photo and video verification checklist - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/media-checklist.en/",
+      "bytes": 40377,
+      "truncated": false,
+      "title": "Photo and video verification checklist - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/media-checklist.en/",
+          "bytes": 40377
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/quickstart/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/quickstart/",
+      "expected_title": "Первые 15 минут - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/quickstart/",
+      "bytes": 49034,
+      "truncated": false,
+      "title": "Первые 15 минут - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/quickstart/",
+          "bytes": 49034
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/quickstart.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/quickstart.en/",
+      "expected_title": "Your first OSINT investigation in 15 minutes - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/quickstart.en/",
+      "bytes": 40978,
+      "truncated": false,
+      "title": "Your first OSINT investigation in 15 minutes - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/quickstart.en/",
+          "bytes": 40978
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/search/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/search/",
+      "expected_title": "Поисковые операторы - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/search/",
+      "bytes": 47334,
+      "truncated": false,
+      "title": "Поисковые операторы - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/search/",
+          "bytes": 47334
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "resources/search.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/resources/search.en/",
+      "expected_title": "Search operators, with limits - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/search.en/",
+      "bytes": 40482,
+      "truncated": false,
+      "title": "Search operators, with limits - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/resources/search.en/",
+          "bytes": 40482
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/capstone/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/capstone/",
+      "expected_title": "Итоговый отчёт - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/capstone/",
+      "bytes": 68032,
+      "truncated": false,
+      "title": "Итоговый отчёт - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/capstone/",
+          "bytes": 68032
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/",
+      "expected_title": "Решения и объяснения - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/",
+      "bytes": 45320,
+      "truncated": false,
+      "title": "Решения и объяснения - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/",
+          "bytes": 45320
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/01/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/01/",
+      "expected_title": "Разбор лабораторной 01 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/01/",
+      "bytes": 42666,
+      "truncated": false,
+      "title": "Разбор лабораторной 01 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/01/",
+          "bytes": 42666
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/02/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/02/",
+      "expected_title": "Разбор лабораторной 02 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/02/",
+      "bytes": 41667,
+      "truncated": false,
+      "title": "Разбор лабораторной 02 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/02/",
+          "bytes": 41667
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/03/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/03/",
+      "expected_title": "Разбор лабораторной 03 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/03/",
+      "bytes": 41355,
+      "truncated": false,
+      "title": "Разбор лабораторной 03 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/03/",
+          "bytes": 41355
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/04/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/04/",
+      "expected_title": "Разбор лабораторной 04 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/04/",
+      "bytes": 41246,
+      "truncated": false,
+      "title": "Разбор лабораторной 04 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/04/",
+          "bytes": 41246
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/05/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/05/",
+      "expected_title": "Разбор лабораторной 05 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/05/",
+      "bytes": 41980,
+      "truncated": false,
+      "title": "Разбор лабораторной 05 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/05/",
+          "bytes": 41980
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/06/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/06/",
+      "expected_title": "Разбор лабораторной 06 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/06/",
+      "bytes": 41309,
+      "truncated": false,
+      "title": "Разбор лабораторной 06 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/06/",
+          "bytes": 41309
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/07/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/07/",
+      "expected_title": "Разбор лабораторной 07 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/07/",
+      "bytes": 41353,
+      "truncated": false,
+      "title": "Разбор лабораторной 07 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/07/",
+          "bytes": 41353
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/08/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/08/",
+      "expected_title": "Разбор лабораторной 08 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/08/",
+      "bytes": 41207,
+      "truncated": false,
+      "title": "Разбор лабораторной 08 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/08/",
+          "bytes": 41207
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/09/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/09/",
+      "expected_title": "Разбор лабораторной 09 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/09/",
+      "bytes": 40842,
+      "truncated": false,
+      "title": "Разбор лабораторной 09 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/09/",
+          "bytes": 40842
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/10/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/10/",
+      "expected_title": "Разбор лабораторной 10 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/10/",
+      "bytes": 41150,
+      "truncated": false,
+      "title": "Разбор лабораторной 10 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/10/",
+          "bytes": 41150
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/11/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/11/",
+      "expected_title": "Разбор лабораторной 11 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/11/",
+      "bytes": 41190,
+      "truncated": false,
+      "title": "Разбор лабораторной 11 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/11/",
+          "bytes": 41190
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/12/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/12/",
+      "expected_title": "Разбор лабораторной 12 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/12/",
+      "bytes": 41316,
+      "truncated": false,
+      "title": "Разбор лабораторной 12 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/12/",
+          "bytes": 41316
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/13/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/13/",
+      "expected_title": "Разбор лабораторной 13 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/13/",
+      "bytes": 41114,
+      "truncated": false,
+      "title": "Разбор лабораторной 13 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/13/",
+          "bytes": 41114
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/14/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/14/",
+      "expected_title": "Разбор лабораторной 14 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/14/",
+      "bytes": 41181,
+      "truncated": false,
+      "title": "Разбор лабораторной 14 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/14/",
+          "bytes": 41181
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/15/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/15/",
+      "expected_title": "Разбор лабораторной 15 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/15/",
+      "bytes": 41123,
+      "truncated": false,
+      "title": "Разбор лабораторной 15 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/15/",
+          "bytes": 41123
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/16/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/16/",
+      "expected_title": "Разбор лабораторной 16 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/16/",
+      "bytes": 41425,
+      "truncated": false,
+      "title": "Разбор лабораторной 16 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/16/",
+          "bytes": 41425
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/17/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/17/",
+      "expected_title": "Разбор лабораторной 17 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/17/",
+      "bytes": 41571,
+      "truncated": false,
+      "title": "Разбор лабораторной 17 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/17/",
+          "bytes": 41571
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/18/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/18/",
+      "expected_title": "Разбор лабораторной 18 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/18/",
+      "bytes": 41844,
+      "truncated": false,
+      "title": "Разбор лабораторной 18 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/18/",
+          "bytes": 41844
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/19/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/19/",
+      "expected_title": "Разбор: публичные профили и свой след - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/19/",
+      "bytes": 43814,
+      "truncated": false,
+      "title": "Разбор: публичные профили и свой след - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/19/",
+          "bytes": 43814
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/labs/20/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/20/",
+      "expected_title": "Разбор: настоящий Sherlock и ложное срабатывание - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/20/",
+      "bytes": 45416,
+      "truncated": false,
+      "title": "Разбор: настоящий Sherlock и ложное срабатывание - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/labs/20/",
+          "bytes": 45416
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/projects/01/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/01/",
+      "expected_title": "Разбор проекта 01 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/01/",
+      "bytes": 46127,
+      "truncated": false,
+      "title": "Разбор проекта 01 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/01/",
+          "bytes": 46127
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/projects/02/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/02/",
+      "expected_title": "Разбор проекта 02 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/02/",
+      "bytes": 47441,
+      "truncated": false,
+      "title": "Разбор проекта 02 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/02/",
+          "bytes": 47441
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "solutions/projects/03/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/03/",
+      "expected_title": "Разбор проекта 03 - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/03/",
+      "bytes": 46340,
+      "truncated": false,
+      "title": "Разбор проекта 03 - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/solutions/projects/03/",
+          "bytes": 46340
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "start/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/start/",
+      "expected_title": "Как учиться - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/start/",
+      "bytes": 50153,
+      "truncated": false,
+      "title": "Как учиться - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/start/",
+          "bytes": 50153
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "templates/confidence/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/templates/confidence/",
+      "expected_title": "Шкала уверенности - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/confidence/",
+      "bytes": 44808,
+      "truncated": false,
+      "title": "Шкала уверенности - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/confidence/",
+          "bytes": 44808
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "templates/confidence.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/templates/confidence.en/",
+      "expected_title": "Confidence without false precision - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/confidence.en/",
+      "bytes": 39905,
+      "truncated": false,
+      "title": "Confidence without false precision - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/confidence.en/",
+          "bytes": 39905
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "templates/journal/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/templates/journal/",
+      "expected_title": "Журнал - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/journal/",
+      "bytes": 46622,
+      "truncated": false,
+      "title": "Журнал - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/journal/",
+          "bytes": 46622
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "templates/journal.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/templates/journal.en/",
+      "expected_title": "Investigation journal template - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/journal.en/",
+      "bytes": 41513,
+      "truncated": false,
+      "title": "Investigation journal template - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/journal.en/",
+          "bytes": 41513
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "templates/report/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/templates/report/",
+      "expected_title": "Отчёт - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/report/",
+      "bytes": 49428,
+      "truncated": false,
+      "title": "Отчёт - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/report/",
+          "bytes": 49428
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "templates/report.en/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/templates/report.en/",
+      "expected_title": "Evidence-led report template - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/report.en/",
+      "bytes": 42964,
+      "truncated": false,
+      "title": "Evidence-led report template - Evidence First OSINT",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/templates/report.en/",
+          "bytes": 42964
+        }
+      ]
+    },
+    {
+      "kind": "html",
+      "path": "trainer/index.html",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/trainer/",
+      "expected_title": "OSINT-тренажёр - Evidence First OSINT",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/trainer/",
+      "bytes": 39548,
+      "truncated": false,
+      "title": "OSINT-тренажёр - Evidence First OSINT",
+      "content_matches": true,
+      "trainer_mount_present": true,
+      "trainer_script_present": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/trainer/",
+          "bytes": 39548
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/app.js",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/app.js",
+      "expected_sha256": "eb05d9211bfb601a5c2d6edfedfa10b254ceafb3cc80a81bc11eab9b02c04d8f",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/app.js",
+      "bytes": 30672,
+      "truncated": false,
+      "sha256": "eb05d9211bfb601a5c2d6edfedfa10b254ceafb3cc80a81bc11eab9b02c04d8f",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/app.js",
+          "bytes": 30672
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/cloud.js",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/cloud.js",
+      "expected_sha256": "a4d56b153607b5182fd66777ba76c07a83fd7069e9ee5720797417e5e92d5313",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/cloud.js",
+      "bytes": 20337,
+      "truncated": false,
+      "sha256": "a4d56b153607b5182fd66777ba76c07a83fd7069e9ee5720797417e5e92d5313",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/cloud.js",
+          "bytes": 20337
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/config.js",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/config.js",
+      "expected_sha256": "dd2a095dc2f9912e13faacb256ee682cbfbaa244b1fcb873411e927b7a5617dc",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/config.js",
+      "bytes": 357,
+      "truncated": false,
+      "sha256": "dd2a095dc2f9912e13faacb256ee682cbfbaa244b1fcb873411e927b7a5617dc",
+      "hash_matches": true,
+      "pass": true,
+      "empty_public_auth_configuration": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/config.js",
+          "bytes": 357
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/lessons.js",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/lessons.js",
+      "expected_sha256": "91c024ea03c2a3104d620423687503cf617d6e8d5390eafd8f2cabae9335b111",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/lessons.js",
+      "bytes": 76654,
+      "truncated": false,
+      "sha256": "91c024ea03c2a3104d620423687503cf617d6e8d5390eafd8f2cabae9335b111",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/lessons.js",
+          "bytes": 76654
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/progress.js",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/progress.js",
+      "expected_sha256": "427a56f0c505d49a54fb8909f22f06cce84ce312ec5c8ff69885704ff3158752",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/progress.js",
+      "bytes": 5261,
+      "truncated": false,
+      "sha256": "427a56f0c505d49a54fb8909f22f06cce84ce312ec5c8ff69885704ff3158752",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/progress.js",
+          "bytes": 5261
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/session-state.js",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/session-state.js",
+      "expected_sha256": "c63cbb7c6fc8acf2bffaf3815cb307f0bd3843fa4dcc250d574693e0e87f0c02",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/session-state.js",
+      "bytes": 2177,
+      "truncated": false,
+      "sha256": "c63cbb7c6fc8acf2bffaf3815cb307f0bd3843fa4dcc250d574693e0e87f0c02",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/session-state.js",
+          "bytes": 2177
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/trainer/trainer.css",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/trainer.css",
+      "expected_sha256": "4cfda99655333cc78428ddf7451997a24ec1adb0c7a8019b6a568038605bb71f",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/trainer.css",
+      "bytes": 10628,
+      "truncated": false,
+      "sha256": "4cfda99655333cc78428ddf7451997a24ec1adb0c7a8019b6a568038605bb71f",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/trainer/trainer.css",
+          "bytes": 10628
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/profiles/profiles.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/profiles.json",
+      "expected_sha256": "a2119e6b25310f88600a146c484b6b903921ae32dae886d436ee99995bd3c232",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/profiles.json",
+      "bytes": 2941,
+      "truncated": false,
+      "sha256": "a2119e6b25310f88600a146c484b6b903921ae32dae886d436ee99995bd3c232",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/profiles.json",
+          "bytes": 2941
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/profiles/result-example.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/result-example.json",
+      "expected_sha256": "333b4a492e0a23bf18fd6eb64abadf4c58ea55d39d82c908f3d39d471b065b6f",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/result-example.json",
+      "bytes": 4653,
+      "truncated": false,
+      "sha256": "333b4a492e0a23bf18fd6eb64abadf4c58ea55d39d82c908f3d39d471b065b6f",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/result-example.json",
+          "bytes": 4653
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/profiles/scanner-results.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/scanner-results.json",
+      "expected_sha256": "2ee9c5de3f5679ba603ea18a46750881e2efa54e47dc723d796d09f80cfd9f13",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/scanner-results.json",
+      "bytes": 1656,
+      "truncated": false,
+      "sha256": "2ee9c5de3f5679ba603ea18a46750881e2efa54e47dc723d796d09f80cfd9f13",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/scanner-results.json",
+          "bytes": 1656
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/profiles/sherlock-local-sites.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-local-sites.json",
+      "expected_sha256": "da47af3b9346e1e468214562de1a48fdbf71510dd2a44cbdd2eb9e7183a5288f",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-local-sites.json",
+      "bytes": 782,
+      "truncated": false,
+      "sha256": "da47af3b9346e1e468214562de1a48fdbf71510dd2a44cbdd2eb9e7183a5288f",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-local-sites.json",
+          "bytes": 782
+        }
+      ]
+    },
+    {
+      "kind": "asset",
+      "path": "assets/profiles/sherlock-run.json",
+      "url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-run.json",
+      "expected_sha256": "c48bcc96a92079c1786337e357de46f8d0e6e75011122bbffa0f5dad31b4c4b1",
+      "status": 200,
+      "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-run.json",
+      "bytes": 931,
+      "truncated": false,
+      "sha256": "c48bcc96a92079c1786337e357de46f8d0e6e75011122bbffa0f5dad31b4c4b1",
+      "hash_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://bioxhaust.github.io/evidence-first-osint/assets/profiles/sherlock-run.json",
+          "bytes": 931
+        }
+      ]
+    },
+    {
+      "kind": "repository",
+      "url": "https://github.com/bioxhaust/evidence-first-osint",
+      "status": 200,
+      "final_url": "https://github.com/bioxhaust/evidence-first-osint",
+      "bytes": 310450,
+      "truncated": false,
+      "title": "GitHub - bioxhaust/evidence-first-osint: Free practical OSINT course: public profiles, real GitHub tools, 20 Russian modules, 20 labs and 60 interactive exercises. Bilingual cheatsheets. · GitHub",
+      "content_matches": true,
+      "pass": true,
+      "attempts": [
+        {
+          "status": 200,
+          "final_url": "https://github.com/bioxhaust/evidence-first-osint",
+          "bytes": 310450
+        }
+      ]
+    }
+  ]
+}

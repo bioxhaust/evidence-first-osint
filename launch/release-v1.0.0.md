@@ -33,6 +33,6 @@ Original prose and training assets are CC BY 4.0; original code is MIT. Upstream
 
 ## Checks and current limitation
 
-The implementation passed **19 Python tests**, **25 persistent Node tests**, **13 migration/data-isolation checks in local PostgreSQL 16.15**, and **7 additional JSDOM scenarios**. These are different kinds of checks, not one combined persistent suite. JavaScript cloud responses were simulated; the database checks simulated Supabase roles/auth.uid(). The temporary JSDOM harness is not included in the repository.
+The implementation passed **19 Python tests**, **25 persistent Node tests**, **13 migration/data-isolation checks in local PostgreSQL 16.15**, and **8 additional JSDOM scenarios**. These are different kinds of checks, not one combined persistent suite. JavaScript cloud responses were simulated; the database checks simulated Supabase roles/auth.uid(). The temporary JSDOM harness is not included in the repository.
 
 GitHub provider connection was deferred. This release offers local progress; cloud login and synchronization remain planned but disabled until setup and live verification are complete. Local progress stays in the current browser and can be lost when browser data is cleared. See the linked quality report for exact environments, evidence and other limitations.
