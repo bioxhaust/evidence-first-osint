@@ -1,0 +1,19 @@
+{
+  "label": "SYNTHETIC / УЧЕБНЫЙ МАТЕРИАЛ",
+  "source_id": "A-05-data",
+  "project_id": "UR-72",
+  "version": "0.1",
+  "released_at": "2024-12-10T18:00:00Z",
+  "components": [
+    {
+      "name": "dataset-and-method",
+      "credited_account": "MT-14"
+    },
+    {
+      "name": "web-interface",
+      "credited_account": "SN-31"
+    }
+  ],
+  "package_builder": "BUILD-04",
+  "scope": "Published project attribution; not independent authorship verification"
+}

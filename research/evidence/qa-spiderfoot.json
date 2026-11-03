@@ -1,0 +1,135 @@
+{
+  "checked_date": "2026-11-03",
+  "environment": "macOS arm64; Python 3.12.11",
+  "upstream_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+  "latest_packaged_release": {
+    "tag": "v4.0",
+    "published_at": "2022-04-07T06:55:29Z"
+  },
+  "runs": [
+    {
+      "label": "all",
+      "exit_code": 0,
+      "summary": {
+        "synthetic": true,
+        "upstream_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+        "upstream_version": "4.0.0",
+        "python_version": "3.12.11",
+        "modules": [
+          "sfp_spider",
+          "sfp_webserver",
+          "sfp_webanalytics"
+        ],
+        "run_kind": "real upstream module API via course event-queue adapter; not full sf.py scanner",
+        "pages_fetched": 4,
+        "event_count": 32,
+        "socket_guard": {
+          "allowed_connections": 8,
+          "blocked_connections": 0,
+          "blocked_dns": 0
+        },
+        "limits": {
+          "max_pages": 4,
+          "max_levels": 1
+        },
+        "external_services_tested": false
+      },
+      "event_types": {
+        "ROOT": 1,
+        "LINKED_URL_INTERNAL": 4,
+        "HTTP_CODE": 4,
+        "WEBSERVER_HTTPHEADERS": 4,
+        "TARGET_WEB_CONTENT_TYPE": 4,
+        "TARGET_WEB_CONTENT": 4,
+        "LINKED_URL_EXTERNAL": 1,
+        "WEBSERVER_BANNER": 4,
+        "WEBSERVER_TECHNOLOGY": 4,
+        "WEB_ANALYTICS_ID": 2
+      }
+    },
+    {
+      "label": "without-analytics",
+      "exit_code": 0,
+      "summary": {
+        "synthetic": true,
+        "upstream_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+        "upstream_version": "4.0.0",
+        "python_version": "3.12.11",
+        "modules": [
+          "sfp_spider",
+          "sfp_webserver"
+        ],
+        "run_kind": "real upstream module API via course event-queue adapter; not full sf.py scanner",
+        "pages_fetched": 4,
+        "event_count": 30,
+        "socket_guard": {
+          "allowed_connections": 8,
+          "blocked_connections": 0,
+          "blocked_dns": 0
+        },
+        "limits": {
+          "max_pages": 4,
+          "max_levels": 1
+        },
+        "external_services_tested": false
+      },
+      "event_types": {
+        "ROOT": 1,
+        "LINKED_URL_INTERNAL": 4,
+        "HTTP_CODE": 4,
+        "WEBSERVER_HTTPHEADERS": 4,
+        "TARGET_WEB_CONTENT_TYPE": 4,
+        "TARGET_WEB_CONTENT": 4,
+        "LINKED_URL_EXTERNAL": 1,
+        "WEBSERVER_BANNER": 4,
+        "WEBSERVER_TECHNOLOGY": 4
+      }
+    },
+    {
+      "label": "one-page",
+      "exit_code": 0,
+      "summary": {
+        "synthetic": true,
+        "upstream_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+        "upstream_version": "4.0.0",
+        "python_version": "3.12.11",
+        "modules": [
+          "sfp_spider",
+          "sfp_webserver",
+          "sfp_webanalytics"
+        ],
+        "run_kind": "real upstream module API via course event-queue adapter; not full sf.py scanner",
+        "pages_fetched": 1,
+        "event_count": 12,
+        "socket_guard": {
+          "allowed_connections": 2,
+          "blocked_connections": 0,
+          "blocked_dns": 0
+        },
+        "limits": {
+          "max_pages": 1,
+          "max_levels": 1
+        },
+        "external_services_tested": false
+      },
+      "event_types": {
+        "ROOT": 1,
+        "LINKED_URL_INTERNAL": 4,
+        "HTTP_CODE": 1,
+        "WEBSERVER_HTTPHEADERS": 1,
+        "TARGET_WEB_CONTENT_TYPE": 1,
+        "TARGET_WEB_CONTENT": 1,
+        "LINKED_URL_EXTERNAL": 1,
+        "WEBSERVER_BANNER": 1,
+        "WEBSERVER_TECHNOLOGY": 1
+      }
+    }
+  ],
+  "limitations": [
+    "Actual upstream modules using original course event-queue adapter, not the full sf.py scanner/web UI.",
+    "Only four original localhost pages; no live third-party sources or API-key integrations.",
+    "Guard constrains Python socket connect/resolve on tested code path, not a system sandbox.",
+    "Export CSV/JSON/GEXF formats of the full scanner were not tested; adapter JSON/CSV/edges exports are course code.",
+    "All event confidence values are upstream defaults, not measured identity confidence."
+  ]
+}

@@ -1,0 +1,50 @@
+id,parent_id,type,module,data,source_url,upstream_confidence
+ROOT,ROOT,ROOT,,SYNTHETIC localhost module exercise,,100
+5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,ROOT,LINKED_URL_INTERNAL,course_seed,http://127.0.0.1:54371/index.html,http://127.0.0.1:54371/index.html,100
+9476bac68d2168db37cd2c4b4cb0551d6b6369470ad4f596520f61aac3951635,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,HTTP_CODE,sfp_spider,200,http://127.0.0.1:54371/index.html,100
+6c7589c1360a2e34e8a50c29ed6695527fdcb228174fd804b3c2241971bcb7b7,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,WEBSERVER_HTTPHEADERS,sfp_spider,"{""server"": ""SYNTHETIC-Lab/1.0 "", ""date"": ""Tue, 03 Nov 2026 13:28:22 GMT"", ""content-type"": ""text/html"", ""content-length"": ""808"", ""last-modified"": ""Tue, 03 Nov 2026 13:26:32 GMT"", ""x-powered-by"": ""SYNTHETIC-Template/2"", ""content-security-policy"": ""default-src 'none'; style-src 'unsafe-inline'""}",http://127.0.0.1:54371/index.html,100
+6e002115fc6a0e45ae8c3d0b88f0b8cea0de18f96ce65dd0cc25c83a2bd869a0,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,TARGET_WEB_CONTENT_TYPE,sfp_spider,text/html,http://127.0.0.1:54371/index.html,100
+c363aa6ae54da6fa8a25679be5983b4824aadabc3e75be81b65806dcd8affd56,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,TARGET_WEB_CONTENT,sfp_spider,"<!doctype html><html lang=""ru""><meta charset=""utf-8""><title>SYNTHETIC · Каталог учебных страниц</title>
+<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC</h1>
+<p>Два учебных проекта используют один шаблон сайта. Узнайте, что обнаружит программа и что потребует ручной проверки.</p>
+<ul><li><a href=""alpha.html"">Проект «Альфа»</a></li><li><a href=""beta.html"">Проект «Бета»</a></li><li><a href=""template.html"">Описание шаблона</a></li></ul>
+<p><a href=""https://reference.example/resource"">Внешний условный справочник</a> — вымышленный адрес, открывать в сети не требуется.</p></html>
+",http://127.0.0.1:54371/index.html,100
+ca3ab6ca37f07d17e0a7061f76f4ed9974e3a3d557077c0a396e79e72ce1a28e,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,LINKED_URL_INTERNAL,sfp_spider,http://127.0.0.1:54371/alpha.html,http://127.0.0.1:54371/index.html,100
+7215b55a59220fe62f79f0ff3b94a3f09eccb30dcaed6e4fb649af0576d144a9,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,LINKED_URL_INTERNAL,sfp_spider,http://127.0.0.1:54371/beta.html,http://127.0.0.1:54371/index.html,100
+73515dfe0c90921558a709a84a64549cb12fe3236cc59939a0a9b349585c815e,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,LINKED_URL_INTERNAL,sfp_spider,http://127.0.0.1:54371/template.html,http://127.0.0.1:54371/index.html,100
+6069006c555641d208ce5cf1e70da366b59168883daefe1c923f085265018788,5c7156b7fdbc380a18a5507cef185afee6613baaa7571887d3c44487c2ffc367,LINKED_URL_EXTERNAL,sfp_spider,https://reference.example/resource,http://127.0.0.1:54371/index.html,100
+1106bc6391e4dcdec382bd1aa2c83ee1b14d94ab86d367933f76705d9ead70bf,ca3ab6ca37f07d17e0a7061f76f4ed9974e3a3d557077c0a396e79e72ce1a28e,HTTP_CODE,sfp_spider,200,http://127.0.0.1:54371/alpha.html,100
+d2a6b868ac5bbc28fc91a1d165b1f6fdcd9c80bfb0aaa272667e33bfd5a4bc6d,ca3ab6ca37f07d17e0a7061f76f4ed9974e3a3d557077c0a396e79e72ce1a28e,WEBSERVER_HTTPHEADERS,sfp_spider,"{""server"": ""SYNTHETIC-Lab/1.0 "", ""date"": ""Tue, 03 Nov 2026 13:28:22 GMT"", ""content-type"": ""text/html"", ""content-length"": ""693"", ""last-modified"": ""Tue, 03 Nov 2026 13:26:32 GMT"", ""x-powered-by"": ""SYNTHETIC-Template/2"", ""content-security-policy"": ""default-src 'none'; style-src 'unsafe-inline'""}",http://127.0.0.1:54371/alpha.html,100
+fce0a867c23c2fe14b1f448559eaf4e1dabfe70af3654147b0cb2acda9fb1d14,ca3ab6ca37f07d17e0a7061f76f4ed9974e3a3d557077c0a396e79e72ce1a28e,TARGET_WEB_CONTENT_TYPE,sfp_spider,text/html,http://127.0.0.1:54371/alpha.html,100
+2d178890ab01593b8f898c6e84f5695241f153be4d6a3f258adf9260e0b75798,ca3ab6ca37f07d17e0a7061f76f4ed9974e3a3d557077c0a396e79e72ce1a28e,TARGET_WEB_CONTENT,sfp_spider,"<!doctype html><html lang=""ru""><meta charset=""utf-8""><title>SYNTHETIC · Альфа</title>
+<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC · Альфа</h1>
+<p>Проект ALPHA-01: открытая учебная коллекция карт. Ответственный по условию страницы — команда «Альфа».</p>
+<!-- SYNTHETIC: sample copied from a template, NOT executable tracking code: GTM-TRAIN42 -->
+<p>Исходный шаблон описан <a href=""template.html"">в отдельной записи</a>. Ни JavaScript аналитики, ни внешний ресурс на этой странице не загружаются.</p></html>
+",http://127.0.0.1:54371/alpha.html,100
+45c4dd74aa78e65f5ccae9e8a97db46953213fddd8c8176a61ca6b5b6216dc6f,7215b55a59220fe62f79f0ff3b94a3f09eccb30dcaed6e4fb649af0576d144a9,HTTP_CODE,sfp_spider,200,http://127.0.0.1:54371/beta.html,100
+d58e53627151acc867edfacc2881606c45a34175c33517300bdb37814d7f9e1e,7215b55a59220fe62f79f0ff3b94a3f09eccb30dcaed6e4fb649af0576d144a9,WEBSERVER_HTTPHEADERS,sfp_spider,"{""server"": ""SYNTHETIC-Lab/1.0 "", ""date"": ""Tue, 03 Nov 2026 13:28:22 GMT"", ""content-type"": ""text/html"", ""content-length"": ""723"", ""last-modified"": ""Tue, 03 Nov 2026 13:26:32 GMT"", ""x-powered-by"": ""SYNTHETIC-Template/2"", ""content-security-policy"": ""default-src 'none'; style-src 'unsafe-inline'""}",http://127.0.0.1:54371/beta.html,100
+c8b898c355f7364bc040aaf2e2c62815d21ba42359bbcab447fc07ba2bf5ecfa,7215b55a59220fe62f79f0ff3b94a3f09eccb30dcaed6e4fb649af0576d144a9,TARGET_WEB_CONTENT_TYPE,sfp_spider,text/html,http://127.0.0.1:54371/beta.html,100
+dcdd0acd8c8b3af7265d61c5d8b58b584ef82bc89c83f629835a742fba499511,7215b55a59220fe62f79f0ff3b94a3f09eccb30dcaed6e4fb649af0576d144a9,TARGET_WEB_CONTENT,sfp_spider,"<!doctype html><html lang=""ru""><meta charset=""utf-8""><title>SYNTHETIC · Бета</title>
+<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC · Бета</h1>
+<p>Проект BETA-02: учебные заметки о легендах карт. Ответственный по условию страницы — команда «Бета».</p>
+<!-- SYNTHETIC: sample copied from a template, NOT executable tracking code: GTM-TRAIN42 -->
+<p>При копировании <a href=""template.html"">шаблона</a> сохранены демонстрационные комментарии. Запись не подтверждает оператора какого-либо действующего сервиса.</p></html>
+",http://127.0.0.1:54371/beta.html,100
+6d9080abbaa8c4a7b386081ae748bfb8536463152b0cbac45d8aef2ae68b2650,73515dfe0c90921558a709a84a64549cb12fe3236cc59939a0a9b349585c815e,HTTP_CODE,sfp_spider,200,http://127.0.0.1:54371/template.html,100
+4c8c947743e290b0df09fadd09b19843387a98f04bd20048b9450402886a0c8a,73515dfe0c90921558a709a84a64549cb12fe3236cc59939a0a9b349585c815e,WEBSERVER_HTTPHEADERS,sfp_spider,"{""server"": ""SYNTHETIC-Lab/1.0 "", ""date"": ""Tue, 03 Nov 2026 13:28:22 GMT"", ""content-type"": ""text/html"", ""content-length"": ""907"", ""last-modified"": ""Tue, 03 Nov 2026 13:26:32 GMT"", ""x-powered-by"": ""SYNTHETIC-Template/2"", ""content-security-policy"": ""default-src 'none'; style-src 'unsafe-inline'""}",http://127.0.0.1:54371/template.html,100
+402a7e196d05ef0122652c145138719eb0818d80acacd0313d3d976eb90c6d0a,73515dfe0c90921558a709a84a64549cb12fe3236cc59939a0a9b349585c815e,TARGET_WEB_CONTENT_TYPE,sfp_spider,text/html,http://127.0.0.1:54371/template.html,100
+80b5fe9b41c7c01030d56b106218f0603080fc71292d46cf5e387c609ad6d1c6,73515dfe0c90921558a709a84a64549cb12fe3236cc59939a0a9b349585c815e,TARGET_WEB_CONTENT,sfp_spider,"<!doctype html><html lang=""ru""><meta charset=""utf-8""><title>SYNTHETIC · Шаблон</title>
+<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC · Описание шаблона</h1>
+<p>Шаблон SYN-TPL-2 распространяется среди учебных проектов. В комментариях осталась демонстрационная строка, похожая на идентификатор системы аналитики. Рабочий скрипт аналитики не включён.</p>
+<p>Совпавшая строка в двух страницах может происходить из общего шаблона. Баннер Server также задаётся этим учебным сервером для всех страниц. Эти два признака не устанавливают владельца двух проектов.</p></html>
+",http://127.0.0.1:54371/template.html,100
+e5605e74ad15a4002d73d200622031d787059a8e17c85fc0164c21349c90a249,6c7589c1360a2e34e8a50c29ed6695527fdcb228174fd804b3c2241971bcb7b7,WEBSERVER_BANNER,sfp_webserver,SYNTHETIC-Lab/1.0 ,http://127.0.0.1:54371/index.html,100
+3584af39634598b6c9a436a4d619861b3dc280c040d88eb7e14f5aa88019dffa,6c7589c1360a2e34e8a50c29ed6695527fdcb228174fd804b3c2241971bcb7b7,WEBSERVER_TECHNOLOGY,sfp_webserver,SYNTHETIC-Template/2,http://127.0.0.1:54371/index.html,100
+48afc3393b278c9c2f5a2d11a38cc83f57e41891fe0a1e18a2e7dc6a34ca2d67,d2a6b868ac5bbc28fc91a1d165b1f6fdcd9c80bfb0aaa272667e33bfd5a4bc6d,WEBSERVER_BANNER,sfp_webserver,SYNTHETIC-Lab/1.0 ,http://127.0.0.1:54371/alpha.html,100
+c0d814ef131fc8cea1a082bc32268f14e62b68011ebad62d6325ffa299903057,d2a6b868ac5bbc28fc91a1d165b1f6fdcd9c80bfb0aaa272667e33bfd5a4bc6d,WEBSERVER_TECHNOLOGY,sfp_webserver,SYNTHETIC-Template/2,http://127.0.0.1:54371/alpha.html,100
+67f6e12f5ea6b4b2ac1c26112d2196f0fac6181700ef0833f05cae863d196aea,d58e53627151acc867edfacc2881606c45a34175c33517300bdb37814d7f9e1e,WEBSERVER_BANNER,sfp_webserver,SYNTHETIC-Lab/1.0 ,http://127.0.0.1:54371/beta.html,100
+c0fbe24804ec6c0a50c8c79cf18cade84561014fff56944044ddf3ffaa8a72c9,d58e53627151acc867edfacc2881606c45a34175c33517300bdb37814d7f9e1e,WEBSERVER_TECHNOLOGY,sfp_webserver,SYNTHETIC-Template/2,http://127.0.0.1:54371/beta.html,100
+9f21975decd73ac43af3648893ffcf8d20852e6f0ba5403c0adedd7d8dc6bb6b,4c8c947743e290b0df09fadd09b19843387a98f04bd20048b9450402886a0c8a,WEBSERVER_BANNER,sfp_webserver,SYNTHETIC-Lab/1.0 ,http://127.0.0.1:54371/template.html,100
+9b9288f6ae7ca514f06de210889dc6f08e5af20098b94fc5f8e13abf5f5c86d9,4c8c947743e290b0df09fadd09b19843387a98f04bd20048b9450402886a0c8a,WEBSERVER_TECHNOLOGY,sfp_webserver,SYNTHETIC-Template/2,http://127.0.0.1:54371/template.html,100

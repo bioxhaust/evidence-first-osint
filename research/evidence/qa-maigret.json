@@ -1,0 +1,118 @@
+{
+  "checked_date": "2026-11-03",
+  "environment": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "python": "3.12.11",
+    "maigret": "0.6.6"
+  },
+  "runs": [
+    {
+      "label": "baseline",
+      "exit_code": 0,
+      "summary": {
+        "synthetic": true,
+        "maigret_version": "0.6.6",
+        "python_version": "3.12.11",
+        "socket_guard": {
+          "allowed_connections": 4,
+          "blocked_connections": 0,
+          "blocked_dns": 0
+        },
+        "database_sha256": "6c1b7c3c5cfbe9ca3e2a7bd7ef864a9c646de1d838a358c0590cd612df351a6c",
+        "scope": "Python sockets only; not a system sandbox",
+        "cli_arguments": [
+          "maigret",
+          "route_lab",
+          "--db",
+          "docs/assets/profiles/maigret-local-sites.json",
+          "--no-autoupdate",
+          "--no-recursion",
+          "--no-extracting",
+          "--dns-resolver",
+          "threaded",
+          "--timeout",
+          "0.25",
+          "--retries",
+          "0",
+          "--max-connections",
+          "4",
+          "--print-not-found",
+          "--print-errors",
+          "--no-color",
+          "--no-progressbar",
+          "--json",
+          "simple",
+          "--csv",
+          "--folderoutput",
+          "scratch/maigret-verify-bsh2c7_q/baseline"
+        ]
+      },
+      "csv_statuses": {
+        "SYNTHETIC Present": "Claimed",
+        "SYNTHETIC Soft404": "Claimed",
+        "SYNTHETIC Missing": "Available",
+        "SYNTHETIC Slow": "Unknown"
+      },
+      "csv_rows": 4,
+      "json_results": 2
+    },
+    {
+      "label": "corrected",
+      "exit_code": 0,
+      "summary": {
+        "synthetic": true,
+        "maigret_version": "0.6.6",
+        "python_version": "3.12.11",
+        "socket_guard": {
+          "allowed_connections": 4,
+          "blocked_connections": 0,
+          "blocked_dns": 0
+        },
+        "database_sha256": "b1ed1e80cfbedafbf556769a024e3ce6cc5bc53544e6bf9b07a94cdbd2e4727b",
+        "scope": "Python sockets only; not a system sandbox",
+        "cli_arguments": [
+          "maigret",
+          "route_lab",
+          "--db",
+          "scratch/maigret-rules.json",
+          "--no-autoupdate",
+          "--no-recursion",
+          "--no-extracting",
+          "--dns-resolver",
+          "threaded",
+          "--timeout",
+          "0.25",
+          "--retries",
+          "0",
+          "--max-connections",
+          "4",
+          "--print-not-found",
+          "--print-errors",
+          "--no-color",
+          "--no-progressbar",
+          "--json",
+          "simple",
+          "--csv",
+          "--folderoutput",
+          "scratch/maigret-verify-bsh2c7_q/corrected"
+        ]
+      },
+      "csv_statuses": {
+        "SYNTHETIC Present": "Claimed",
+        "SYNTHETIC Soft404": "Available",
+        "SYNTHETIC Missing": "Available",
+        "SYNTHETIC Slow": "Unknown"
+      },
+      "csv_rows": 4,
+      "json_results": 1
+    }
+  ],
+  "console_redaction": "Absolute repository path replaced by <repository>; tool output otherwise retained.",
+  "limitations": [
+    "Four synthetic localhost pages, no real platforms searched.",
+    "Python-socket guard for this pinned path is not a system sandbox.",
+    "Installation and behavior on Windows/Linux were not tested.",
+    "JSON simple contains claimed results only; preserve CSV for errors and negatives."
+  ]
+}

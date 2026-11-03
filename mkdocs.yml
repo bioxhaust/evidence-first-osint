@@ -10,6 +10,7 @@ not_in_nav: |
   /practice/labs/
   /solutions/labs/
   /solutions/projects/
+  /assets/investigations/
   /resources/*.en.md
   /templates/*.en.md
 copyright: Original text & training assets CC BY 4.0 · Code MIT
@@ -56,13 +57,29 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
 extra_javascript:
+  - path: assets/investigator/app.js
+    type: module
   - path: assets/trainer/app.js
     type: module
   - assets/javascripts/accessibility.js
 extra_css:
+  - assets/investigator/style.css
   - assets/trainer/trainer.css
   - assets/stylesheets/extra.css
 nav:
+  - Расследования:
+      - investigator/index.md
+  - Практический старт:
+      - practice/fieldwork.md
+      - 'Дело 01. Найти профиль': practice/investigations/01.md
+      - 'Дело 02. Проверить биографию': practice/investigations/02.md
+      - 'Дело 03. Проверить авторство': practice/investigations/03.md
+      - 'Инструменты под задачу': resources/toolkit.md
+      - 'Полный каталог инструментов': resources/tool-catalog.md
+      - 'Запустить Sherlock': practice/labs/20.md
+      - 'Запустить Maigret': practice/tool-labs/maigret.md
+      - 'SpiderFoot: модули и связи': practice/tool-labs/spiderfoot.md
+      - 'ExifTool и FFmpeg': practice/tool-labs/media.md
   - Тренажёр:
       - trainer/index.md
   - Начать:
@@ -113,6 +130,12 @@ nav:
       - Шкала уверенности: templates/confidence.md
   - Решения:
       - solutions/index.md
+      - 'Разбор дела 01': solutions/investigations/01.md
+      - 'Разбор дела 02': solutions/investigations/02.md
+      - 'Разбор дела 03': solutions/investigations/03.md
+      - 'Разбор Maigret': solutions/tool-labs/maigret.md
+      - 'Разбор SpiderFoot': solutions/tool-labs/spiderfoot.md
+      - 'Разбор ExifTool и FFmpeg': solutions/tool-labs/media.md
       - Итоговый отчёт: solutions/capstone.md
   - О проекте:
       - about/index.md

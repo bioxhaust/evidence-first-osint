@@ -1,0 +1,19 @@
+{
+  "commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+  "files": {
+    "modules/sfp_spider.py": "fed1eb695038b56af1152a0125f4a5febcac64acdf622cfd0ce0ed53f186589f",
+    "modules/sfp_webanalytics.py": "a32fe0b38c918144baa7497042478c092a7cd9167c01fbdcddb883a63599a259",
+    "modules/sfp_webserver.py": "7ad70744c4baffdd14384d7d1f60bce21a400c6253215d50c803c7b0abd5e74b",
+    "sflib.py": "1dca4259754a5e4f8cbd646af484528f8198928f14d6e5fcc688bbc203b260de",
+    "spiderfoot/__init__.py": "f43228a959cecae03cdb22a3d6222ce18e4437d82a1ca8cff131a346a210beef",
+    "spiderfoot/__version__.py": "54e1fa146a9fcce9a4aa5334eb60318a3fade5330df9f9a4b094431c3119591a",
+    "spiderfoot/correlation.py": "519e745c954efd5734a0ae1e7031e05f1050d59f8fc5e85b12de339e9c80e139",
+    "spiderfoot/db.py": "82d147e512c1cb0e05710c67e8d28ef0a1b2b39948ae3d55a3e43bdb8f37d0d9",
+    "spiderfoot/event.py": "02ce051f25799735720991bcf0b1544ff31272d865982eca684fbfd73e95bc4f",
+    "spiderfoot/helpers.py": "82f08bf5c4a793bc1f9d4991234eaf0697a2ae955d0121853d7bade79ad7503f",
+    "spiderfoot/logger.py": "1794154d41b8af6d804b9325313f6f16ac367765de4a484bff1d44c97531593b",
+    "spiderfoot/plugin.py": "562d4c8fb2bb1cf92dd43e622de624a07fbc53451a451b9ebfc1d621b611f705",
+    "spiderfoot/target.py": "8d81fe17d5ff24641ce5f604da9dc70db6200ea05e911625031a289a6bc94f8e",
+    "spiderfoot/threadpool.py": "9b16e8d77e144dd73a0059cb9cb193ccb050a45f2b85cf7ef89ea57cbaa42afb"
+  }
+}

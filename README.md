@@ -6,7 +6,11 @@
 
 A free practical course for beginning researchers, journalists, analysts and security practitioners. Start with linked profiles and your own public footprint, then verify images, companies, payments and claims. Finish with a report another person can reproduce.
 
-**[Start the interactive trainer →](https://bioxhaust.github.io/evidence-first-osint/trainer/)**
+**[Open the interactive investigation workspace (Russian) →](https://bioxhaust.github.io/evidence-first-osint/investigator/)**
+
+Three cases, 25 unlockable source cards and 10 evidence-backed checks. Choose documents, keep local notes, select the decisive sources and export your work. Free-text notes are not automatically graded; the workspace does not run external OSINT programs. Those run separately in the tool labs.
+
+The new [hands-on route](docs/practice/fieldwork.md) starts with opening source documents and finding the right professional profile. Three separate fictional investigations cover profile matching, professional claims and project authorship, with progressively fewer instructions. Real **Sherlock, Maigret, ExifTool and FFmpeg** labs require learners to obtain and check their own outputs. The [toolkit](docs/resources/toolkit.md) distinguishes tested exercises from documentation-only recommendations. Allow roughly **4–6 hours plus setup**; this is an editorial estimate, and Sherlock overlaps with the original course. The new cases and additional labs are not included in the original course estimates below. Use the [60-exercise trainer](https://bioxhaust.github.io/evidence-first-osint/trainer/) for review after practical work.
 
 [First profile lesson](docs/lessons/19-public-profiles.md) · [Run real Sherlock locally](docs/practice/labs/20.md) · [All practice](docs/practice/index.md) · [Cheatsheets](docs/resources/index.md) · [English map](docs/resources/course-map.en.md)
 

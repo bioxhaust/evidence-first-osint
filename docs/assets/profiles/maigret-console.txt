@@ -1,0 +1,56 @@
+=== BASELINE / SYNTHETIC LOCAL FIXTURES ===
+SYNTHETIC LOCAL RUN: four pages, route_lab; no real platform search.
+[+] MAIGRET - collect a dossier by username from 3000+ sites
+[♥] Support Maigret — sites database & development
+[♥] Donate on Patreon: https://www.patreon.com/soxoj
+[+] Using sites database: <repository>/docs/assets/profiles/maigret-local-sites.json (4 sites)
+[-] Starting a search on top 4 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username route_lab on:
+
+[+] SYNTHETIC Present: http://127.0.0.1:54369/present/route_lab
+
+[+] SYNTHETIC Soft404: http://127.0.0.1:54369/soft404/route_lab
+
+[-] SYNTHETIC Missing: Not found!
+
+[?] SYNTHETIC Slow: Request timeout error
+[!] Too many errors of type "Request timeout" (25.0%). Try to increase timeout or to switch to another internet service provider
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] CSV report for route_lab saved in <repository>/scratch/maigret-verify-bsh2c7_q/baseline/report_route_lab.csv
+[-] JSON simple report for route_lab saved in <repository>/scratch/maigret-verify-bsh2c7_q/baseline/report_route_lab_simple.json
+[*] Short text report:
+Search by username route_lab returned 2 accounts.
+Extended info extracted from 0 accounts.
+Interests (tags): synthetic
+LOCAL_GUARD {"allowed_connections": 4, "blocked_connections": 0, "blocked_dns": 0}
+Reports: <repository>/scratch/maigret-verify-bsh2c7_q/baseline
+
+
+=== CORRECTED / SYNTHETIC LOCAL FIXTURES ===
+SYNTHETIC LOCAL RUN: four pages, route_lab; no real platform search.
+[+] MAIGRET - collect a dossier by username from 3000+ sites
+[♥] Support Maigret — sites database & development
+[♥] Donate on Patreon: https://www.patreon.com/soxoj
+[+] Using sites database: <repository>/scratch/maigret-rules.json (4 sites)
+[-] Starting a search on top 4 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username route_lab on:
+
+[+] SYNTHETIC Present: http://127.0.0.1:54369/present/route_lab
+
+[-] SYNTHETIC Soft404: Not found!
+
+[-] SYNTHETIC Missing: Not found!
+
+[?] SYNTHETIC Slow: Request timeout error
+[!] Too many errors of type "Request timeout" (25.0%). Try to increase timeout or to switch to another internet service provider
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] CSV report for route_lab saved in <repository>/scratch/maigret-verify-bsh2c7_q/corrected/report_route_lab.csv
+[-] JSON simple report for route_lab saved in <repository>/scratch/maigret-verify-bsh2c7_q/corrected/report_route_lab_simple.json
+[*] Short text report:
+Search by username route_lab returned 1 accounts.
+Extended info extracted from 0 accounts.
+Interests (tags): synthetic
+LOCAL_GUARD {"allowed_connections": 4, "blocked_connections": 0, "blocked_dns": 0}
+Reports: <repository>/scratch/maigret-verify-bsh2c7_q/corrected

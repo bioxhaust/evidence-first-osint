@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "lessons": 20,
+    "practice_labs": 20,
+    "solutions_labs": 20,
+    "practice_projects": 3,
+    "solutions_projects": 3,
+    "markdown_links": 1005,
+    "html_pages": 154,
+    "html_links": 16862,
+    "files_scanned_for_known_secret_patterns": 294,
+    "fixture_files": 25
+  },
+  "errors": [],
+  "result": "PASS",
+  "checked_date": "2026-11-03",
+  "deployment": "local only; not published",
+  "python_tests_passed": 24,
+  "node_tests_passed": 36,
+  "interactive_cases": 3,
+  "interactive_source_cards": 25,
+  "interactive_checks": 10,
+  "browser_checks": {
+    "source_fetch_and_dependencies": true,
+    "wrong_answer_feedback": true,
+    "correct_answer_with_evidence": true,
+    "first_case_completed": true,
+    "reload_preserves_progress_and_notes": true,
+    "notes_are_case_scoped": true,
+    "downloaded_json_parsed_and_verified": true,
+    "mobile_width": 375,
+    "mobile_horizontal_overflow": false,
+    "desktop_width": 1280,
+    "screenshot": "qa/local/investigator-desktop.jpg"
+  },
+  "limitations": [
+    "Existing benign fictional profile, biography and authorship cases only.",
+    "Free text is not automatically assessed.",
+    "No cloud sync for investigator notes.",
+    "SpiderFoot lab uses genuine upstream modules via course event adapter, not the full scanner or external integrations.",
+    "Other catalog entries do not imply verified hands-on exercises.",
+    "Sampled browser flow; no exhaustive device or screen-reader audit."
+  ]
+}

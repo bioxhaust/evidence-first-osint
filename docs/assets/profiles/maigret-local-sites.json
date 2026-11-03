@@ -1,0 +1,44 @@
+{
+  "sites": {
+    "SYNTHETIC Present": {
+      "url": "http://127.0.0.1:54369/present/{username}",
+      "urlMain": "http://127.0.0.1:54369",
+      "usernameClaimed": "route_lab",
+      "usernameUnclaimed": "no_such_training_account",
+      "checkType": "message",
+      "presenseStrs": ["SYNTHETIC PROFILE: route_lab"],
+      "absenceStrs": ["PROFILE NOT FOUND"],
+      "tags": ["synthetic"]
+    },
+    "SYNTHETIC Soft404": {
+      "url": "http://127.0.0.1:54369/soft404/{username}",
+      "urlMain": "http://127.0.0.1:54369",
+      "usernameClaimed": "route_lab",
+      "usernameUnclaimed": "no_such_training_account",
+      "checkType": "status_code",
+      "requestHeadOnly": false,
+      "tags": ["synthetic"]
+    },
+    "SYNTHETIC Missing": {
+      "url": "http://127.0.0.1:54369/missing/{username}",
+      "urlMain": "http://127.0.0.1:54369",
+      "usernameClaimed": "route_lab",
+      "usernameUnclaimed": "no_such_training_account",
+      "checkType": "message",
+      "absenceStrs": ["PROFILE NOT FOUND"],
+      "tags": ["synthetic"]
+    },
+    "SYNTHETIC Slow": {
+      "url": "http://127.0.0.1:54369/slow/{username}",
+      "urlMain": "http://127.0.0.1:54369",
+      "usernameClaimed": "route_lab",
+      "usernameUnclaimed": "no_such_training_account",
+      "checkType": "message",
+      "presenseStrs": ["SYNTHETIC PROFILE:"],
+      "absenceStrs": ["PROFILE NOT FOUND"],
+      "tags": ["synthetic"]
+    }
+  },
+  "engines": {},
+  "tags": ["synthetic"]
+}

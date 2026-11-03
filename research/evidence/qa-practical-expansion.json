@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "lessons": 20,
+    "practice_labs": 20,
+    "solutions_labs": 20,
+    "practice_projects": 3,
+    "solutions_projects": 3,
+    "markdown_links": 940,
+    "html_pages": 145,
+    "html_links": 15221,
+    "files_scanned_for_known_secret_patterns": 263,
+    "fixture_files": 25
+  },
+  "errors": [],
+  "result": "PASS",
+  "checked_date": "2026-11-03",
+  "publication": "local only; not pushed or deployed",
+  "python_tests_passed": 22,
+  "node_tests_passed": 25,
+  "new_source_files_hash_checked": 32,
+  "browser": {
+    "environment": "Codex in-app browser on macOS",
+    "checks": [
+      "Home page link to first investigation",
+      "Source navigation P-00 to P-01 to P-03, including keyboard activation",
+      "Trainer primary link to first investigation",
+      "Trainer secondary button opens existing first exercise",
+      "375px home/trainer no horizontal overflow",
+      "1280px homepage visual review",
+      "Wrapped trainer button labels fixed with flex display"
+    ],
+    "limitations": [
+      "Sampled pages only",
+      "No new narrative game or automatic scoring of free-text reports",
+      "No physical-device or screen-reader audit"
+    ]
+  }
+}

@@ -74,6 +74,13 @@ def check_structure(root):
                 'docs/lessons/index.md', 'docs/en/index.md',
                 'docs/practice/capstone.md', 'docs/solutions/capstone.md',
                 'docs/resources/30-days.md', 'docs/resources/challenge.md']
+    required.extend(['docs/practice/fieldwork.md', 'docs/resources/toolkit.md', 'docs/resources/tool-catalog.md',
+                     'docs/investigator/index.md', 'docs/assets/investigator/app.js',
+                     'docs/assets/investigator/cases.js', 'docs/assets/investigator/state.js',
+                     'docs/assets/investigations/manifest.json'])
+    for section in ('practice', 'solutions'):
+        required.extend(f'docs/{section}/investigations/{number:02}.md' for number in range(1, 4))
+        required.extend(f'docs/{section}/tool-labs/{name}.md' for name in ('maigret', 'media', 'spiderfoot'))
     for name in ('quickstart', 'search', 'decision-tree', 'media-checklist', 'course-map'):
         required.extend(f'docs/resources/{name}{suffix}.md' for suffix in ('', '.en'))
     for name in ('journal', 'report', 'confidence'):

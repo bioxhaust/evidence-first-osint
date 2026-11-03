@@ -11,7 +11,8 @@ The public-profile fixtures and 60 trainer exercises are also original CC BY 4.0
 ## Practice tools and hosted services
 
 - [Sherlock 0.16.2](https://github.com/sherlock-project/sherlock/blob/master/LICENSE): MIT. Installed separately from the official package; upstream source and dependencies are not bundled. The saved run was produced on original synthetic localhost pages.
-- [Maigret](https://github.com/soxoj/maigret): MIT. Linked as additional reading; not bundled or executed in this release.
+- [Maigret 0.6.6](https://github.com/soxoj/maigret): MIT. Installed separately and executed against original synthetic localhost pages in the additional practical lab. Upstream source and dependencies are not bundled; the repository contains original configuration, a launcher and saved synthetic outputs.
+- [SpiderFoot](https://github.com/smicallef/spiderfoot): MIT. Three upstream modules were run on original localhost pages through a separately licensed original course adapter. Upstream source and dependencies are installed separately, not bundled. Saved outputs and original fixture pages are identified as synthetic; they do not represent full scanner or external-service coverage.
 - [ExifTool](https://exiftool.org/): distributed under the same terms as Perl (Artistic License or GNU GPL); used as a local inspection tool and not bundled.
 - [Supabase](https://supabase.com/): optional hosted authentication and progress storage, subject to its own service terms. The repository includes an original REST adapter and migration, no Supabase SDK. Public sign-in remains disabled pending completion and live verification of the provider setup.
 

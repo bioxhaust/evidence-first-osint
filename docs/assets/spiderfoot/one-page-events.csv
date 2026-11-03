@@ -1,0 +1,18 @@
+id,parent_id,type,module,data,source_url,upstream_confidence
+ROOT,ROOT,ROOT,,SYNTHETIC localhost module exercise,,100
+62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,ROOT,LINKED_URL_INTERNAL,course_seed,http://127.0.0.1:54371/index.html,http://127.0.0.1:54371/index.html,100
+72e8ce9c2e17b0c7b5a61d90552fb70f5eb681075ac01768fdc61a59cc554e9a,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,HTTP_CODE,sfp_spider,200,http://127.0.0.1:54371/index.html,100
+1699bafa7bf7cc7c142d9e7cc14c1a6003983a4c75dfc17533ae6e08be5b3d35,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,WEBSERVER_HTTPHEADERS,sfp_spider,"{""server"": ""SYNTHETIC-Lab/1.0 "", ""date"": ""Tue, 03 Nov 2026 13:28:22 GMT"", ""content-type"": ""text/html"", ""content-length"": ""808"", ""last-modified"": ""Tue, 03 Nov 2026 13:26:32 GMT"", ""x-powered-by"": ""SYNTHETIC-Template/2"", ""content-security-policy"": ""default-src 'none'; style-src 'unsafe-inline'""}",http://127.0.0.1:54371/index.html,100
+7a4e70f1034929582d76576b6f44036cfff625903866a6c2af2880f69978b197,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,TARGET_WEB_CONTENT_TYPE,sfp_spider,text/html,http://127.0.0.1:54371/index.html,100
+18f75cf42c596f0e2ece76ccff896323e835d322989022f9700935b6ef478b3b,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,TARGET_WEB_CONTENT,sfp_spider,"<!doctype html><html lang=""ru""><meta charset=""utf-8""><title>SYNTHETIC · Каталог учебных страниц</title>
+<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC</h1>
+<p>Два учебных проекта используют один шаблон сайта. Узнайте, что обнаружит программа и что потребует ручной проверки.</p>
+<ul><li><a href=""alpha.html"">Проект «Альфа»</a></li><li><a href=""beta.html"">Проект «Бета»</a></li><li><a href=""template.html"">Описание шаблона</a></li></ul>
+<p><a href=""https://reference.example/resource"">Внешний условный справочник</a> — вымышленный адрес, открывать в сети не требуется.</p></html>
+",http://127.0.0.1:54371/index.html,100
+a3f9cd8f4406d635d244151d3caf1815b6d749b25c60d3ada33f38f2617ae013,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,LINKED_URL_INTERNAL,sfp_spider,http://127.0.0.1:54371/alpha.html,http://127.0.0.1:54371/index.html,100
+a467abe8725d9446adcdcf6978f04e511a1dd642e9afd5428c71d9d2ba2ac715,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,LINKED_URL_INTERNAL,sfp_spider,http://127.0.0.1:54371/beta.html,http://127.0.0.1:54371/index.html,100
+4974b7a602e9cd234ea76b725b0e3a5d96c3f35935cb2a7b565135228d3ea51a,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,LINKED_URL_INTERNAL,sfp_spider,http://127.0.0.1:54371/template.html,http://127.0.0.1:54371/index.html,100
+b1047cbeee4bc1b013bc63de868658f2ad2525e9eae214212ed436158b4da64f,62f2b307bb98d1ff6c6c90eef82cd8140a31a5bd7575efecdded1ddfb1af36b2,LINKED_URL_EXTERNAL,sfp_spider,https://reference.example/resource,http://127.0.0.1:54371/index.html,100
+72da328aadea4a349959d9179dbe25fdf82432dec8fec0d186de51e9efe79cf3,1699bafa7bf7cc7c142d9e7cc14c1a6003983a4c75dfc17533ae6e08be5b3d35,WEBSERVER_BANNER,sfp_webserver,SYNTHETIC-Lab/1.0 ,http://127.0.0.1:54371/index.html,100
+8b05c7a681a654cb620b241c3982eb074056d0a6ebe0166badbef82423d9ed79,1699bafa7bf7cc7c142d9e7cc14c1a6003983a4c75dfc17533ae6e08be5b3d35,WEBSERVER_TECHNOLOGY,sfp_webserver,SYNTHETIC-Template/2,http://127.0.0.1:54371/index.html,100

@@ -1,0 +1,2 @@
+# Preserve raw CSV exports and fixture hashes, including RFC 4180 CRLF endings.
+*.csv -text whitespace=cr-at-eol

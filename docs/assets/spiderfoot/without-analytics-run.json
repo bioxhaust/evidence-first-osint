@@ -1,0 +1,23 @@
+{
+  "synthetic": true,
+  "upstream_commit": "0f815a203afebf05c98b605dba5cf0475a0ee5fd",
+  "upstream_version": "4.0.0",
+  "python_version": "3.12.11",
+  "modules": [
+    "sfp_spider",
+    "sfp_webserver"
+  ],
+  "run_kind": "real upstream module API via course event-queue adapter; not full sf.py scanner",
+  "pages_fetched": 4,
+  "event_count": 30,
+  "socket_guard": {
+    "allowed_connections": 8,
+    "blocked_connections": 0,
+    "blocked_dns": 0
+  },
+  "limits": {
+    "max_pages": 4,
+    "max_levels": 1
+  },
+  "external_services_tested": false
+}

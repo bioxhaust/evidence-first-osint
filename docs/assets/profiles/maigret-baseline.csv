@@ -1,0 +1,5 @@
+username,name,url_main,url_user,exists,http_status,error_reason
+route_lab,SYNTHETIC Present,http://127.0.0.1:54369,http://127.0.0.1:54369/present/route_lab,Claimed,200,
+route_lab,SYNTHETIC Soft404,http://127.0.0.1:54369,http://127.0.0.1:54369/soft404/route_lab,Claimed,200,
+route_lab,SYNTHETIC Missing,http://127.0.0.1:54369,http://127.0.0.1:54369/missing/route_lab,Available,200,
+route_lab,SYNTHETIC Slow,http://127.0.0.1:54369,http://127.0.0.1:54369/slow/route_lab,Unknown,0,Request timeout error

@@ -11,3 +11,6 @@
 body:has(#osint-trainer) .md-content__inner > h1 { display:none; }
 
 .ef-exercise-top .ef-text-button{flex-shrink:0;white-space:nowrap}
+
+/* Navigation actions need a full button box, including wrapped labels. */
+.ef-app .ef-path-hero > div > .ef-button { display: flex; align-items: center; justify-content: center; width: fit-content; max-width: 100%; box-sizing: border-box; margin-top: .6rem; text-decoration: none; }

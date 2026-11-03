@@ -1,0 +1,196 @@
+{
+  "checked_date": "2026-11-03",
+  "environment": {
+    "os": "macOS",
+    "architecture": "arm64"
+  },
+  "scope": "Actual local ExifTool/FFmpeg/FFprobe execution on original synthetic course files; no live people or external media uploads.",
+  "versions": {
+    "exiftool": "13.50",
+    "ffmpeg": "ffmpeg version 8.1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1 Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "source_sha256": {
+    "original.jpg": "21f2bc7263c85f6a71228eafa799f14acc9754bd3d201782f4e99565444fba9a",
+    "repost.jpg": "26f4fe917955bb80f2f4ff4f8f2fb39400eafdc281e6989b074db1a1ce769c25",
+    "training-clip.mp4": "d376c5b1c22e9e2fa3d4a0ba34fbc6a0d57f853897414552bbfc436020d5fc2f"
+  },
+  "commands": [
+    {
+      "argv": [
+        "exiftool",
+        "-json",
+        "-G1",
+        "-a",
+        "-s",
+        "-DateTimeOriginal",
+        "-OffsetTimeOriginal",
+        "-GPSLatitude",
+        "-GPSLongitude",
+        "-ImageWidth",
+        "-ImageHeight",
+        "docs/assets/case/media/original.jpg",
+        "docs/assets/case/media/repost.jpg"
+      ],
+      "exit_code": 0,
+      "result": [
+        {
+          "SourceFile": "docs/assets/case/media/original.jpg",
+          "IFD0:DateTimeOriginal": "2025:05:03 09:00:00",
+          "File:ImageWidth": 1200,
+          "File:ImageHeight": 760
+        },
+        {
+          "SourceFile": "docs/assets/case/media/repost.jpg",
+          "File:ImageWidth": 900,
+          "File:ImageHeight": 540
+        }
+      ]
+    },
+    {
+      "argv": [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_entries",
+        "format=duration:stream=index,codec_type,codec_name,width,height,r_frame_rate,nb_frames",
+        "-of",
+        "json",
+        "docs/assets/case/media/training-clip.mp4"
+      ],
+      "exit_code": 0,
+      "result": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1200,
+            "height": 760,
+            "r_frame_rate": "12/1",
+            "nb_frames": "72"
+          }
+        ],
+        "format": {
+          "duration": "6.000000"
+        }
+      }
+    },
+    {
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-n",
+        "-ss",
+        "00:00:00",
+        "-i",
+        "docs/assets/case/media/training-clip.mp4",
+        "-frames:v",
+        "1",
+        "-update",
+        "1",
+        "scratch/practical-media-check/frame-00.png"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-n",
+        "-ss",
+        "00:00:02",
+        "-i",
+        "docs/assets/case/media/training-clip.mp4",
+        "-frames:v",
+        "1",
+        "-update",
+        "1",
+        "scratch/practical-media-check/frame-02.png"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-n",
+        "-ss",
+        "00:00:04",
+        "-i",
+        "docs/assets/case/media/training-clip.mp4",
+        "-frames:v",
+        "1",
+        "-update",
+        "1",
+        "scratch/practical-media-check/frame-04.png"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "extracted_frames": [
+    {
+      "file": "scratch/practical-media-check/frame-00.png",
+      "requested_position_seconds": 0,
+      "sha256": "19f3f4db07a0b051ad6b40d567bedb73a6bcec703e5c86cbdb78da86eddbc9d6",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "png",
+            "width": 1200,
+            "height": 760
+          }
+        ]
+      }
+    },
+    {
+      "file": "scratch/practical-media-check/frame-02.png",
+      "requested_position_seconds": 2,
+      "sha256": "44ca2c434e38e3f617cc84879872330d736ababe472c2361a1ab1b6bc368d057",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "png",
+            "width": 1200,
+            "height": 760
+          }
+        ]
+      }
+    },
+    {
+      "file": "scratch/practical-media-check/frame-04.png",
+      "requested_position_seconds": 4,
+      "sha256": "cfcdcbab347c254eff0f33b14e17e5ad49570c0cedb91ce27e307deab3779a89",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "png",
+            "width": 1200,
+            "height": 760
+          }
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "macOS arm64 only; installation flows and Windows/Linux not executed.",
+    "Versions are the actual installed versions, not a claim of newest releases.",
+    "Seeking and frame positions verified only on the fixed-rate synthetic six-second clip.",
+    "Three selected frames do not exhaustively cover a video or establish calendar time.",
+    "No Maigret, OpenRefine, Gephi or web reverse-image runtime is claimed by this report."
+  ]
+}

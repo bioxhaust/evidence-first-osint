@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ROOT",
+    "parent_id": "ROOT",
+    "type": "ROOT",
+    "module": "",
+    "data": "SYNTHETIC localhost module exercise",
+    "source_url": "",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "parent_id": "ROOT",
+    "type": "LINKED_URL_INTERNAL",
+    "module": "course_seed",
+    "data": "http://127.0.0.1:54371/index.html",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "5d62bae32e8f9ed390c84269e5ade35d3c716741773680772f7333e2238d6600",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "HTTP_CODE",
+    "module": "sfp_spider",
+    "data": "200",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "e624a88e8fc6b02353df45a2dfeb8ade3e3f5c8280f44a9fcec782b374b13f97",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "WEBSERVER_HTTPHEADERS",
+    "module": "sfp_spider",
+    "data": "{\"server\": \"SYNTHETIC-Lab/1.0 \", \"date\": \"Tue, 03 Nov 2026 13:28:22 GMT\", \"content-type\": \"text/html\", \"content-length\": \"808\", \"last-modified\": \"Tue, 03 Nov 2026 13:26:32 GMT\", \"x-powered-by\": \"SYNTHETIC-Template/2\", \"content-security-policy\": \"default-src 'none'; style-src 'unsafe-inline'\"}",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "4f31ad204039741d48896989172f7be7fe892a404bccc5f23690f72cd06553d9",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "TARGET_WEB_CONTENT_TYPE",
+    "module": "sfp_spider",
+    "data": "text/html",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "b1cec828ef41898c5fe99d1c62fd3881c9f0dbce364b66645a0b01315f18b356",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "TARGET_WEB_CONTENT",
+    "module": "sfp_spider",
+    "data": "<!doctype html><html lang=\"ru\"><meta charset=\"utf-8\"><title>SYNTHETIC · Каталог учебных страниц</title>\n<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC</h1>\n<p>Два учебных проекта используют один шаблон сайта. Узнайте, что обнаружит программа и что потребует ручной проверки.</p>\n<ul><li><a href=\"alpha.html\">Проект «Альфа»</a></li><li><a href=\"beta.html\">Проект «Бета»</a></li><li><a href=\"template.html\">Описание шаблона</a></li></ul>\n<p><a href=\"https://reference.example/resource\">Внешний условный справочник</a> — вымышленный адрес, открывать в сети не требуется.</p></html>\n",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "c601e225b14105f6428435531a7a8bd929795d649debed9df993520c3bc0ea55",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "LINKED_URL_INTERNAL",
+    "module": "sfp_spider",
+    "data": "http://127.0.0.1:54371/alpha.html",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "4a91ffd01cc0258b202c9f7dd3f4218a5f5b39d1bb81a2666e891cd506c1b88e",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "LINKED_URL_INTERNAL",
+    "module": "sfp_spider",
+    "data": "http://127.0.0.1:54371/beta.html",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "7e53f06b1c725214aede780ed857e020e3afa42e10b76ceb9a733837b743b17b",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "LINKED_URL_INTERNAL",
+    "module": "sfp_spider",
+    "data": "http://127.0.0.1:54371/template.html",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "e97891cea27d5c76a6fc4b10a9e7a9e8668a6b98ec2b754d8e1d74fc7c5aa327",
+    "parent_id": "6e93cb9df88a1e34db49ebeba7d6cb3045300c4ff0cb81664a9998b45808a2ce",
+    "type": "LINKED_URL_EXTERNAL",
+    "module": "sfp_spider",
+    "data": "https://reference.example/resource",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "17adef1df4f431277e0e362b5207364b7501c91680ca4b3dc4f5b72c4eb60a8e",
+    "parent_id": "c601e225b14105f6428435531a7a8bd929795d649debed9df993520c3bc0ea55",
+    "type": "HTTP_CODE",
+    "module": "sfp_spider",
+    "data": "200",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "a6800e6d394aa07f4cbf553aeef9e5cc70fd029de5175e805fb01fc39572ada8",
+    "parent_id": "c601e225b14105f6428435531a7a8bd929795d649debed9df993520c3bc0ea55",
+    "type": "WEBSERVER_HTTPHEADERS",
+    "module": "sfp_spider",
+    "data": "{\"server\": \"SYNTHETIC-Lab/1.0 \", \"date\": \"Tue, 03 Nov 2026 13:28:22 GMT\", \"content-type\": \"text/html\", \"content-length\": \"693\", \"last-modified\": \"Tue, 03 Nov 2026 13:26:32 GMT\", \"x-powered-by\": \"SYNTHETIC-Template/2\", \"content-security-policy\": \"default-src 'none'; style-src 'unsafe-inline'\"}",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "3bb3e1a9eec3b2a66a98c2c108a1ba0163d5bbeef269b1e95b927189074d53bf",
+    "parent_id": "c601e225b14105f6428435531a7a8bd929795d649debed9df993520c3bc0ea55",
+    "type": "TARGET_WEB_CONTENT_TYPE",
+    "module": "sfp_spider",
+    "data": "text/html",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "03e099ba250c14d695809f6838123d9d2dc201188a090ce109bba09153c536ac",
+    "parent_id": "c601e225b14105f6428435531a7a8bd929795d649debed9df993520c3bc0ea55",
+    "type": "TARGET_WEB_CONTENT",
+    "module": "sfp_spider",
+    "data": "<!doctype html><html lang=\"ru\"><meta charset=\"utf-8\"><title>SYNTHETIC · Альфа</title>\n<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC · Альфа</h1>\n<p>Проект ALPHA-01: открытая учебная коллекция карт. Ответственный по условию страницы — команда «Альфа».</p>\n<!-- SYNTHETIC: sample copied from a template, NOT executable tracking code: GTM-TRAIN42 -->\n<p>Исходный шаблон описан <a href=\"template.html\">в отдельной записи</a>. Ни JavaScript аналитики, ни внешний ресурс на этой странице не загружаются.</p></html>\n",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "ca46e846381aadd12feccbc1bfc7296d10ee700eb3a944a163402b1daee8c47c",
+    "parent_id": "4a91ffd01cc0258b202c9f7dd3f4218a5f5b39d1bb81a2666e891cd506c1b88e",
+    "type": "HTTP_CODE",
+    "module": "sfp_spider",
+    "data": "200",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "7658f692844e9df560d6f25bffd9b49464c10001c3a909ff5a9a8297433ced61",
+    "parent_id": "4a91ffd01cc0258b202c9f7dd3f4218a5f5b39d1bb81a2666e891cd506c1b88e",
+    "type": "WEBSERVER_HTTPHEADERS",
+    "module": "sfp_spider",
+    "data": "{\"server\": \"SYNTHETIC-Lab/1.0 \", \"date\": \"Tue, 03 Nov 2026 13:28:22 GMT\", \"content-type\": \"text/html\", \"content-length\": \"723\", \"last-modified\": \"Tue, 03 Nov 2026 13:26:32 GMT\", \"x-powered-by\": \"SYNTHETIC-Template/2\", \"content-security-policy\": \"default-src 'none'; style-src 'unsafe-inline'\"}",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "3d70b7d6763e53a9fe749d755981a6e71f8c90633326b611d2e68cd564eadda9",
+    "parent_id": "4a91ffd01cc0258b202c9f7dd3f4218a5f5b39d1bb81a2666e891cd506c1b88e",
+    "type": "TARGET_WEB_CONTENT_TYPE",
+    "module": "sfp_spider",
+    "data": "text/html",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "3851297dc3d63cb7a7586fc848bbbbe7e239fe454446426fe780008702d6d212",
+    "parent_id": "4a91ffd01cc0258b202c9f7dd3f4218a5f5b39d1bb81a2666e891cd506c1b88e",
+    "type": "TARGET_WEB_CONTENT",
+    "module": "sfp_spider",
+    "data": "<!doctype html><html lang=\"ru\"><meta charset=\"utf-8\"><title>SYNTHETIC · Бета</title>\n<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC · Бета</h1>\n<p>Проект BETA-02: учебные заметки о легендах карт. Ответственный по условию страницы — команда «Бета».</p>\n<!-- SYNTHETIC: sample copied from a template, NOT executable tracking code: GTM-TRAIN42 -->\n<p>При копировании <a href=\"template.html\">шаблона</a> сохранены демонстрационные комментарии. Запись не подтверждает оператора какого-либо действующего сервиса.</p></html>\n",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "d3ad790d88f2f2eea46b14e797a67fd90b087ec2c76f2940399bafc66f2b8588",
+    "parent_id": "7e53f06b1c725214aede780ed857e020e3afa42e10b76ceb9a733837b743b17b",
+    "type": "HTTP_CODE",
+    "module": "sfp_spider",
+    "data": "200",
+    "source_url": "http://127.0.0.1:54371/template.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "121ee0256f430edb917858678fdd12e59249735daecc07dd09be5d5feb4b25ad",
+    "parent_id": "7e53f06b1c725214aede780ed857e020e3afa42e10b76ceb9a733837b743b17b",
+    "type": "WEBSERVER_HTTPHEADERS",
+    "module": "sfp_spider",
+    "data": "{\"server\": \"SYNTHETIC-Lab/1.0 \", \"date\": \"Tue, 03 Nov 2026 13:28:22 GMT\", \"content-type\": \"text/html\", \"content-length\": \"907\", \"last-modified\": \"Tue, 03 Nov 2026 13:26:32 GMT\", \"x-powered-by\": \"SYNTHETIC-Template/2\", \"content-security-policy\": \"default-src 'none'; style-src 'unsafe-inline'\"}",
+    "source_url": "http://127.0.0.1:54371/template.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "2b7bd338bb06bc43d3b83720a572d7643836fe76bbc7935017a0b03a3e319e59",
+    "parent_id": "7e53f06b1c725214aede780ed857e020e3afa42e10b76ceb9a733837b743b17b",
+    "type": "TARGET_WEB_CONTENT_TYPE",
+    "module": "sfp_spider",
+    "data": "text/html",
+    "source_url": "http://127.0.0.1:54371/template.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "7d1e937eb5d2f5cf637c437566fa9c236941593f1bf3b0500f0cd3e4b67ef69e",
+    "parent_id": "7e53f06b1c725214aede780ed857e020e3afa42e10b76ceb9a733837b743b17b",
+    "type": "TARGET_WEB_CONTENT",
+    "module": "sfp_spider",
+    "data": "<!doctype html><html lang=\"ru\"><meta charset=\"utf-8\"><title>SYNTHETIC · Шаблон</title>\n<h1>УЧЕБНЫЙ МАТЕРИАЛ · SYNTHETIC · Описание шаблона</h1>\n<p>Шаблон SYN-TPL-2 распространяется среди учебных проектов. В комментариях осталась демонстрационная строка, похожая на идентификатор системы аналитики. Рабочий скрипт аналитики не включён.</p>\n<p>Совпавшая строка в двух страницах может происходить из общего шаблона. Баннер Server также задаётся этим учебным сервером для всех страниц. Эти два признака не устанавливают владельца двух проектов.</p></html>\n",
+    "source_url": "http://127.0.0.1:54371/template.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "1e197a822b31cde47955d526d874e1a47bcd7d517df9104a61fa0e47408f4156",
+    "parent_id": "e624a88e8fc6b02353df45a2dfeb8ade3e3f5c8280f44a9fcec782b374b13f97",
+    "type": "WEBSERVER_BANNER",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Lab/1.0 ",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "5c8d707ce0d3f90231bebe382d580f2ee2b39b59f29c9be13f96888cbe6c1e3d",
+    "parent_id": "e624a88e8fc6b02353df45a2dfeb8ade3e3f5c8280f44a9fcec782b374b13f97",
+    "type": "WEBSERVER_TECHNOLOGY",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Template/2",
+    "source_url": "http://127.0.0.1:54371/index.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "70c3a79baaa35726429a8c005d89fe5cf54ab5d10c8129726c8b31dbeece6d97",
+    "parent_id": "a6800e6d394aa07f4cbf553aeef9e5cc70fd029de5175e805fb01fc39572ada8",
+    "type": "WEBSERVER_BANNER",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Lab/1.0 ",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "a5e1c65aaebaf6084520064523edcd92daecbb4b167389a94bd2f5a375df549f",
+    "parent_id": "a6800e6d394aa07f4cbf553aeef9e5cc70fd029de5175e805fb01fc39572ada8",
+    "type": "WEBSERVER_TECHNOLOGY",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Template/2",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "fbcab3d9fa30a9b271e3f24cd0477b4544cf24a594d139a4178f84271b0fda94",
+    "parent_id": "03e099ba250c14d695809f6838123d9d2dc201188a090ce109bba09153c536ac",
+    "type": "WEB_ANALYTICS_ID",
+    "module": "sfp_webanalytics",
+    "data": "Google Tag Manager: GTM-TRAIN42",
+    "source_url": "http://127.0.0.1:54371/alpha.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "7955e7870d759c5234772c6365c6d623e68ff45b79f77e447f6e8651e8f835ed",
+    "parent_id": "7658f692844e9df560d6f25bffd9b49464c10001c3a909ff5a9a8297433ced61",
+    "type": "WEBSERVER_BANNER",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Lab/1.0 ",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "70aafc71f63dd666f921115633dbfb26d8156ae3fc698ea18e4e6454aa4635ee",
+    "parent_id": "7658f692844e9df560d6f25bffd9b49464c10001c3a909ff5a9a8297433ced61",
+    "type": "WEBSERVER_TECHNOLOGY",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Template/2",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "692c55ca9e0bc029b854f57efd28ca25db05be98719a600482024ca66d0d44e7",
+    "parent_id": "3851297dc3d63cb7a7586fc848bbbbe7e239fe454446426fe780008702d6d212",
+    "type": "WEB_ANALYTICS_ID",
+    "module": "sfp_webanalytics",
+    "data": "Google Tag Manager: GTM-TRAIN42",
+    "source_url": "http://127.0.0.1:54371/beta.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "678f1809e1427f3e627f105b25c0eca8390adbd98a8f3292ceaadfb5617649e9",
+    "parent_id": "121ee0256f430edb917858678fdd12e59249735daecc07dd09be5d5feb4b25ad",
+    "type": "WEBSERVER_BANNER",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Lab/1.0 ",
+    "source_url": "http://127.0.0.1:54371/template.html",
+    "upstream_confidence": 100
+  },
+  {
+    "id": "652b51f1e95618cabf5a67616b007b251058873116c73130ccf74bdcd80955a9",
+    "parent_id": "121ee0256f430edb917858678fdd12e59249735daecc07dd09be5d5feb4b25ad",
+    "type": "WEBSERVER_TECHNOLOGY",
+    "module": "sfp_webserver",
+    "data": "SYNTHETIC-Template/2",
+    "source_url": "http://127.0.0.1:54371/template.html",
+    "upstream_confidence": 100
+  }
+]
